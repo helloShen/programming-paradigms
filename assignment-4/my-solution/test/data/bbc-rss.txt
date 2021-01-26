@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 26 Jan 2021 03:14:03 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Coronavirus: EU to tighten vaccine exports amid row with AstraZeneca]]></title>
+            <description><![CDATA[The EU says it is unacceptable that AstraZeneca is cutting the number of pledged vaccine doses.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55805903</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55805903</guid>
+            <pubDate>Tue, 26 Jan 2021 00:50:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid: Dutch curfew riots rage for third night]]></title>
+            <description><![CDATA[Police describe it as the worst unrest in the Netherlands for decades, with more than 150 arrests.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55799919</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55799919</guid>
+            <pubDate>Tue, 26 Jan 2021 00:57:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Five days that shaped the outbreak]]></title>
+            <description><![CDATA[Before Wuhan was locked down in January 2020 officials said the outbreak was under control - but the virus had spread inside and outside the city.]]></description>
+            <link>https://www.bbc.co.uk/news/world-55756452</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-55756452</guid>
+            <pubDate>Tue, 26 Jan 2021 01:16:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Janet Yellen to be first female US treasury secretary]]></title>
+            <description><![CDATA[The Senate has confirmed Janet Yellen as first female treasury secretary in US history.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55806017</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55806017</guid>
+            <pubDate>Tue, 26 Jan 2021 00:34:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid: The migrant helping Australia with modified masks]]></title>
+            <description><![CDATA[When Manmeet Kaur began giving away masks, she realised many people would relish a different design.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-55792658</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-55792658</guid>
+            <pubDate>Tue, 26 Jan 2021 00:22:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Harvey Weinstein: Court agrees $17m payout for accusers]]></title>
+            <description><![CDATA[The money comes from the liquidation of a firm co-founded by the disgraced film director.]]></description>
+            <link>https://www.bbc.co.uk/news/business-55791641</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55791641</guid>
+            <pubDate>Tue, 26 Jan 2021 02:35:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Moderna vaccine appears to work against variants]]></title>
+            <description><![CDATA[Laboratory tests suggest antibodies can recognise and fight the UK and South Africa variants.]]></description>
+            <link>https://www.bbc.co.uk/news/health-55797312</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-55797312</guid>
+            <pubDate>Mon, 25 Jan 2021 15:31:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Syria war: 20,000 abandon tents after floods inundate camps]]></title>
+            <description><![CDATA[More than 20,000 people have been forced to abandon their tents in north-western Syria.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55795078</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55795078</guid>
+            <pubDate>Mon, 25 Jan 2021 18:24:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Panorama: The Jihadis from my schooldays]]></title>
+            <description><![CDATA[Olivia Davies went to school and college with two brothers who later left Wales and became extremists in Syria.]]></description>
+            <link>https://www.bbc.co.uk/news/world-55803465</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-55803465</guid>
+            <pubDate>Mon, 25 Jan 2021 18:27:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Twitter pilot to let users flag 'false' content]]></title>
+            <description><![CDATA[The company acknowledges its "Birdwatch" idea could be "messy", but says it is worth trying.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-55806002</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-55806002</guid>
+            <pubDate>Tue, 26 Jan 2021 01:45:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Italian PM Conte to resign following pandemic criticism]]></title>
+            <description><![CDATA[Mr Conte is hoping to form a new and stronger government after losing a senate majority last week.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55802611</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55802611</guid>
+            <pubDate>Mon, 25 Jan 2021 20:44:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Poor whites in 'left behind' towns miss out on uni]]></title>
+            <description><![CDATA[Watchdog warns of low university chances for white working youths in former industrial towns.]]></description>
+            <link>https://www.bbc.co.uk/news/education-55804123</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/education-55804123</guid>
+            <pubDate>Tue, 26 Jan 2021 01:02:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biden adds South Africa to Covid travel bans]]></title>
+            <description><![CDATA[The restrictions come as Minnesota records the first US case of the Brazil Covid variant.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55805428</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55805428</guid>
+            <pubDate>Mon, 25 Jan 2021 22:58:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scientists address myths over large-scale tree planting]]></title>
+            <description><![CDATA[Scientists propose 10 golden rules for restoring forests to maximise benefits for the planet.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-55795816</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-55795816</guid>
+            <pubDate>Tue, 26 Jan 2021 00:29:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid vaccines: Why some countries will have to wait until 2022]]></title>
+            <description><![CDATA[How are Covid-19 vaccines being distributed across the world? As some countries start vaccinating their populations, others are being left behind.]]></description>
+            <link>https://www.bbc.co.uk/news/health-55804788</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-55804788</guid>
+            <pubDate>Tue, 26 Jan 2021 00:21:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hope and fear as Somalia’s civil war turns 30]]></title>
+            <description><![CDATA[Thirty years since Somalia plunged into civil war, BBC Africa correspondent Andrew Harding has returned to Mogadishu to see what hopes people have for peace.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-55795025</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-55795025</guid>
+            <pubDate>Tue, 26 Jan 2021 00:21:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detective Jane Mugo: Meet Kenya's 'spy queen']]></title>
+            <description><![CDATA[BBC Africa Eye looks at the inside story of Detective Jane Mugo, the woman they call Kenya’s "spy queen".]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-55766951</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-55766951</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Joe Biden's dogs become latest pets at White House]]></title>
+            <description><![CDATA[President Joe Biden's dogs have arrived at the White House, restarting the tradition of pets there.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54871695</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54871695</guid>
+            <pubDate>Tue, 26 Jan 2021 03:10:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bear hug: Panda cub video becomes leg-endary]]></title>
+            <description><![CDATA[Six-month-old Fu Bao, who lives in South Korea, just won't let go of her zookeeper's leg.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-55803293</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-55803293</guid>
+            <pubDate>Mon, 25 Jan 2021 16:36:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deepfake Queen - 'disrespect' complaints dropped]]></title>
+            <description><![CDATA[The media regulator decided not to pursue complaints about decency over the channel's satire.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-55799653</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-55799653</guid>
+            <pubDate>Mon, 25 Jan 2021 14:43:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Flaming Lips stage unique 'space bubble' concert in Oklahoma]]></title>
+            <description><![CDATA[Both the band and their audience were inside individual inflatable bubbles.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-55794674</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-55794674</guid>
+            <pubDate>Mon, 25 Jan 2021 12:43:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Flying internet: Why satellites beat balloons]]></title>
+            <description><![CDATA[Google's Loon bows out - but thousands of satellites are taking to the skies to beam down the internet.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-55770141</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-55770141</guid>
+            <pubDate>Mon, 25 Jan 2021 13:00:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Egypt's dreams of democracy still alive?]]></title>
+            <description><![CDATA[It's been 10 years since Egyptians took to the streets to unseat their longest-serving President, Hosni Mubarak.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55771736</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55771736</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protecting the last wild lions in Africa]]></title>
+            <description><![CDATA[Photographer George Logan highlights the decline of wild lions using conceptual images.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-55666165</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-55666165</guid>
+            <pubDate>Mon, 25 Jan 2021 08:04:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Vaccine divides in the Middle East]]></title>
+            <description><![CDATA[Israel is vaccinating against Covid-19 faster than anywhere else, but most Palestinians are waiting.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55771823</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55771823</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Shyamala Gopalan: The woman who inspired Kamala Harris]]></title>
+            <description><![CDATA[The tale of her rise is rooted in an audacious journey Shyamala Gopalan made more than 60 years ago.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-55786214</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-55786214</guid>
+            <pubDate>Tue, 26 Jan 2021 01:01:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covax: What it is and why you should care]]></title>
+            <description><![CDATA[A scheme to distribute Covid-19 vaccines is under way. Here's what you need to know.]]></description>
+            <link>https://www.bbc.co.uk/news/world-55795297</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-55795297</guid>
+            <pubDate>Mon, 25 Jan 2021 18:07:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sarah Huckabee Sanders: The Trump defender enters political race]]></title>
+            <description><![CDATA[Known to millions around the world for her staunch defence of Trump, now it's her turn to speak for herself.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55801305</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55801305</guid>
+            <pubDate>Mon, 25 Jan 2021 19:03:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus in Zimbabwe: 'We need vaccines now']]></title>
+            <description><![CDATA[Zimbabwean doctor Dixon Chibanda explains why it's so vital that Zimbabwe gets vaccines urgently.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-55726054</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-55726054</guid>
+            <pubDate>Tue, 26 Jan 2021 01:45:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Like a good deal? Maybe a hagglebot can help]]></title>
+            <description><![CDATA[Artificial intelligence is getting better at negotiating and research promises systems that could help you.]]></description>
+            <link>https://www.bbc.co.uk/news/business-55738540</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55738540</guid>
+            <pubDate>Tue, 26 Jan 2021 00:09:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Randy Rainbow made his name satirising Trump - now what?]]></title>
+            <description><![CDATA[Why the show's not over for Randy Rainbow who used Broadway tunes to make fun of Donald Trump.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-55751804</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-55751804</guid>
+            <pubDate>Tue, 26 Jan 2021 01:17:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[That's not my palace, says Putin]]></title>
+            <description><![CDATA[President Putin denies links to a palace featured in a video by his arch-critic Alexei Navalny.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55799143</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55799143</guid>
+            <pubDate>Mon, 25 Jan 2021 17:43:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid map: Coronavirus cases, deaths, vaccinations by country]]></title>
+            <description><![CDATA[Key maps and charts explaining how the virus has spread around the world.]]></description>
+            <link>https://www.bbc.co.uk/news/world-51235105</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-51235105</guid>
+            <pubDate>Mon, 25 Jan 2021 10:55:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Why the US hasn't hit vaccine targets so far]]></title>
+            <description><![CDATA[Biden says the vaccine rollout has been a failure, as he pledges 100 million shots in his first 100 days.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55721437</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55721437</guid>
+            <pubDate>Mon, 25 Jan 2021 15:09:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Lampard had seen enough Chelsea managers come and go to know the score']]></title>
+            <description><![CDATA[Frank Lampard has lived through the Roman Abramovich era long enough to know the score when it comes to manager exits.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55797358</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55797358</guid>
+            <pubDate>Mon, 25 Jan 2021 13:49:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Root urges England not to 'stand still' after series win in Sri Lanka]]></title>
+            <description><![CDATA[England captain Joe Root says it is important his side "do not stand still" after their 2-0 series victory against Sri Lanka.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/55800073</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/55800073</guid>
+            <pubDate>Mon, 25 Jan 2021 14:41:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Marler and Launchbury pull out of England's Six Nations squad]]></title>
+            <description><![CDATA[Harlequins prop Joe Marler and Wasps lock Joe Launchbury withdraw from the England Six Nations squad.]]></description>
+            <link>https://www.bbc.co.uk/sport/rugby-union/55796770</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/55796770</guid>
+            <pubDate>Mon, 25 Jan 2021 14:12:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why Tuchel will be a popular appointment in the Chelsea dressing room]]></title>
+            <description><![CDATA[Why Thomas Tuchel is likely to be a popular appointment in the Chelsea dressing room if he is named as the club's new manager.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55800815</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55800815</guid>
+            <pubDate>Mon, 25 Jan 2021 19:20:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mourinho wants to fight on four fronts after late show of strength sees off Wycombe]]></title>
+            <description><![CDATA[Jose Mourinho says Tottenham will "not give up any competition" after overcoming a stubborn Wycombe side to reach the FA Cup fifth round.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55772515</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55772515</guid>
+            <pubDate>Mon, 25 Jan 2021 23:14:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Premier League predictions: Lawro v guitarist Alex Sprogis from post-punk band TV Priest]]></title>
+            <description><![CDATA[Mark Lawrenson takes on guitarist Alex Sprogis from post-punk band TV Priest to make predictions for this week's Premier League fixtures.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55755348</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55755348</guid>
+            <pubDate>Mon, 25 Jan 2021 19:50:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dzeko set for Roma exit with Everton & West Ham interested - Tuesday's gossip]]></title>
+            <description><![CDATA[Edin Dzeko is set to leave Roma for a potential move to Everton or West Ham, who also want Manchester United's Jesse Lingard, plus more.]]></description>
+            <link>https://www.bbc.co.uk/sport/55801386</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/55801386</guid>
+            <pubDate>Mon, 25 Jan 2021 22:52:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The homeless drug addict who became a professor]]></title>
+            <description><![CDATA[Jesse Thistle, a high school dropout, overcame addiction and homelessness to pursue an academic career.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-55559382</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-55559382</guid>
+            <pubDate>Sun, 24 Jan 2021 00:15:51 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

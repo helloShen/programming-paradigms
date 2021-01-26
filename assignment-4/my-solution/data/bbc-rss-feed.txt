@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 25 Jan 2021 02:06:48 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Covid-19: Top advisor warns France at 'emergency' virus moment]]></title>
+            <description><![CDATA[The head of France's scientific council suggests a third lockdown is needed amid spread of variants.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55791389</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55791389</guid>
+            <pubDate>Mon, 25 Jan 2021 00:20:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: White House criticises 'chaotic' vaccine rollout]]></title>
+            <description><![CDATA[A senior Biden aide says the Trump administration had no plan for vaccine distribution across the US.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55784361</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55784361</guid>
+            <pubDate>Sun, 24 Jan 2021 18:06:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid: Police and protesters clash during Dutch curfew demo]]></title>
+            <description><![CDATA[Police used water cannon and tear gas to clear protesters in Eindhoven rallying against a new curfew.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55788924</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55788924</guid>
+            <pubDate>Sun, 24 Jan 2021 22:42:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Russia Navalny protests: Kremlin hits out at West as it downplays rallies]]></title>
+            <description><![CDATA[Western nations have criticised "harsh tactics" against protesters supporting Russia's opposition leader.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55790699</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55790699</guid>
+            <pubDate>Sun, 24 Jan 2021 21:02:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Egypt's dreams of democracy still alive?]]></title>
+            <description><![CDATA[It's been 10 years since Egyptians took to the streets to unseat their longest-serving President, Hosni Mubarak.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55771736</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55771736</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vietnam's party congress picks new communist leaders]]></title>
+            <description><![CDATA[The one-party state is seeking to continue its success in battling Covid and boosting growth.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-55728575</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-55728575</guid>
+            <pubDate>Mon, 25 Jan 2021 01:48:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Mexican President López Obrador tests positive]]></title>
+            <description><![CDATA[Andrés Manuel López Obrador, 67, announces he is receiving medical treatment for the coronavirus.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-55791743</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-55791743</guid>
+            <pubDate>Mon, 25 Jan 2021 01:56:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Boeing 737 Max cleared to fly again 'too early']]></title>
+            <description><![CDATA[A former Boeing manager says more investigations are needed on the plane, grounded after two crashes.]]></description>
+            <link>https://www.bbc.co.uk/news/business-55751150</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55751150</guid>
+            <pubDate>Mon, 25 Jan 2021 01:06:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Taiwan reports large incursion by Chinese warplanes for second day]]></title>
+            <description><![CDATA[Analysts say Beijing is testing the new Biden administration, which has shown support for Taiwan.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-55788359</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-55788359</guid>
+            <pubDate>Mon, 25 Jan 2021 01:45:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid: Israel vaccinates 16 to 18-year-olds ahead of exams]]></title>
+            <description><![CDATA[Israel has vaccinated more than a quarter of its population and now high school students are eligible.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55788922</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55788922</guid>
+            <pubDate>Sun, 24 Jan 2021 19:42:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[China mine rescue: Eleven miners brought to surface alive]]></title>
+            <description><![CDATA[Efforts to free the miners, who were stuck underground for 14 days, took a dramatic turn on Sunday.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-55784231</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-55784231</guid>
+            <pubDate>Sun, 24 Jan 2021 14:27:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Australia man missing for 18 days 'survived on mushrooms']]></title>
+            <description><![CDATA[Search efforts had been called off for Robert Weber, but he was reportedly found by a local MP.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-55785789</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-55785789</guid>
+            <pubDate>Sun, 24 Jan 2021 13:44:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[UK firms told 'set up in EU to avoid trade disruption']]></title>
+            <description><![CDATA[Firms say they have been advised by officials to set up EU hubs, but the government says it is not policy.]]></description>
+            <link>https://www.bbc.co.uk/news/business-55786974</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55786974</guid>
+            <pubDate>Sun, 24 Jan 2021 12:22:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Detective Jane Mugo: Meet Kenya's 'spy queen']]></title>
+            <description><![CDATA[BBC Africa Eye looks at the inside story of Detective Jane Mugo, the woman they call Kenya’s "spy queen".]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-55766951</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-55766951</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Vaccine divides in the Middle East]]></title>
+            <description><![CDATA[Israel is vaccinating against Covid-19 faster than anywhere else, but most Palestinians are waiting.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55771823</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55771823</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[In pictures: Tens of thousands gather for pro-Navalny protests]]></title>
+            <description><![CDATA[Tens of thousands braved a police crackdown to show support for jailed opposition leader Alexei Navalny.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55783944</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55783944</guid>
+            <pubDate>Sun, 24 Jan 2021 00:39:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['I couldn't breathe': The 26-year-old with Covid]]></title>
+            <description><![CDATA[Twenty-six-year-old Mae Mamaril and her family all tested positive for Covid-19 at the end of 2020. Mae was the only one who was moved to an intensive care unit.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-55772774</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-55772774</guid>
+            <pubDate>Sun, 24 Jan 2021 00:03:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Is this Russian cult leader a fraud?]]></title>
+            <description><![CDATA[A mysterious Russian cult leader is accused of embezzling followers' funds and abusing them.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-55765995</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-55765995</guid>
+            <pubDate>Sun, 24 Jan 2021 00:03:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The paper that helped the homeless]]></title>
+            <description><![CDATA[How Street News became the first newspaper sold by homeless and unemployed vendors]]></description>
+            <link>https://www.bbc.co.uk/news/stories-55751369</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-55751369</guid>
+            <pubDate>Sun, 24 Jan 2021 00:07:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Joe Biden's ancestral Irish home is celebrating]]></title>
+            <description><![CDATA[Celebrations broke out across Ballina when Biden's presidential victory was declared - and for the young people of the town, it meant that anything was possible.]]></description>
+            <link>https://www.bbc.co.uk/news/world-55772633</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-55772633</guid>
+            <pubDate>Sat, 23 Jan 2021 00:05:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: 'Lockdown made me feel like I was in prison']]></title>
+            <description><![CDATA[John Nicholl, who is deafblind, says his use of hands-on sign language left him isolated in lockdown.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-55767704</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-northern-ireland-55767704</guid>
+            <pubDate>Sun, 24 Jan 2021 00:03:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Week in pictures: 16-22 January 2021]]></title>
+            <description><![CDATA[A selection of striking images taken around the world this week.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-55767001</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-55767001</guid>
+            <pubDate>Sat, 23 Jan 2021 00:34:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iran's supreme leader makes online threats to attack golfing Trump]]></title>
+            <description><![CDATA[A photomontage seems to show the ex-president playing in the shadow of a warplane or large drone.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55765516</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55765516</guid>
+            <pubDate>Fri, 22 Jan 2021 19:52:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[President Biden and unity: Can the next generation unify America?]]></title>
+            <description><![CDATA[Democrat Ala'a and Republican Caleb, both 16, on whether President Biden's call for unity can be achieved.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55760641</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55760641</guid>
+            <pubDate>Fri, 22 Jan 2021 00:05:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lebanon's Coronavirus lockdown: 'We can't leave our homes day or night']]></title>
+            <description><![CDATA[People in Lebanon describe the impact of being confined to their homes for 24 hours a day.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-55717523</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-55717523</guid>
+            <pubDate>Mon, 25 Jan 2021 00:04:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yang Li: The 'punchline queen' who offended Chinese men]]></title>
+            <description><![CDATA[A female comedian's joke on national television has sparked debate on comedy and feminism in China.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-55744860</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-55744860</guid>
+            <pubDate>Mon, 25 Jan 2021 00:01:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Why the US hasn't hit vaccine targets so far]]></title>
+            <description><![CDATA[Biden says the vaccine rollout has been a failure, as he pledges 100 million shots in his first 100 days.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55721437</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55721437</guid>
+            <pubDate>Mon, 25 Jan 2021 00:05:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why your face could be set to replace your bank card]]></title>
+            <description><![CDATA[Already widely used in China, facial recognition payment is now expanding in other countries.]]></description>
+            <link>https://www.bbc.co.uk/news/business-55748964</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55748964</guid>
+            <pubDate>Sun, 24 Jan 2021 23:59:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Zuckerberg's Biden problem]]></title>
+            <description><![CDATA[President Biden's open dislike of Facebook could spell problems for the social network.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-55762104</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-55762104</guid>
+            <pubDate>Mon, 25 Jan 2021 00:08:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ethiopia's Tigray conflict: 'My wife died giving birth to twins while we hid']]></title>
+            <description><![CDATA[A father tells the BBC his tragic story of fleeing the conflict in Ethiopia's Tigray region.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-55731439</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-55731439</guid>
+            <pubDate>Mon, 25 Jan 2021 00:09:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The homeless drug addict who became a professor]]></title>
+            <description><![CDATA[Jesse Thistle, a high school dropout, overcame addiction and homelessness to pursue an academic career.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-55559382</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-55559382</guid>
+            <pubDate>Sun, 24 Jan 2021 00:15:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brady guides Buccaneers to NFC title - and place at Super Bowl]]></title>
+            <description><![CDATA[Tom Brady inspires the Tampa Bay Buccaneers to beat the Green Bay Packers and reach their first Super Bowl in 18 seasons.]]></description>
+            <link>https://www.bbc.co.uk/sport/american-football/55791239</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/american-football/55791239</guid>
+            <pubDate>Sun, 24 Jan 2021 23:35:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Don't worry about us, says Klopp after Liverpool exit FA Cup]]></title>
+            <description><![CDATA[Liverpool manager Jurgen Klopp responds to his side's FA Cup defeat by Manchester United by saying "don't worry about us".]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55790871</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55790871</guid>
+            <pubDate>Sun, 24 Jan 2021 22:11:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Root one of best I've seen against spin, says Vaughan - plus rank top Test batsmen]]></title>
+            <description><![CDATA[Former England captain Michael Vaughan says Joe Root is one of the best players of spin he has seen after his 186 in the second Test against Sri Lanka in Galle.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/55786270</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/55786270</guid>
+            <pubDate>Sun, 24 Jan 2021 15:28:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Trilogies, Pacquiao or YouTuber - what next for beaten McGregor?]]></title>
+            <description><![CDATA[After being beaten by Dustin Poirier at UFC 257 - a third defeat in six UFC fights - what are the options for Conor McGregor?]]></description>
+            <link>https://www.bbc.co.uk/sport/mixed-martial-arts/55786059</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/mixed-martial-arts/55786059</guid>
+            <pubDate>Sun, 24 Jan 2021 10:05:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fernandes free-kick sees Man Utd beat Liverpool in thrilling FA Cup tie]]></title>
+            <description><![CDATA[Bruno Fernandes comes off the bench to fire Manchester United past fierce rivals Liverpool in a pulsating FA Cup fourth-round tie.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55708043</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55708043</guid>
+            <pubDate>Sun, 24 Jan 2021 19:43:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Korda claims LPGA Tournament of Champions victory after play-off]]></title>
+            <description><![CDATA[Jessica Korda claims a dramatic play-off victory to win the LPGA Tour's Tournament of Champions in Florida.]]></description>
+            <link>https://www.bbc.co.uk/sport/golf/55790416</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/golf/55790416</guid>
+            <pubDate>Sun, 24 Jan 2021 23:56:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Everton move into FA Cup fifth round as Small becomes youngest player in their history]]></title>
+            <description><![CDATA[Everton ease past Championship strugglers Sheffield Wednesday to reach the fifth round of the FA Cup.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/55770072</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55770072</guid>
+            <pubDate>Sun, 24 Jan 2021 22:24:49 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
