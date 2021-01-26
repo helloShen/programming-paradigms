@@ -1,0 +1,61 @@
+# Generate a .d dependencies file for each .c source file
+# in vector.d:
+#	vector.o: vector.c vector.h bool.h
+# in vectortest.d:
+#	vectortest.o: vectortest.c vector.h bool.h
+# in myvectortest.d:
+#	myvectortest.o: myvectortest.c vector.h bool.h
+#
+# They will be automatically created and loaded by "-include"
+#
+# This is not the complete version. The problem is that
+# when .d files are generated, compiler will not update it
+# again when some new changes in source files are made.
+# And not as a single Makefile.dependencies file, we don't 
+# have an explicit target such as "depend" to re-generate it.
+# You have to delete all .d file and let compiler to work again.
+#
+# For more information about the complete version, check the following doc:
+# 	http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/
+#	https://www.gnu.org/software/make/manual/html_node/Automatic-Prerequisites.html
+
+
+SUFFIXES += .d
+CC = gcc
+CFLAGS = -g -Wall -std=gnu11
+LDFLAGS =
+
+VECTOR_SRCS = vector.c
+VECTOR_HDRS = $(VECTOR_SRCS:.c=.h)
+VECTOR_OBJS = $(VECTOR_SRCS:.c=.o)	
+
+MY_VECTOR_TEST_SRCS = myvectortest.c $(VECTOR_SRCS)
+MY_VECTOR_TEST_OBJS = $(MY_VECTOR_TEST_SRCS:.c=.o)
+
+VECTOR_TEST_SRCS = vectortest.c $(VECTOR_SRCS)
+VECTOR_TEST_OBJS = $(VECTOR_TEST_SRCS:.c=.o)
+
+SRCS = $(VECTOR_SRCS) myvectortest.c vectortest.c
+HDRS = $(VECTOR_HDRS)
+OBJS = $(SRCS:.c=.o) 
+
+EXES = myvectortest vectortest
+
+default: $(EXES)
+
+%.d: %.c
+	$(CC) $(CFLAGS) -MM $< $(LDFLAGS) > $@
+
+-include $(SRCS:.c=.d)
+
+#$(DEP_DIR)/$(VECTOR_TEST_SRCS:.c=.d)
+vectortest: $(VECTOR_TEST_OBJS) $(VECTOR_TEST_OBJS:.o=.d)
+	$(CC) $(CFLAGS) -o $@ $(VECTOR_TEST_OBJS) $(LDFLAGS)
+
+#$(DEP_DIR)/$(MY_VECTOR_TEST_SRCS:.c=.d)
+myvectortest: $(MY_VECTOR_TEST_OBJS) $(MY_VECTOR_TEST_OBJS:.o=.d)
+	$(CC) $(CFLAGS) -o $@ $(MY_VECTOR_TEST_OBJS) $(LDFLAGS)
+
+.PHONY: clean
+clean:
+	-rm -f *.o *.d $(EXES)
