@@ -10,13 +10,12 @@
 CC = gcc
 CFLAGS = -g -Wall \
 		 -I../ \
-		 -I/usr/local/include \
+		 -I/usr/local/include
 LDFLAGS = -lcurl \
 		  -lexpat \
 		  -L/usr/local/lib -lgumbo \
-		  -L/Users/Wei/github/letsplayc/src/programming-paradigms/assignment-4/my-solution/lib/ \
+		  -L../lib/ \
 		  -lrssnews 
-
 
 CURL_C = TestCurl.c
 CURL_O = $(CURL_C:.c=.o)

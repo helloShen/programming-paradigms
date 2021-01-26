@@ -1,7 +1,11 @@
 /**
- * Simple example of expat
+ * Document
+ * --------
+ *   https://www.ghostscript.com/doc/expat/doc/reference.html#building
+ *
+ * Simple example
  * -----------------------
- * For more information, check "./expat-tutorial"
+ * Check --> ./expat-demo
  */
 #include <expat.h>
 #include <stdio.h>
@@ -35,28 +39,29 @@ static void printcurrent(XML_Parser p) {
  * 
  * !Note: data is of "XML_Parser" data type.
  */
-static void StartHandler(void *data, const char *el, const char **attr) {
+static void SimpleStartHandler(void *data, const char *el, const char **attr) {
 	printf("\n%4d: Start tag %s - ", Eventcnt++, el);	
 	printcurrent((XML_Parser)data);
 }
 
-static void EndHandler(void *data, const char *el) {
-	printf("$\n%4d: Start tag %s - ", Eventcnt++, el);
+static void SimpleEndHandler(void *data, const char *el) {
+	printf("$\n%4d: End tag %s - ", Eventcnt++, el);
+	printcurrent((XML_Parser)data);
 }
 
-static void CharHandler(void *data, const char *txt, int txtlen) {
-	printf("\n%4d: Text - ", Eventcnt++);
+static void SimpleCharHandler(void *data, const char *txt, int txtlen) {
+	printf("\n%4d: Raw Text - ", Eventcnt++);
 	fwrite(txt, txtlen, sizeof(char), stdout);
 }
 
-static void TestExpat(void) {
+static void SimpleTest(void) {
 	FILE *fp = fopen("data/simplexml.txt", "r");
 	assert(fp);
 	XML_Parser p = XML_ParserCreate(NULL);
 	assert(p);
 	XML_UseParserAsHandlerArg(p);
-	XML_SetElementHandler(p, StartHandler, EndHandler);
-	XML_SetCharacterDataHandler(p, CharHandler);
+	XML_SetElementHandler(p, SimpleStartHandler, SimpleEndHandler);
+	XML_SetCharacterDataHandler(p, SimpleCharHandler);
 	while(fgets(Buff, sizeof(Buff), fp)) {
 		XML_Parse(p, Buff, strlen(Buff), feof(fp));
 	}
@@ -65,5 +70,5 @@ static void TestExpat(void) {
 }
 
 int main(void) {
-	TestExpat();
+	SimpleTest();
 }
