@@ -1,3 +1,6 @@
+####################################################################################################
+# Important DOCS
+# --------------
 # About static and dynamic libraries:
 #	--> <https://www.geeksforgeeks.org/static-vs-dynamic-libraries/>
 #	--> <https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html>
@@ -6,38 +9,45 @@
 # About linking curl library: my local curl library --> /usr/lib/libcurl.dylib
 # 	--> <https://curl.se/libcurl/c/libcurl-tutorial.html>
 # 	--> <https://stackoverflow.com/questions/6302282/how-do-i-link-libcurl-to-my-c-program-in-linux>
+####################################################################################################
 
 CC = gcc
-CFLAGS = -g -Wall \
+CFLAGS = -g -Wall -std=c11 \
 		 -I../ \
 		 -I/usr/local/include
 LDFLAGS = -lcurl \
 		  -lexpat \
 		  -L/usr/local/lib -lgumbo \
-		  -L../lib/ \
+		  -L../lib \
 		  -lrssnews 
 
-CURL_C = TestCurl.c
+CURL_C = test_curl.c
 CURL_O = $(CURL_C:.c=.o)
 
-RSSLIB_C = TestRssLib.c 
+RSSLIB_C = test_rsslib.c 
 RSSLIB_O = $(RSSLIB_C:.c=.o)
 
-EXPAT_C = TestExpat.c
+EXPAT_C = test_expat.c
 EXPAT_O = $(EXPAT_C:.c=.o)
 
-GUMBO_C = TestGumbo.c
+GUMBO_C = test_gumbo.c
 GUMBO_O = $(GUMBO_C:.c=.o)
+
+RSSPARSER_C = test_rssparser.c ../rssparser.c ../vector.c ../article.c
+RSSPARSER_H = ../rssparser.h ../vector.h ../article.h ../rsstag.h
+RSSPARSER_O = $(RSSPARSER_C:.c=.o) 
 
 DEP_DIR = deps
 DEP_FILE = $(DEP_DIR)/Makefile.dependencies
 
-SRCS = $(CURL_C) $(RSSLIB_C) $(EXPAT_C) $(GUMBO_C)
-HDRS = 
+SRCS = $(CURL_C) $(RSSLIB_C) $(EXPAT_C) $(GUMBO_C) $(RSSPARSER_C)
+HDRS = $(RSSPARSER_H)
 OBJS = $(SRCS:.c=.o)
+
 EXECS = testcurl \
 		testexpat \
-		testgumbo
+		testgumbo \
+		testrssparser
 		#testlib 
 
 
@@ -61,6 +71,10 @@ testexpat: $(EXPAT_O) depend
 
 testgumbo: $(GUMBO_O) depend
 	$(CC) $(CFLAGS) -o $@ $(GUMBO_O) $(LDFLAGS)
+
+testrssparser: $(RSSPARSER_O) depend
+	$(CC) $(CFLAGS) -o $@ $(RSSPARSER_O) $(LDFLAGS)
+
 
 clean:
 	-rm -f *.o $(EXECS) $(DEP_FILE)
