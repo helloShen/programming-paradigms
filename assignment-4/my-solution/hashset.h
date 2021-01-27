@@ -1,5 +1,5 @@
-#ifndef __hashset_
-#define __hashset_
+#ifndef _hashset_
+#define _hashset_
 #include "vector.h"
 
 /* File: hashtable.h
@@ -38,7 +38,7 @@ typedef int (*HashSetHashFunction)(const void *elemAddr, int numBuckets);
  *     is less that the item addressed by elemAddr1.
  */
 
-typedef int (*HashSetCompareFunction)(const void *elemAddr1, const void *elemAddr);
+typedef int (*HashSetCompareFunction)(const void *elemAddr1, const void *elemAddr2);
 
 /**
  * Type: HashSetMapFunction
@@ -73,12 +73,13 @@ typedef void (*HashSetFreeFunction)(void *elemAddr);
  */
 
 typedef struct {
-  vector *buckets;
-  int numBuckets;
-  int elemSize;
-  int elemCount;
-  HashSetHashFunction hashfn;
-  HashSetCompareFunction comparefn;
+	int elemNum;			//current element number
+	int bucketNum;			//number of hash bucket
+	int elemSize;			//how many byte each element has
+	vector *buckets;		//array of vector
+	HashSetHashFunction hashfn;
+	HashSetCompareFunction compfn;
+	HashSetFreeFunction freefn;
 } hashset;
 
 /**
@@ -182,7 +183,7 @@ void HashSetEnter(hashset *h, const void *elemAddr);
  * for the element that is out of the [0, numBuckets) range.
  */
 
-void *HashSetLookup(hashset *h, const void *elemAddr);
+void *HashSetLookup(const hashset *h, const void *elemAddr);
 
 /**
  * Function: HashSetMap

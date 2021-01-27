@@ -11,12 +11,27 @@
  * management. The client specifies the size (in bytes) of the elements that 
  * will be stored in the vector when it is created.  Thereafter the client and 
  * the vector can refer to elements via (void *) ptrs.
+ *
+ * TIPS: The superfluous "const" as a SELF-DOCUMENTING code
+ * --------------------------------------------------------
+ * With "const" modifier, 
+ * 		1. If function accidently change the parameter's value, 
+ *		   compiler will warn of the bug.
+ * 		2. But when the parameter is a pointer, compiler can do nothing
+ *		   if the function change the content of that address. So it's 
+ * 		   more likely a SELF-DOCUMENTING code to tell the programmer 
+ *		   that the content of that pointer is not supposed to be changed.
  */
 
-#ifndef __vector_
-#define __vector_
-#include "bool.h"
+/**
+ * Once-Only Headers
+ * -----------------
+ * Contents wrapped by this block will be processed only once by preprocessor.
+ */
+#ifndef _vector_
+#define _vector_
 
+#include "bool.h"
 /**
  * Type: VectorCompareFunction
  * ---------------------------
@@ -27,11 +42,21 @@
  * using the same convention as the strcmp library function:
  * 
  *   If elemAddr1 is less than elemAddr2, return a negative number.
- *   If elemAddr2 is greater than elemAddr2, return a positive number.
+ *   If elemAddr1 is greater than elemAddr2, return a positive number.
  *   If the two elements are equal, return 0.
+ *
+ * TIPS:
+ * ---------------------------
+ * It can be declared by assigning a function (of 2 arguments of void *) returning int.
+ * ex, given function:
+ * 		int elemcmp(const void *elemAddr1, const void *elemAddr2);
+ * assign pointer to function:
+ *		VectorCompareFunction elemcmp;
+ *		or,
+ *		VectorCompareFunction = &elemcmp;
  */
-
 typedef int (*VectorCompareFunction)(const void *elemAddr1, const void *elemAddr2);
+
 
 /** 
  * Type: VectorMapFunction
@@ -66,13 +91,12 @@ typedef void (*VectorFreeFunction)(void *elemAddr);
  * vector using those functions defined in this file.
  */
 
-typedef struct vector {
-  void *elems;
-  int logicalLength;
-  int allocatedLength;
-  int allocationChunk;
-  int elemSize;
-  VectorFreeFunction freeFn;
+typedef struct {
+	int elemSize;				//how many byte for each element
+	int elemNum;				//number of current element in vector
+	int capacity;				//maximum number of element vector can hold
+	void *elems;				//pointer to data memory
+	VectorFreeFunction freefn;	//pointer to the function used to free each element
 } vector;
 
 /** 
@@ -125,7 +149,7 @@ typedef struct vector {
  * the initialAllocation value is less than 0.
  */
 
-void VectorNew(struct vector *v, int elemSize, VectorFreeFunction freefn, int initialAllocation);
+void VectorNew(vector *v, int elemSize, VectorFreeFunction freefn, int initialAllocation);
 
 /**
  * Function: VectorDispose
