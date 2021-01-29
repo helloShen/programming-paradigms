@@ -57,15 +57,19 @@ STACK_C = ../stack.c
 STACK_H = $(STACK_C:.c=.h)
 STACK_O = $(STACK_C:.c=.o)
 
-T_TOKENIZER_C = test_tokenizer.c $(VECTOR_C) $(HASHSET_C) $(STACK_C)
-T_TOKENIZER_H = $(TOKENIZER_H) $(VECTOR_H) $(HASHSET_H) $(STACK_H)
+TOKENIZER_C = ../tokenizer.c $(VECTOR_C) $(HASHSET_C) $(STACK_C)
+TOKENIZER_H = ../tokenizer.h $(VECTOR_H) $(HASHSET_H) $(STACK_H) ../bool.h
+TOKENIZER_O = $(TOKENIZER_C:.c=.o)
+
+T_TOKENIZER_C = test_tokenizer.c $(TOKENIZER_C)
 T_TOKENIZER_O = $(T_TOKENIZER_C:.c=.o)
 
 DEP_DIR = deps
 DEP_FILE = $(DEP_DIR)/Makefile.dependencies
 
-SRCS = $(T_CURL_C) $(T_RSSLIB_C) $(T_EXPAT_C) $(T_GUMBO_C) $(T_RSSPARSER_C) $(T_TOKENIZER_C)
-HDRS = $(T_RSSPARSER_H) $(T_TOKENIZER_H)
+SRCS = $(T_CURL_C) $(T_RSSLIB_C) $(T_EXPAT_C) $(T_GUMBO_C) \
+	   $(T_RSSPARSER_C) $(TOKENIZER_C) $(T_TOKENIZER_C)
+HDRS = $(T_RSSPARSER_H) $(TOKENIZER_H)
 OBJS = $(SRCS:.c=.o)
 
 EXECS = testcurl \
