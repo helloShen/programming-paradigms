@@ -163,8 +163,7 @@ static void TestHashTable(void)
   HashSetDispose(&counts);
 }
 
-int main(int ununsed, char **alsoUnused) 
-{
+int main(int ununsed, char **alsoUnused) {
   TestHashTable();	
   return 0;
 }

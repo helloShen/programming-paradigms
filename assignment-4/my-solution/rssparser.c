@@ -66,9 +66,10 @@ static void free_article(void *a) {
 	dispose_article((article *)a);
 }
 
+static const size_t kRssParserLineBuffSize = 2048;
 vector parserss(FILE *in) {
 	assert(in);
-	char buff[2048];
+	char buff[kRssParserLineBuffSize];
 	itemtag = null_tag;
 	blocktag = null_tag;
 	VectorNew(&articles, sizeof(article), free_article, 4);

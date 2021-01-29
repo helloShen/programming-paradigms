@@ -116,7 +116,7 @@ int VectorSearch(const vector *v, const void *key, VectorCompareFunction searchf
 	assert(key && searchfn);
 	if (v->elemNum == 0) return -1;
 	assert(startIndex >= 0 && startIndex < v->elemNum);
-	if (isSorted) {
+	if (isSorted == true) {
 		/* binary search */
 		void *startAddr = (char *)v->elems + startIndex * v->elemSize;
 		int size = v->elemNum - startIndex;
