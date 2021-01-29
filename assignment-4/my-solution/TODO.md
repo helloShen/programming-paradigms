@@ -41,4 +41,30 @@ A typical RSS feed as a sequence of "items":
 #   24/01/2021  #
 #################
 
-1. expat works
+1. expat test passed!
+
+
+#################
+#   25/01/2021  #
+#################
+
+1. article done!
+2. rssparser done!
+
+to be continued:
+1. hashmap
+2. article_scanner
+  2.1 rewrite streamtokenizer
+  2.2 count frequencies
+
+
+#################
+#   26/01/2021  #
+#################
+1. hashmap cancle, hashset is good enough!
+2. word tokenization is done!
+3. frequence counting is done! 
+4. stopwords are loaded!
+
+to be continue:
+1. build index with bag of words.

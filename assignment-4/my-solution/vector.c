@@ -17,8 +17,6 @@ static void DoubleMemory(vector *v) {
 	assert(tmp != NULL);
 	v->elems = tmp;
 	v->capacity *= 2;
-	// fprintf(stdout, "Vector space expand to %d.\n", v->capacity);
-	// fflush(stdout);
 }
 
 /**
@@ -40,7 +38,6 @@ void VectorDispose(vector *v) {
 	if (v->freefn != NULL) {
 		for (; v->elemNum > 0; v->elemNum--) {
 			void *elemAddr = (char *)v->elems + (v->elemNum - 1) * v->elemSize;
-			//printf("to free element@%p\n", *(char *)elemAddr);
 			v->freefn(elemAddr);
 		}
 	}
@@ -116,7 +113,7 @@ int VectorSearch(const vector *v, const void *key, VectorCompareFunction searchf
 	assert(key && searchfn);
 	if (v->elemNum == 0) return -1;
 	assert(startIndex >= 0 && startIndex < v->elemNum);
-	if (isSorted) {
+	if (isSorted == true) {
 		/* binary search */
 		void *startAddr = (char *)v->elems + startIndex * v->elemSize;
 		int size = v->elemNum - startIndex;

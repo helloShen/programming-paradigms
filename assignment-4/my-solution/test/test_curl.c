@@ -68,7 +68,7 @@ int main(void) {
 	char *nytimes_news = "https://www.nytimes.com/2021/01/24/us/west-virginia-vaccine.html";
 
 	/* SimpleTest() */
-	// SimpleTest(bbc_rss);
+	SimpleTest(bbc_rss);
 
 	/* DumpLink() to files */
 	DumpUrl(bbc_rss, "data/bbc-rss.txt");

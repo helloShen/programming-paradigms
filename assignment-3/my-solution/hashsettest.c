@@ -4,6 +4,7 @@
 #include <ctype.h>
 #include <limits.h>
 #include <assert.h>
+#include <string.h>
 
 const int kNumBuckets = 26;
 
@@ -157,9 +158,46 @@ static void TestHashTable(void)
     HashSetDispose(&counts);
 }
 
-int main(int ununsed, char **alsoUnused) 
-{
+static const signed long kHashMultiplier = -1664117991L;
+static int StringHash(const void *s, int numBuckets) {
+    int i;
+    unsigned long hashcode = 0;
+    for (i = 0; i < strlen((char *)s); i++) {
+        hashcode = hashcode * kHashMultiplier + tolower(((char *)s)[i]);  
+    }
+    return hashcode % numBuckets;                                
+}
+
+static int CompString(const void *strAddr1, const void *strAddr2) {
+    return strcmp(*(char **)strAddr1, *(char **)strAddr2);
+}
+
+static void FreeString(void *strAddr) {
+    free(*(char **)strAddr);
+} 
+
+static void PrintString(void *strAddr, void *auxData) {
+    FILE *fp = (FILE *)auxData;
+    fprintf(fp, "%s\n", *(char **)strAddr);
+    fflush(fp);
+}
+
+static void TestStringTable(void) {
+    char *str1 = (char *)malloc(strlen("hello ") * sizeof(char));
+    char *str2 = (char *)malloc(strlen("world!") * sizeof(char));
+    strcpy(str1, "hello ");
+    strcpy(str2 , "world!");
+    hashset strtable;
+    HashSetNew(&strtable, sizeof(char *), 4, &StringHash, &CompString, &FreeString);
+    HashSetEnter(&strtable, &str1);
+    HashSetEnter(&strtable, &str2);
+    HashSetMap(&strtable, &PrintString, stdout);
+    HashSetDispose(&strtable);
+}
+
+int main(void) {
     TestHashTable();	
+    TestStringTable();
     return 0;
 }
 

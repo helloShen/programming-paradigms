@@ -21,33 +21,62 @@ LDFLAGS = -lcurl \
 		  -L../lib \
 		  -lrssnews 
 
-CURL_C = test_curl.c
-CURL_O = $(CURL_C:.c=.o)
+T_CURL_C = test_curl.c
+T_CURL_O = $(T_CURL_C:.c=.o)
 
-RSSLIB_C = test_rsslib.c 
-RSSLIB_O = $(RSSLIB_C:.c=.o)
+T_RSSLIB_C = test_rsslib.c 
+T_RSSLIB_O = $(T_RSSLIB_C:.c=.o)
 
-EXPAT_C = test_expat.c
-EXPAT_O = $(EXPAT_C:.c=.o)
+T_EXPAT_C = test_expat.c
+T_EXPAT_O = $(T_EXPAT_C:.c=.o)
 
-GUMBO_C = test_gumbo.c
-GUMBO_O = $(GUMBO_C:.c=.o)
+T_GUMBO_C = test_gumbo.c
+T_GUMBO_O = $(T_GUMBO_C:.c=.o)
 
-RSSPARSER_C = test_rssparser.c ../rssparser.c ../vector.c ../article.c
-RSSPARSER_H = ../rssparser.h ../vector.h ../article.h ../rsstag.h
-RSSPARSER_O = $(RSSPARSER_C:.c=.o) 
+VECTOR_C = ../vector.c
+VECTOR_H = $(VECTOR_C:.c=.h) ../bool.h
+VECTOR_O = $(VECTOR_C:.c=.o)
+
+HASHSET_C = ../hashset.c
+HASHSET_H = $(HASHSET_C:.c=.h)
+HASHSET_O = $(HASHSET_C:.c=.o)
+
+ARTICLE_C = ../article.c
+ARTICLE_H = $(ARTICLE_C:.c=.h) ../rsstag.h
+ARTICLE_O = $(ARTICLE_C:.c=.o)
+
+RSSPARSER_C = ../rssparser.c $(VECTOR_C) $(HASHSET_C) $(ARTICLE_C)
+RSSPARSER_H = ../rssparser.h $(VECTOR_H) $(HASHSET_H) $(ARTICLE_H)
+RSSPARSER_O = $(RSSPARSER_C:.c=.o)
+
+T_RSSPARSER_C = test_rssparser.c $(RSSPARSER_C) 
+T_RSSPARSER_H = $(RSSPARSER_H)
+T_RSSPARSER_O = $(T_RSSPARSER_C:.c=.o) 
+
+STACK_C = ../stack.c
+STACK_H = $(STACK_C:.c=.h)
+STACK_O = $(STACK_C:.c=.o)
+
+TOKENIZER_C = ../tokenizer.c $(VECTOR_C) $(HASHSET_C) $(STACK_C)
+TOKENIZER_H = ../tokenizer.h $(VECTOR_H) $(HASHSET_H) $(STACK_H) ../bool.h
+TOKENIZER_O = $(TOKENIZER_C:.c=.o)
+
+T_TOKENIZER_C = test_tokenizer.c $(TOKENIZER_C)
+T_TOKENIZER_O = $(T_TOKENIZER_C:.c=.o)
 
 DEP_DIR = deps
 DEP_FILE = $(DEP_DIR)/Makefile.dependencies
 
-SRCS = $(CURL_C) $(RSSLIB_C) $(EXPAT_C) $(GUMBO_C) $(RSSPARSER_C)
-HDRS = $(RSSPARSER_H)
+SRCS = $(T_CURL_C) $(T_RSSLIB_C) $(T_EXPAT_C) $(T_GUMBO_C) \
+	   $(T_RSSPARSER_C) $(TOKENIZER_C) $(T_TOKENIZER_C)
+HDRS = $(T_RSSPARSER_H) $(TOKENIZER_H)
 OBJS = $(SRCS:.c=.o)
 
 EXECS = testcurl \
 		testexpat \
 		testgumbo \
-		testrssparser
+		testrssparser \
+		testtokenizer
 		#testlib 
 
 
@@ -60,21 +89,25 @@ depend: $(SRCS) $(HDRS)
 
 -include $(DEP_FILE)
 
-testcurl: $(CURL_O) depend
-	$(CC) $(CFLAGS) -o $@ $(CURL_O) $(LDFLAGS)
+testcurl: $(T_CURL_O) depend
+	$(CC) $(CFLAGS) -o $@ $(T_CURL_O) $(LDFLAGS)
 
-testlib: $(RSSLIB_O) depend
-	$(CC) $(CFLAGS) -o $@ $(RSSLIB_O) $(LDFLAGS)
+testlib: $(T_RSSLIB_O) depend
+	$(CC) $(CFLAGS) -o $@ $(T_RSSLIB_O) $(LDFLAGS)
 
-testexpat: $(EXPAT_O) depend
-	$(CC) $(CFLAGS) -o $@ $(EXPAT_O) $(LDFLAGS)
+testexpat: $(T_EXPAT_O) depend
+	$(CC) $(CFLAGS) -o $@ $(T_EXPAT_O) $(LDFLAGS)
 
-testgumbo: $(GUMBO_O) depend
-	$(CC) $(CFLAGS) -o $@ $(GUMBO_O) $(LDFLAGS)
+testgumbo: $(T_GUMBO_O) depend
+	$(CC) $(CFLAGS) -o $@ $(T_GUMBO_O) $(LDFLAGS)
 
-testrssparser: $(RSSPARSER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(RSSPARSER_O) $(LDFLAGS)
+testrssparser: $(T_RSSPARSER_O) depend
+	$(CC) $(CFLAGS) -o $@ $(T_RSSPARSER_O) $(LDFLAGS)
+
+testtokenizer: $(T_TOKENIZER_O) depend
+	$(CC) $(CFLAGS) -o $@ $(T_TOKENIZER_O) $(LDFLAGS)
+
 
 
 clean:
-	-rm -f *.o $(EXECS) $(DEP_FILE)
+	-rm -f *.o ../*.o $(EXECS) $(DEP_FILE)

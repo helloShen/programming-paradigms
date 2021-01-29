@@ -294,11 +294,4 @@ void VectorSort(vector *v, VectorCompareFunction comparefn);
 
 void VectorMap(vector *v, VectorMapFunction mapfn, void *auxData);
 
-/**
- * Function: IsFull
- * ----------------
- * Tell caller if vector is full or not.
- */
-bool IsFull(vector *v);
-
 #endif
