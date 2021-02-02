@@ -7,8 +7,8 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
-static const char SPACE = ' ';
 
 /**
  * nanosecond since unix epoch, used as article id.
@@ -23,20 +23,43 @@ static long getnano(void) {
 // 	printf("Timestamp: %ld\n", getnano());	
 // }
 
+/* Constructor */
+static const size_t kArticleFieldLength = 256;
 void new_article(article *a) {
 	a->id = getnano();
 	vector *v_title = (vector *)malloc(sizeof(vector));
 	vector *v_link = (vector *)malloc(sizeof(vector));
 	vector *v_description = (vector *)malloc(sizeof(vector));
-	VectorNew(v_title, sizeof(char), NULL, 128);
-	VectorNew(v_link, sizeof(char), NULL, 128);
-	VectorNew(v_description, sizeof(char), NULL, 256);
+	VectorNew(v_title, sizeof(char), NULL, kArticleFieldLength);
+	VectorNew(v_link, sizeof(char), NULL, kArticleFieldLength);
+	VectorNew(v_description, sizeof(char), NULL, kArticleFieldLength);
 	a->title = *v_title;
 	a->link = *v_link;
 	a->description = *v_description;
 }
 
-void add_data(article *a, const char *data, const int size, rsstag tag) {
+/**
+ * Prevent expat from appending a series of empty spaces at the end of data.
+ */
+static int isallspace(const char *data, int size) {
+	while (size-- > 0) {
+		if (*data++ != ' ') return 0;
+	}
+	return 1;
+}
+
+static int isenter(const char *data, int size) {
+	return (size == 1 && *data == '\n');
+}
+
+/** 
+ * Append one of the article field. 
+ * Because expat CharacterDataHandler will call this function more than 
+ * one time to concatenate a bunch of strings.
+ * Each field is NON null-terminated.
+ */
+void append_data(article *a, const char *data, const int size, rsstag tag) {
+	if (isallspace(data, size) || isenter(data, size)) return;
 	vector *toAppend = NULL;
 	switch (tag) {
 		case rss_title: 
@@ -54,29 +77,77 @@ void add_data(article *a, const char *data, const int size, rsstag tag) {
 		for (int i = 0; i < size; i++) {
 			VectorAppend(toAppend, data + i);
 		}
-		VectorAppend(toAppend, &SPACE);
 	}
 }
 
-void dispose_article(article *a) {
-	VectorDispose(&a->title);
-	VectorDispose(&a->link);
-	VectorDispose(&a->description);
+/**
+ * VectorFreeFunction<article>
+ * Free memory
+ */
+void dispose_article(void *elemAddr) {
+	article *a = (article *)elemAddr;
+	VectorDispose(&(a->title));
+	VectorDispose(&(a->link));
+	VectorDispose(&(a->description));
 }
 
-static void mapchar(void *elemAddr, void *auxData) {
+/**
+ * VectorMapFunction<char>
+ */
+static void printchar(void *elemAddr, void *auxData) {
 	FILE *fp = (FILE *)auxData;
 	fprintf(fp, "%c", *(char *)elemAddr);
 	fflush(fp);
 }
 
-void map_article(article *a, FILE *out) {
-	fprintf(out, "Article:[%ld]\n", a->id);
-	fprintf(out, "%s: ", "[title]");
-	VectorMap(&a->title, mapchar, out);
-	fprintf(out, "%s: ", "[link]");
-	VectorMap(&a->link, mapchar, out);
-	fprintf(out, "%s: ", "[description]");
-	VectorMap(&a->description, mapchar, out);
+/**
+ * VectorMapFunction<article>
+ * Print article
+ */
+void print_article(void *elemAddr, void *auxData) {
+	FILE *out = (FILE *)auxData;
+	article *a = (article *)elemAddr;
+	fprintf(out, "\nArticle:[%ld]", a->id);
+	fprintf(out, "\n%s: ", "[title]");
+	VectorMap(&a->title, printchar, out);
+	fprintf(out, "\n%s: ", "[link]");
+	VectorMap(&a->link, printchar, out);
+	fprintf(out, "\n%s: ", "[description]");
+	VectorMap(&a->description, printchar, out);
+}
+
+/**
+ * Copy a field to the buffer char by char.
+ * String in buffer is null-terminated.
+ */
+static void getfield(vector *field, char *buff, size_t buffsize) {
+	int len = VectorLength(field);
+	assert(len < buffsize);
+	int i;
+	for (i = 0; i < len; i++) {
+		*(buff + i) = *(char *)VectorNth(field, i);
+	}
+	*(buff + i) = '\0';
+}
+
+/**
+ * Copy each character of title field into a string buffer.
+ */
+void get_title(article *a, char *buff, size_t buffsize) {
+	getfield(&(a->title), buff, buffsize);
+}
+
+/**
+ * Copy each character of link field into a string buffer.
+ */
+void get_link(article *a, char *buff, size_t buffsize) {
+	getfield(&(a->link), buff, buffsize);
+}
+
+/**
+ * Copy each character of description field into a string buffer.
+ */
+void get_description(article *a, char *buff, size_t buffsize) {
+	getfield(&(a->description), buff, buffsize);
 }
 

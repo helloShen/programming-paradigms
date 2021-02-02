@@ -26,6 +26,7 @@
 #include "vector.h"
 #include "stack.h"
 #include "bool.h"
+#include "strhash.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -43,19 +44,6 @@ typedef struct {
 	char *word;
 	int frequency;
 } freq;
-
-
-/**
- * This function adapted from Eric Roberts' "The Art and Science of C"
- */
-static const signed long kHashMultiplier = -1664117991L;
-static int string_hash(const char *s, const int numBuckets) {
-	unsigned long hashcode = 0;
-	for (int i = 0; i < strlen(s); i++) {
-	    hashcode = hashcode * kHashMultiplier + tolower(s[i]);  
-	}
-  	return hashcode % numBuckets;                                
-}
 
 /**
  * HashSetMapFunction<char *>

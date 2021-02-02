@@ -43,7 +43,7 @@ static void test_to_bagofwords_with_stopwords(void) {
 	hashset *stopwords = init_stopwords();
 	load_stopwords(stopwords, stopfile);
 	assert(stopwords != NULL);
-	// print_stopwords(stopwords, stdout);
+	print_stopwords(stopwords, stdout);
 	to_bagofwords(&bag, infile, stopwords, true);
 	print_bagofwords(&bag, outfile);
 	dispose_bagofwords(&bag);

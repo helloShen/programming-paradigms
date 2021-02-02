@@ -1,54 +1,90 @@
-##
-## Makefile for our RSS News Feed Aggregator
-##
+# Recursive makefile structure
+# ============================
+# ==> 1. This is the level-1 main Makefile under project .root directory. We have another
+# level-2 sub-makefile under "./test" unit-test directory.
+# ==> 2. Target "CORE_T" will wrap compiled object files(CORE_O) are wrapped into 
+# "lib/librss_search.a" static library. 
+# ==> 3. The main entry file with main() function is the only object file not included
+# in CORE_O, we call it "APP_O" here.
+# ==> 4. Target "TEST_T" run another sub-makefile in "./test" unit-test directory.
+# All unit-test object files depend on "lib/librss_search.a" library, 
+# 
+# Important docs
+# ==============
+# Lua project Makefile: I learn a lot from it.
+# 	==> <https://github.com/lua/lua/blob/master/makefile>
+# About recursive make: a good book [Managing Projects with GNU Make]
+# 	==> <http://uploads.mitechie.com/books/Managing_Projects_with_GNU_Make_Third_Edition.pdf>
+# About static and dynamic libraries:
+#	==> <https://www.geeksforgeeks.org/static-vs-dynamic-libraries/>
+#	==> <https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html>
+# About library name: compiler will add "lib" prefix and ".a" postfix
+#	==> <http://forums.codeblocks.org/index.php?topic=921.0>
+# About linking curl library: my local curl library --> /usr/lib/libcurl.dylib
+# 	==> <https://curl.se/libcurl/c/libcurl-tutorial.html>
+# 	==> <https://stackoverflow.com/questions/6302282/how-do-i-link-libcurl-to-my-c-program-in-linux>
+#
+# Tips about flags settings
+# =========================
+# ==> 1. adding the '-DNDEBUG' defines the CT symbol NDEBUG which
+# suppresses all the asserts and what not. You'd do that for
+# a production build, but it is a good idea to leave it in
+# for the purposes of this class.
+# ==> 2. VPATH specifies a list of directories that make should search for .c source files.
+# But not .o or .h or executable files. So I didn't use it here.
+# ==> 3. -I specifies a directory of include .h header files
+# ==> 4. -l links against a library file. gcc -L looks in a directory for library files
+CC 		= gcc
+# DFLAG = -DNDEBUG
+CFLAGS 	= -g -Wall -std=c11 -Wno-unused-function $(DFLAG) \
+		  -I/usr/local/include
+LDFLAGS	= -lcurl \
+	  	  -lexpat \
+	  	  -L/usr/local/lib -lgumbo 
+AR 		= ar rcs
+RANLIB	= ranlib
+DEP_DIR	= deps
+DEP_FILE= $(DEP_DIR)/Makefile.dependencies
+LIB_DIR = lib
+RM 		= rm -f
 
-## Set the compiler to be a known ANSI compliant one
-CC = gcc
 
-## adding the '-DNDEBUG' defines the CT symbol NDEBUG which
-## suppresses all the asserts and what not. You'd do that for
-## a production build, but it is a good idea to leave it in
-## for the purposes of this class.
-DFLAG = ## -DNDEBUG
+# ===================== END OF FLAGS SETTINGS =======================
 
-ifeq ($(OSTYPE), solaris)
-	SOCKETLIB = -lsocket
-endif
 
-CFLAGS = -g -Wall -std=gnu99 -Wno-unused-function $(DFLAG)
-LDFLAGS = -g $(SOCKETLIB) -lnsl -lrssnews -L/usr/class/cs107/assignments/assn-4-rss-news-search-lib/$(OSTYPE)
-PFLAGS= -linker=/usr/pubsw/bin/ld -best-effort
+ALL_C	= $(wildcard *.c)
+ALL_H 	= $(wildcard *.h)
+CORE_T	= $(LIB_DIR)/librss_search.a
+CORE_O 	= stack.o vector.o hashset.o strhash.o article.o rssparser.o \
+		  tokenizer.o curlconn.o htmlparser.o 
+# 		  indexer.o
+APP_O	= 
+ALL_O 	= $(CORE_O) $(APP_O)
 
-EFENCELIBS= -L/usr/class/cs107/lib -lefence  -pthread
+TEST_T 	= ./test
+APP_T	= 
+ALL_T 	= $(CORE_T) $(APP_T) \
+		  $(TEST_T)
 
-SRCS = rss-news-search.c
-OBJS = $(SRCS:.c=.o)
-TARGET = rss-news-search
-TARGET-PURE = rss-news-search.purify
 
-default : $(TARGET)
 
-rss-news-search : $(OBJS)
-	$(CC) $(OBJS) $(CFLAGS)$(LDFLAGS) -o $@
+.PHONY:	all depend $(TEST_T) clean
 
-efence : rss-news-search.efence  
+ALL:	$(ALL_T)
 
-rss-news-search.efence : $(OBJS)
-	$(CC) $(OBJS) $(CFLAGS)$(LDFLAGS) $(EFENCELIBS) -o $@
+depend:	$(ALL_C) $(ALL_H)
+	mkdir -p $(DEP_DIR)
+	$(CC) $(CFLAGS) -MM $(ALL_C) $(LDFLAGS) > $(DEP_FILE)
 
-pure : $(TARGET-PURE)
+-include $(DEP_FILE)
 
-rss-news-search.purify : $(OBJS)
-	purify -cache-dir=/tmp $(PFLAGS) $(CC) $(OBJS) $(CFLAGS)$(LDFLAGS) -o $@
+$(CORE_T): depend $(CORE_O) 
+	$(AR) $@ $(CORE_O)
 
-# The dependencies below make use of make's default rules,
-# under which a .o automatically depends on its .c and
-# the action taken uses the $(CC) and $(CFLAGS) variables.
-# These lines describe a few extra dependencies involved
+$(TEST_T): $(CORE_T)
+	+$(MAKE) --directory=$@
 
-clean : 
-	@echo "Removing all object files..."
-	/bin/rm -f *.o a.out core $(TARGET) $(TARGET-PURE)
 
-TAGS : $(SRCS) $(HDRS)
-	etags -t $(SRCS) $(HDRS)
+clean:
+	$(RM) $(ALL_O) $(APP_T) $(CORE_T) $(DEP_FILE)
+	+$(MAKE) clean --directory=$(TEST_T) 

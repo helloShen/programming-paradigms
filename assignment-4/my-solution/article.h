@@ -27,12 +27,34 @@ typedef struct {
 	vector description;
 } article;
 
+/* Constructor */
 void new_article(article *a);
 
-void add_data(article *a, const char *title, int size, rsstag tag);
+/** 
+ * update one of the article field. 
+ * it will delete the old one if it exists.
+ */
+void append_data(article *a, const char *title, int size, rsstag tag);
 
-void dispose_article(article *a);
+/* Free memory */
+void dispose_article(void *elemAddr);
 
-void map_article(article *a, FILE *out);
+/* Print article */
+void print_article(void *elemAddr, void *auxData);
+
+/**
+ * Copy each character of title field into a string buffer.
+ */
+void get_title(article *a, char *buff, size_t buffsize);
+
+/**
+ * Copy each character of link field into a string buffer.
+ */
+void get_link(article *a, char *buff, size_t buffsize);
+
+/**
+ * Copy each character of description field into a string buffer.
+ */
+void get_description(article *a, char *buff, size_t buffsize);
 
 #endif
