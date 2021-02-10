@@ -82,7 +82,7 @@ DEP_FILE = $(DEP_DIR)/Makefile.dependencies
 
 .PHONY: default depend clean
 
-default: $(EXES)
+all: $(EXES)
 
 # 1. The dependencies below make use of make's default rules,
 # under which a .o automatically depends on its .c and
@@ -98,19 +98,19 @@ depend:: $(SRCS) $(HDRS)
 
 -include $(DEP_FILE)
 
-vectortest: $(VECTOR_TEST_OBJS) depend
+vectortest: depend $(VECTOR_TEST_OBJS) 
 	$(CC) $(CFLAGS) -o $@ $(VECTOR_TEST_OBJS) $(LDFLAGS)
 
-myvectortest: $(MY_VECTOR_TEST_OBJS) depend
+myvectortest: depend $(MY_VECTOR_TEST_OBJS) 
 	$(CC) $(CFLAGS) -o $@ $(MY_VECTOR_TEST_OBJS) $(LDFLAGS)
 
-hashsettest: $(HASHSET_TEST_OBJS) depend
+hashsettest: depend $(HASHSET_TEST_OBJS)
 	$(CC) $(CFLAGS) -o $@ $(HASHSET_TEST_OBJS) $(LDFLAGS)
 
-streamtokenizer-test: $(ST_TEST_OBJS) depend
+streamtokenizer-test: depend $(ST_TEST_OBJS)
 	$(CC) $(CFLAGS) -o $@ $(ST_TEST_OBJS) $(LDFLAGS)
 
-temptest: $(TEMP_TEST_OBJS) depend
+temptest: depend $(TEMP_TEST_OBJS)
 	$(CC) $(CFLAGS) -o $@ $(TEMP_TEST_OBJS) $(LDFLAGS)
 
 clean:

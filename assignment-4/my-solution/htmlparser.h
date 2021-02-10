@@ -1,3 +1,3 @@
-#include <stdio.h>
+#include "data.h"
 
-void clean_test(FILE *src, FILE *dest);
+void clean_text(data *raw, data *clean);

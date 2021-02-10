@@ -1,8 +1,7 @@
-#include "../curlconn.h"
-#include "../rssparser.h"
-#include "../htmlparser.h"
-#include "../vector.h"
-#include "../article.h"
+#include "curlconn.h"
+#include "rssparser.h"
+#include "htmlparser.h"
+#include "vector.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -17,7 +16,7 @@
 static const char *kTestIndexerFileExtension = ".html";
 static const size_t kTestIndexerLengthDocId = 19 + 1; // docid always has 19 digits, +1 null-termination
 static const size_t kTestIndexerLinkBufferSize = 2048;
-static void download_article(void *elemAddr, void *auxData) { // auxData is NULL here, we create file ourselves
+static void dump_article(void *elemAddr, void *auxData) { // auxData is NULL here, we create file ourselves
 	article *a = (article *)elemAddr;
 
 	/* extract article link */
@@ -48,7 +47,7 @@ static void download_article(void *elemAddr, void *auxData) { // auxData is NULL
  */
 static const char *kTestIndexerTempRssFile = "tmp.xml";
 static const size_t kTestIndexerArticleVectorSize = 64;
-void download_articles(const char *rss_link, char *dir) {
+void dump_articles(const char *rss_link, char *dir) {
 	/* download rss xml file */
 	FILE *rss = fopen(kTestIndexerTempRssFile, "w");
 	assert(rss);
@@ -74,6 +73,6 @@ void download_articles(const char *rss_link, char *dir) {
 int main(void) {
 	char *bbc_rss_link = "http://feeds.bbci.co.uk/news/rss.xml?edition=int";
 	char *htmldir = "data/article_html/";
-	download_articles(bbc_rss_link, htmldir);
+	dump_articles(bbc_rss_link, htmldir);
 }
 

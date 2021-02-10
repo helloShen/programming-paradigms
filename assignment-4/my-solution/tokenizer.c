@@ -24,8 +24,8 @@
  */
 #include "tokenizer.h"
 #include "vector.h"
+#include "hashset.h"
 #include "stack.h"
-#include "bool.h"
 #include "strhash.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -37,7 +37,7 @@
 #define _FREQ_
 
 /**
- * word is null-terminated c string
+ * word is null-terminated string
  * hide from user
  */
 typedef struct {
@@ -80,8 +80,45 @@ static void freestr(void *elemAddr) {
 }
 
 /**
- * Word need to be null-terminated c string
+ * char *fq->word is null-terminated.
+ * result of snprintf() will be terminated with a null character, 
+ * unless buf_size is zero
  */
+static char *freq_tostring(freq *fq) {
+	size_t wordlen = strlen(fq->word);
+	char *buffer = (char *)malloc(wordlen + 16); // maximum integer length = 10 digits
+	snprintf(buffer, wordlen + 16, "[%s, %d]\n", fq->word, fq->frequency);
+	return buffer;
+}
+
+/**
+ * HashSetMapFunction<mock_freq>
+ * Help to test HashSetMap().
+ */
+static void freq_maptostring(void *elemAddr, void *auxData) {
+	char *word = freq_tostring((freq *)elemAddr);
+	size_t wordsize = strlen(word);
+	size_t strsize = strlen(*(char **)auxData);
+	char *temp = (char *)realloc(*(char **)auxData, strsize + wordsize + 1);
+	strcpy(temp + strsize, word);
+	temp[strsize + wordsize] = '\0';
+	*(char **)auxData = temp;
+	free(word);
+}
+
+/**
+ * HashSetMapFunction<freq>
+ */
+static void print_freq(void *elemAddr, void *auxData) {
+	FILE *out = (FILE *)auxData;
+	freq *fq = (freq *)elemAddr;
+	fprintf(out, "[%s, %d]\n", fq->word, fq->frequency);
+	fflush(out);
+} 
+
+/**
+ * Word need to be null-terminated c string
+ */ 
 static void new_freq(freq *fq, const char *word, const int frequency) {
 	fq->word = (char *)malloc((strlen(word) + 1) * sizeof(char)); // +1 for null-terminator
 	strcpy(fq->word, word);
@@ -98,18 +135,8 @@ static int hash_freq(const void *fq, const int numBuckets) {
 /**
  * HashSetCompareFunction<freq>
  */
-static int compare_freq(const void *fq1, const void *fq2) {
+static int comp_freq(const void *fq1, const void *fq2) {
 	return strcmp(((freq *)fq1)->word, ((freq *)fq2)->word);
-}
-
-/**
- * HashSetMapFunction<freq>
- */
-static void print_freq(void *elemAddr, void *auxData) {
-	FILE *out = (FILE *)auxData;
-	freq *fq = (freq *)elemAddr;
-	fprintf(out, "[%s, %d]\n", fq->word, fq->frequency);
-	fflush(out);
 }
 
 /**
@@ -118,44 +145,15 @@ static void print_freq(void *elemAddr, void *auxData) {
  */
 static void dispose_freq(void *fq) {
 	free(((freq *)fq)->word);
+	((freq *)fq)->word = NULL;
 }
-#endif
-
-
-static const size_t kTokenizerDefaultBuckets = 128;
-void new_bagofwords(bag_of_words *bag) {
-	HashSetNew(&bag->freqs, sizeof(freq), kTokenizerDefaultBuckets, hash_freq, compare_freq, dispose_freq);
-}
-
-static void bag_add_word(bag_of_words *bag, const char *word) {
-	freq *target = (freq *)HashSetLookup(&(bag->freqs), &word);
-	if (target != NULL) {
-		target->frequency++;
-	} else {
-		freq newfreq;
-		new_freq(&newfreq, word, 1);
-		HashSetEnter(&(bag->freqs), &newfreq);
-	}
-}
+#endif // _FREQ_
 
 /**
- * Exposed to user.
+ * Dump current string into vector as a new word.
+ * Strings are null-terminated.
  */
-void print_bagofwords(bag_of_words *bag, FILE *outfile) {
-	HashSetMap(&(bag->freqs), print_freq, outfile);
-}
-
-/**
- * Interface for user to free bag_of_words memory.
- */
-void dispose_bagofwords(bag_of_words *bag) {
-	HashSetDispose(&(bag->freqs));
-}
-
-/**
- * Dump current characters into vector as a new word.
- */
-void dumpstack(stack *s, vector *v) {
+static void dumpstack(stack *s, vector *v) {
 	size_t len = stack_size(s);
 	char *word = (char *)malloc((len + 1) * sizeof(char)); // +1 for null-terminator
 	for (int i = len - 1; i >= 0; i--) {
@@ -169,31 +167,45 @@ void dumpstack(stack *s, vector *v) {
 /**
  * Extract contiguous sequences of alphabets or digits,
  * and push them into vector.
- * Note: stream should be null-terminated.
+ * Note: 
+ * 	==> 1. input stream should be null-terminated.
+ * 	==> 2. each token in return vector is null-terminated.
+ * 
  */
-static const size_t kTokenStackDefaultSize = 16;
+static const size_t kTokenStackDefaultSize = 64;
 static void tokenize(vector *words, char *stream) {
 	stack s;
 	new_stack(&s, kTokenStackDefaultSize, sizeof(char), NULL);
+	size_t len = strlen(stream);
 	bool begin = false;
-	char c, lastc, lower;
-	for (int i = 0; i < strlen(stream); i++) {
+	char c;
+	for (int i = 0; i < len; i++) {
 		c = stream[i];
-		if (isalpha(c) || isdigit(c) || c == '-') {
+		if (isalpha(c) || isdigit(c)) {
 			if (begin == false) begin = true;
-			lower = tolower(c);
+			char lower = tolower(c);
 			push_stack(&s, &lower, sizeof(char));
-		} else if (c == '.') { // for float number, like 3.14
-			if (begin == true) {
-				pop_stack(&s, &lastc);
-				push_stack(&s, &lastc, sizeof(char));
-				if (isdigit(lastc)) {
+		} else if (c == '-') {
+			if (begin == true) { // case: covid-19
+				push_stack(&s, &c, sizeof(char));
+			} else {
+				if (i < len - 1 && isdigit(stream[i + 1])) { // case: -9
+					begin = true;
 					push_stack(&s, &c, sizeof(char));
 				} else {
-					if (begin) {
+					if (begin == true) {
 						dumpstack(&s, words);
 						begin = false;
 					}
+				}
+			}
+		} else if (c == '.' && begin == true) { // case: 3.14
+			if (isdigit(stream[i - 1])) {
+				push_stack(&s, &c, sizeof(char));
+			} else {
+				if (begin == true) {
+					dumpstack(&s, words);
+					begin = false;
 				}
 			}
 		} else {
@@ -207,101 +219,89 @@ static void tokenize(vector *words, char *stream) {
 		dumpstack(&s, words);
 		begin = false;
 	}
+	dispose_stack(&s);
 }
 
-/**
- * unit test of tokenize() function
- */
-void testtokenize(FILE *infile, FILE *outfile) {	
-	assert(infile);
-	assert(outfile);
-	char line[2048];
-	vector words;
-	VectorNew(&words, sizeof(char *), freestr, 1024);
-	while (fgets(line, 2048, infile) != NULL) {
-		tokenize(&words, line);
-	}
-	VectorMap(&words, printstr, outfile);
-	VectorDispose(&words);
+static const size_t kTokenizerBagofwordsDefaultBuckets = 128;
+void new_bagofwords(bag_of_words *bag) {
+	bag->freqs = (hashset *)malloc(sizeof(hashset));
+	HashSetNew(bag->freqs, sizeof(freq), kTokenizerBagofwordsDefaultBuckets, hash_freq, comp_freq, dispose_freq);
 }
 
-/**
- * Update the words frequencies: bag_of_words,
- * using the news vector of words.
- * [words] is vector<char *>
- */
-static void count(bag_of_words *bag, vector *words, hashset *stopwords, bool usestopwords) {
-	if (usestopwords == true) assert(stopwords != NULL);
-	for (int i = 0; i < VectorLength(words); i++) {
-		char *word = *(char **)VectorNth(words, i);
-		if (usestopwords == true && HashSetLookup(stopwords, &word) != NULL) continue;
-		bag_add_word(bag, word);
+static void enter_bagofwords(bag_of_words *bag, const char *word) {
+	freq newfreq;
+	new_freq(&newfreq, word, 1);
+	freq *history = (freq *)HashSetLookup(bag->freqs, &newfreq);
+	if (history != NULL) {
+		history->frequency++;
+	} else {
+		HashSetEnter(bag->freqs, &newfreq);
 	}
 }
 
 /**
- * Help user to initialize stopwords hashset.
- * stopwords is a hashset<char *>
+ * Exposed to user.
  */
-static const size_t kStopwordsBucketsSize = 128;
-hashset *init_stopwords(void) {
+void print_bagofwords(bag_of_words *bag, FILE *outfile) {
+	HashSetMap(bag->freqs, print_freq, outfile);
+}
+
+/**
+ * Interface for user to free bag_of_words memory.
+ */ 
+void dispose_bagofwords(bag_of_words *bag) {
+	HashSetDispose(bag->freqs);
+	free(bag->freqs);
+	bag->freqs = NULL;
+}
+
+/**
+ * Load stopwords.
+ * ---------------
+ * stopwords in array kTokenizerStopwordsArray are pre-generated into data/stopwords.data
+ * from data/stop-words.in by genstopwords.py.
+ * Do NOT edit by hand anything in the data/stopwords.data 
+ */
+static const char *kTokenizerStopwordsArray[] = {
+#include "data/stopwords.data"
+};
+
+static const size_t kTokenizerStopwordsBucket = 256;
+hashset *load_stopwords(void) {
 	hashset *stopwords = (hashset *)malloc(sizeof(hashset));
-	HashSetNew(stopwords, sizeof(char *), kStopwordsBucketsSize, hashstr, compstr, freestr);
+	// HashSetNew(stopwords, sizeof(char *), kTokenizerStopwordsBucket, hashstr, compstr, freestr);
+	HashSetNew(stopwords, sizeof(char *), kTokenizerStopwordsBucket, hashstr, compstr, NULL);
+	size_t arrsize = sizeof(kTokenizerStopwordsArray)/sizeof(char *);
+	for (int i = 0; i < arrsize; i++) {
+		HashSetEnter(stopwords, kTokenizerStopwordsArray + i);
+	}
 	return stopwords;
 }
 
-/**
- * Suppose that stopwords are listed as follow (1 word per line):
- * 		a
- * 		ii
- * 		about
- * 		above
- * 		according
- * 		across
- * 		actually
- * 		ad
- * 		...
- */
-static const size_t kStopwordsMaxLength = 32;
-void load_stopwords(hashset *stopwords, FILE *stopfile) {
-	assert(stopfile);
-	char word[32];
-	int len;
-	while (fgets(word, kStopwordsMaxLength, stopfile) != NULL) {
-		len = strlen(word);
-		char *copy = (char *)malloc(len * sizeof(char)); 
-		strncpy(copy, word, len - 1);
-		copy[len] = '\0';
-		HashSetEnter(stopwords, &copy);
-	}
-}
-
-void print_stopwords(hashset *stopwords, FILE *outfile) {
-	HashSetMap(stopwords, printstr, outfile);
-}
-
-/**
- * Help user to free memory of stopwords hashset
- * stopwords is a hashset<char *>
- */
 void dispose_stopwords(hashset *stopwords) {
 	HashSetDispose(stopwords);
 }
 
 /**
- * Open a file, return words frequencies of that file.
+ * Use output words vector of tokenize() function as input, count the frequency of each word.
+ */
+static void count(bag_of_words *bag, vector *words, hashset *stopwords) {
+	for (int i = 0; i < VectorLength(words); i++) {
+		char *word = *(char **)VectorNth(words, i);
+		if (stopwords != NULL && HashSetLookup(stopwords, &word) != NULL) continue;
+		enter_bagofwords(bag, word);
+	}
+}
+
+/**
+ * Read the input stream, return words frequencies of that file.
  */
 static const size_t kTokenizerVectorSize = 1024;
-static const size_t kTokenizerLineSize = 2048;
-void to_bagofwords(bag_of_words *bag, FILE *infile, hashset *stopwords, bool usestopwords) {
-	assert(infile);
+void to_bagofwords(bag_of_words *bag, char *buffer, hashset *stopwords) {
 	vector words;
 	VectorNew(&words, sizeof(char *), freestr, kTokenizerVectorSize);
-	char line[kTokenizerLineSize];
-	while (fgets(line, kTokenizerLineSize, infile) != NULL) {
-		tokenize(&words, line);
-	}
-	count(bag, &words, stopwords, usestopwords);
+	tokenize(&words, buffer);
+	count(bag, &words, stopwords);
 	VectorDispose(&words);
 }
 

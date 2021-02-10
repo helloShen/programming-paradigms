@@ -36,55 +36,51 @@
 # ==> 4. -l links against a library file. gcc -L looks in a directory for library files
 CC 		= gcc
 # DFLAG = -DNDEBUG
-CFLAGS 	= -g -Wall -std=c11 -Wno-unused-function $(DFLAG) \
-		  -I/usr/local/include
-LDFLAGS	= -lcurl \
-	  	  -lexpat \
-	  	  -L/usr/local/lib -lgumbo 
+CFLAGS 	= -g -Wall -std=c11 -Wno-unused-function $(DFLAG)
+LDFLAGS	= -lcurl -lexpat -lgumbo
+
 AR 		= ar rcs
-RANLIB	= ranlib
+RM 		= rm -f
+
+SRC_DIR = src
+LIB_DIR = lib
+DATA_DIR= data
+PY_DIR	= py
+TEST_DIR= test
 DEP_DIR	= deps
 DEP_FILE= $(DEP_DIR)/Makefile.dependencies
-LIB_DIR = lib
-RM 		= rm -f
 
 
 # ===================== END OF FLAGS SETTINGS =======================
 
 
-ALL_C	= $(wildcard *.c)
-ALL_H 	= $(wildcard *.h)
-CORE_T	= $(LIB_DIR)/librss_search.a
-CORE_O 	= stack.o vector.o hashset.o strhash.o article.o rssparser.o \
-		  tokenizer.o curlconn.o htmlparser.o 
+UTIL_O 	= stack.o vector.o hashset.o strhash.o article.o data.o
+CORE_O	= curlconn.o rssparser.o htmlparser.o tokenizer.o
 # 		  indexer.o
-APP_O	= 
-ALL_O 	= $(CORE_O) $(APP_O)
+LIB_O	= $(UTIL_O) $(CORE_O)
+# APP_O	= 
 
-TEST_T 	= ./test
-APP_T	= 
-ALL_T 	= $(CORE_T) $(APP_T) \
-		  $(TEST_T)
+LIB_T	= $(LIB_DIR)/librss_search.a
+# APP_T	= 
 
 
+.PHONY:	all test genstopwords depend clean
 
-.PHONY:	all depend $(TEST_T) clean
+# all: genstopwords depend $(APP_O) $(LIB_O)
+# 	$(CC) $(CFLAGS) -o $(APP_T) $(APP_O) $(LIB_O) $(LDFLAGS)
 
-ALL:	$(ALL_T)
+test: genstopwords depend $(LIB_O)
+	$(AR) $(LIB_T) $(LIB_O)
+	+$(MAKE) --directory=$(TEST_DIR)
 
-depend:	$(ALL_C) $(ALL_H)
+genstopwords: $(DATA_DIR)/stop-words.in $(PY_DIR)/genstopwords.py
+	@python $(PY_DIR)/genstopwords.py $< $(DATA_DIR)/stopwords.data
+
+depend:
 	mkdir -p $(DEP_DIR)
-	$(CC) $(CFLAGS) -MM $(ALL_C) $(LDFLAGS) > $(DEP_FILE)
-
+	@$(CC) $(CFLAGS) -MM *.c > $(DEP_FILE)
 -include $(DEP_FILE)
 
-$(CORE_T): depend $(CORE_O) 
-	$(AR) $@ $(CORE_O)
-
-$(TEST_T): $(CORE_T)
-	+$(MAKE) --directory=$@
-
-
 clean:
-	$(RM) $(ALL_O) $(APP_T) $(CORE_T) $(DEP_FILE)
-	+$(MAKE) clean --directory=$(TEST_T) 
+	$(RM) $(APP_O) $(LIB_O) $(APP_T) $(LIB_T) $(DEP_FILE)
+	+$(MAKE) clean --directory=$(TEST_DIR) 

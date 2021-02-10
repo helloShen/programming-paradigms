@@ -1,9 +1,8 @@
-#ifndef _rssparser_
-#define _rssparser_
+#ifndef _RSSPARSER_
+#define _RSSPARSER_
 
 #include "vector.h"
-#include "curlconn.h"
-#include <stdio.h>
+#include "data.h"
 
 /**
  * articles is vector<article>
@@ -14,5 +13,4 @@
  * as input, and generate vector of articles from it.
  */
 void parserss(vector *articles, data *rssdata);
-
 #endif

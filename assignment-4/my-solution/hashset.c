@@ -5,17 +5,6 @@
 #include <string.h>
 #include <stdio.h>
 
-/**
- * Leave it here for debugging
- */
-// static void PrintFreq(const void *elemAddr, void *auxData) {
-// 	FILE *fp = (FILE *)auxData;
-// 	char *ch = (char *)elemAddr;
-// 	int *freq = (int *)((char *)elemAddr + 1);
-// 	fprintf(fp, "frequence of [%c] = %d\n", *ch, *freq);
-// 	fflush(fp);
-// }
-
 void HashSetNew(hashset *h, int elemSize, int numBuckets,
 		HashSetHashFunction hashfn, HashSetCompareFunction comparefn, HashSetFreeFunction freefn) {
 	assert(elemSize > 0 && numBuckets > 0 && hashfn != NULL && comparefn != NULL);
@@ -39,6 +28,7 @@ void HashSetDispose(hashset *h) {
 		VectorDispose(bucket);
 	}
 	free(h->buckets);
+	h->buckets = NULL;
 }
 
 int HashSetCount(const hashset *h) {
@@ -63,6 +53,7 @@ void HashSetEnter(hashset *h, const void *elemAddr) {
 	} else {
 		// otherwise insert the new one
 		VectorAppend(bucket, elemAddr);
+		h->elemNum++;
 	}
 }
 

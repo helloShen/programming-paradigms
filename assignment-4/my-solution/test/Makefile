@@ -32,81 +32,81 @@
 # ==> 3. -I specifies a directory of include .h header files
 # ==> 4. -l links against a library file. gcc -L looks in a directory for library files
 
-CORE_DIR= ..
+ROOT	= ..
+DEP_DIR	= deps
+DEP_FILE= $(DEP_DIR)/Makefile.dependencies
+
 CC 		= gcc
 # DFLAG = -DNDEBUG
 CFLAGS 	= -g -Wall -std=c11 -Wno-unused-function $(DFLAG) \
-		  -I$(CORE_DIR) -I/usr/local/include
-LDFLAGS	= -L$(CORE_DIR)/lib -lrss_search \
-		  -lcurl \
-		  -lexpat \
-		  -L/usr/local/lib -lgumbo 
-# 		  -L../lib -lrssnews
-DEP_DIR	= deps
-DEP_FILE= $(DEP_DIR)/Makefile.dependencies
+		  -I$(ROOT) 
+LDFLAGS	= -L$(ROOT)/lib -lrss_search \
+		  -lcurl -lexpat -lgumbo
+
 RM 		= rm -f
 
 
 # ===================== END OF FLAGS SETTINGS =======================
 
 
-ALL_C = $(wildcard *.c)
-ALL_H = $(wildcard *.h)
-ALL_O = $(SRCS:.c=.o)
+ALL_O = testutils.o test_curl.o test_expat.o test_gumbo.o \
+		test_curlconn.o test_rssparser.o test_htmlparser.o test_tokenizer.o 
 
-T_CURL_O 		= test_curl.o 
-T_RSSLIB_O		= test_rsslib.o
-T_EXPAT_O		= test_expat.o
-T_GUMBO_O		= test_gumbo.o 
-T_RSSPARSER_O	= test_rssparser.o 
-T_TOKENIZER_O	= test_tokenizer.o 
-T_CURLCONN_O	= test_curlconn.o 
-T_HTMLPARSER_O	= test_htmlparser.o 
-# T_INDEXER_O		= test_indexer.o 
+CURL_O 		= testutils.o test_curl.o 
+EXPAT_O		= testutils.o test_expat.o
+GUMBO_O		= testutils.o test_gumbo.o 
+VECTOR_O	= testutils.o test_vector.o
+HASHSET_O	= testutils.o test_hashset.o
+CURLCONN_O	= testutils.o test_curlconn.o 
+RSSPARSER_O	= testutils.o test_rssparser.o 
+HTMLPARSER_O= testutils.o test_htmlparser.o 
+TOKENIZER_O	= testutils.o test_tokenizer.o 
+# INDEXER_O		= testutils.o test_indexer.o 
 
 
-ALL_T = testcurl testexpat testgumbo testrssparser testtokenizer testcurlconn \
-		testhtmlparser 
+ALL_T = testcurl testexpat testgumbo testvector testhashset \
+		testcurlconn testrssparser testhtmlparser testtokenizer \
 # 		testindexer
-		#testlib # this test is supposed to fail
 
 
 .PHONY: all depend clean
 
-all: $(ALL_T) depend
+all: $(ALL_T)
 
-depend: $(ALL_C) $(ALL_H)
+depend: 
 	mkdir -p $(DEP_DIR)
-	$(CC) $(CFLAGS) -MM $(ALL_C) $(LDFLAGS) > $(DEP_FILE)
-
+	@$(CC) $(CFLAGS) -MM *.c > $(DEP_FILE)
 -include $(DEP_FILE)
 
-testcurl: $(T_CURL_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_CURL_O) $(LDFLAGS)
+testcurl: depend $(CURL_O)
+	$(CC) $(CFLAGS) -o $@ $(CURL_O) $(LDFLAGS)
 
-testlib: $(T_RSSLIB_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_RSSLIB_O) $(LDFLAGS)
+testexpat: depend $(EXPAT_O)
+	$(CC) $(CFLAGS) -o $@ $(EXPAT_O) $(LDFLAGS)
 
-testexpat: $(T_EXPAT_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_EXPAT_O) $(LDFLAGS)
+testgumbo: depend $(GUMBO_O)
+	$(CC) $(CFLAGS) -o $@ $(GUMBO_O) $(LDFLAGS)
 
-testgumbo: $(T_GUMBO_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_GUMBO_O) $(LDFLAGS)
+testvector: depend $(VECTOR_O)
+	$(CC) $(CFLAGS) -o $@ $(VECTOR_O) $(LDFLAGS)
 
-testrssparser: $(T_RSSPARSER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_RSSPARSER_O) $(LDFLAGS)
+testhashset: depend $(HASHSET_O)
+	$(CC) $(CFLAGS) -o $@ $(HASHSET_O) $(LDFLAGS)
 
-testtokenizer: $(T_TOKENIZER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_TOKENIZER_O) $(LDFLAGS)
+testcurlconn: depend $(CURLCONN_O)
+	$(CC) $(CFLAGS) -o $@ $(CURLCONN_O) $(LDFLAGS)
 
-testcurlconn: $(T_CURLCONN_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_CURLCONN_O) $(LDFLAGS)
+testrssparser: depend $(RSSPARSER_O)
+	$(CC) $(CFLAGS) -o $@ $(RSSPARSER_O) $(LDFLAGS)
 
-testhtmlparser: $(T_HTMLPARSER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_HTMLPARSER_O) $(LDFLAGS)
+testhtmlparser: depend $(HTMLPARSER_O)
+	$(CC) $(CFLAGS) -o $@ $(HTMLPARSER_O) $(LDFLAGS)
 
-testindexer: $(T_INDEXER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_INDEXER_O) $(LDFLAGS)
+testtokenizer: depend $(TOKENIZER_O)
+	$(CC) $(CFLAGS) -o $@ $(TOKENIZER_O) $(LDFLAGS)
+
+# testindexer: depend $(INDEXER_O)
+# 	$(CC) $(CFLAGS) -o $@ $(INDEXER_O) $(LDFLAGS)
 
 clean:
 	$(RM) $(ALL_O) $(ALL_T) $(DEP_FILE)

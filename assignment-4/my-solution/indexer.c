@@ -145,8 +145,7 @@ void merge_wordindex(word_index *wi1, const word_index *wi2) {
 }
 
 /**
- * hashset<word_index> infrastructures
- * --> HashSetHashFunction
+ * HashSetHashFunction<word_index>
  */
 static int hash_wordindex(const void *elemAddr, int numBuckets) {
 	const char *word = ((word_index *)elemAddr)->word;
@@ -154,8 +153,7 @@ static int hash_wordindex(const void *elemAddr, int numBuckets) {
 }
 
 /**
- * hashset<word_index> infrastructures
- * --> HashSetCompareFunction
+ * HashSetCompareFunction<word_index>
  */
 static void comp_wordindex(const void *elemAddr1, const void *elemAddr2) {
 	const char *word1 = ((word_index *)elemAddr1)->word;
@@ -164,8 +162,7 @@ static void comp_wordindex(const void *elemAddr1, const void *elemAddr2) {
 }
 
 /**
- * hashset<word_index> infrastructures
- * --> HashSetMapFunction
+ * HashSetMapFunction<word_index>
  */
 static void map_wordindex(void *elemAddr, void *auxData) {
 	FILE *outfile = (FILE *)auxData;
@@ -176,17 +173,12 @@ static void map_wordindex(void *elemAddr, void *auxData) {
 }
 
 /**
- * hashset<word_index> infrastructures
- * --> HashSetFreeFunction
+ * HashSetFreeFunction<word_index>
  */
-static void free_wordindex(void *elemAddr) {
+static void dispose_wordindex(void *elemAddr) {
 	word_index *wi = (word_index *)elemAddr;
 	free(wi->word);
 	HashSetDispose(&(wi->freqs));
-}
-
-static void dispose_wordindex(word_index &wi) {
-	free_wordindex(wi);
 }
 
 

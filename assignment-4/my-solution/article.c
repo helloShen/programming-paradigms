@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include <assert.h>
 
-
 /**
  * nanosecond since unix epoch, used as article id.
  */
@@ -58,7 +57,7 @@ static int isenter(const char *data, int size) {
  * one time to concatenate a bunch of strings.
  * Each field is NON null-terminated.
  */
-void append_data(article *a, const char *data, const int size, rsstag tag) {
+void append_article(article *a, const char *data, const int size, rsstag tag) {
 	if (isallspace(data, size) || isenter(data, size)) return;
 	vector *toAppend = NULL;
 	switch (tag) {
@@ -150,4 +149,3 @@ void get_link(article *a, char *buff, size_t buffsize) {
 void get_description(article *a, char *buff, size_t buffsize) {
 	getfield(&(a->description), buff, buffsize);
 }
-

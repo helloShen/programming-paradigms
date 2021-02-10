@@ -89,7 +89,7 @@ to be continued:
 to be continued:
 0. optimize makefile source files dependencies
 1. change htmlparser.c clean_test() so that it can also get input stream from memory.
-2. establish the chain of data stream for index_article(index *idx, article *atc);
+2. establish the chain of data stream for "index_article(index *idx, article *atc);"
 
 
 #################
@@ -101,4 +101,49 @@ sub-makefile under unit-test repository.
 
 to be continued:
 1. change htmlparser.c clean_test() so that it can also get input stream from memory.
-2. establish the chain of data stream for index_article(index *idx, article *atc);
+2. establish the chain of data stream for "index_article(index *idx, article *atc);"
+
+
+
+#################
+#   30/01/2021  #
+#################
+1. [done] define structure article and data in their own .c file. 
+2. [done] clean my code, reduce code coupling, especially the unit test.
+3. [done] tokenizer.c now accept char * input stream.
+
+to be continued:
+0. set stopwords hashset as a field of tokenizer. user don't have to create themselves a hashset, and pass it to tokenizer. They just need to tell tokenizer where to find the 
+stopwords stream.
+1. continue to clean the code, to minimize the coupling in unit test.
+
+
+#################
+#   31/01/2021  #
+#################
+3 Largely used C unit-test frameworks:
+==> 1. [MinUnit](http://www.jera.com/techinfo/jtns/jtn002.html)
+==> 2. [Check](https://libcheck.github.io/check/)
+[Tutorial for Check](https://libcheck.github.io/check/doc/check_html/check_3.html). It also recommend to use [Autotools].
+==> 3. [gtest](https://github.com/google/googletest)
+
+
+Interesting Knowledges:
+==> 1. Some discussion on topic of unit-test toolkits in C on stackoverflow: 
+<https://stackoverflow.com/questions/65820/unit-testing-c-code>
+==> 2. Another way to build project using [Autotools](https://www.lrde.epita.fr/~adl/autotools.html), seems better than Makefile.
+==> 3. A great pragmatic book of C programming: [C Programming FAQs: Frequently Asked Questions](http://c-faq.com/index.html)
+==> 4. Another great reference: [CERT C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
+
+Some thoughts:
+1. Currently I wiil just include [MinUnit] as a basic unit-test Macro. I don't want to introduce too much complex into this project. Keep simple, keep foolish.
+2. After finish basic features, we can try to use [Check] and [Autotools].
+
+
+1. [done] decide to stick with naive unit-test code.
+2. [done] python generate stopwords array data, and use "#include" load stopwords into array.
+
+to do:
+1. de-coupling unit-test
+2. re-write article three fields
+
