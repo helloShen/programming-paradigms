@@ -24,6 +24,7 @@ void dispose_stack(stack *s) {
 		}
 	}
 	free(s->elems);
+	s->elems = NULL;
 }
 
 /* push one new element on the top */

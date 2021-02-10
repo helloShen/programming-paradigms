@@ -1,5 +1,5 @@
-#ifndef _bool_
-#define _bool_
+#ifndef _BOOL_
+#define _BOOL_
 
 typedef enum {
 	true, false

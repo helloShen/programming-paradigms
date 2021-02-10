@@ -1,7 +1,8 @@
 /**
  * Document
  * --------
- *   https://www.ghostscript.com/doc/expat/doc/reference.html#building
+ *   https://www.ghostscript.com/doc/expat/doc/reference.html
+ *	 https://svn.apache.org/repos/asf/apr/apr-util/vendor/expat/1.95.7/doc/reference.html
  *
  * Simple example
  * -----------------------

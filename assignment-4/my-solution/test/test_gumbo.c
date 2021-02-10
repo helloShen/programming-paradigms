@@ -58,7 +58,7 @@ static void CleanText(FILE *src, FILE *dest) {
 	assert(done == 1);
 	/* call CleanText() to parse content */
 	GumboOutput *output = gumbo_parse(buffer);
-	char *cleantext = malloc(fileSize * sizeof(char));
+	char *cleantext = (char *)malloc(fileSize * sizeof(char));
 	GumboCleanText(output->root, cleantext, fileSize);
 	/* write into local file */
 	fwrite(cleantext, 1, strlen(cleantext), dest);

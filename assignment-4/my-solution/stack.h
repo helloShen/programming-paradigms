@@ -10,7 +10,7 @@ typedef struct {
 	int ite;					// point to the current last element
 	size_t elemSize; 			// size of each element (how many bytes)
 	void *elems;				// stockage of elements
-	stack_freefn freefn; 	// free memory allocated for each element if neccessary
+	stack_freefn freefn; 		// free memory allocated for each element if necessary
 } stack;
 
 /* constructor */

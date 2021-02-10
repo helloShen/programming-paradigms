@@ -1,113 +1,112 @@
-####################################################################################################
-# Important DOCS
-# --------------
+# Recursive makefile structure
+# ============================
+# ==> 1. This is the level-2 sub-makefile, which is runned by another level-1
+# main makefile under ".." project root directory.
+# ==> 2. All tests depend on our core source file, which is wrapped into 
+# "../lib/librss_search.a" static libaray. We add "-L$(CORE_DIR)/lib -lrss_search" 
+# into LDFLAGS to tell linker where find it.
+# 
+# Important docs
+# ==============
+# Lua project Makefile: I learn a lot from it.
+# 	==> <https://github.com/lua/lua/blob/master/makefile>
+# About recursive make: a good book [Managing Projects with GNU Make]
+# 	==> <http://uploads.mitechie.com/books/Managing_Projects_with_GNU_Make_Third_Edition.pdf>
 # About static and dynamic libraries:
-#	--> <https://www.geeksforgeeks.org/static-vs-dynamic-libraries/>
-#	--> <https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html>
+#	==> <https://www.geeksforgeeks.org/static-vs-dynamic-libraries/>
+#	==> <https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html>
 # About library name: compiler will add "lib" prefix and ".a" postfix
-#	--> <http://forums.codeblocks.org/index.php?topic=921.0>
+#	==> <http://forums.codeblocks.org/index.php?topic=921.0>
 # About linking curl library: my local curl library --> /usr/lib/libcurl.dylib
-# 	--> <https://curl.se/libcurl/c/libcurl-tutorial.html>
-# 	--> <https://stackoverflow.com/questions/6302282/how-do-i-link-libcurl-to-my-c-program-in-linux>
-####################################################################################################
+# 	==> <https://curl.se/libcurl/c/libcurl-tutorial.html>
+# 	==> <https://stackoverflow.com/questions/6302282/how-do-i-link-libcurl-to-my-c-program-in-linux>
+#
+# Tips about flags settings
+# =========================
+# ==> 1. adding the '-DNDEBUG' defines the CT symbol NDEBUG which
+# suppresses all the asserts and what not. You'd do that for
+# a production build, but it is a good idea to leave it in
+# for the purposes of this class.
+# ==> 2. VPATH specifies a list of directories that make should search for .c source files.
+# But not .o or .h or executable files. So I didn't use it here.
+# ==> 3. -I specifies a directory of include .h header files
+# ==> 4. -l links against a library file. gcc -L looks in a directory for library files
 
-CC = gcc
-CFLAGS = -g -Wall -std=c11 \
-		 -I../ \
-		 -I/usr/local/include
-LDFLAGS = -lcurl \
-		  -lexpat \
-		  -L/usr/local/lib -lgumbo \
-		  -L../lib \
-		  -lrssnews 
+ROOT	= ..
+DEP_DIR	= deps
+DEP_FILE= $(DEP_DIR)/Makefile.dependencies
 
-T_CURL_C = test_curl.c
-T_CURL_O = $(T_CURL_C:.c=.o)
+CC 		= gcc
+# DFLAG = -DNDEBUG
+CFLAGS 	= -g -Wall -std=c11 -Wno-unused-function $(DFLAG) \
+		  -I$(ROOT) 
+LDFLAGS	= -L$(ROOT)/lib -lrss_search \
+		  -lcurl -lexpat -lgumbo
 
-T_RSSLIB_C = test_rsslib.c 
-T_RSSLIB_O = $(T_RSSLIB_C:.c=.o)
-
-T_EXPAT_C = test_expat.c
-T_EXPAT_O = $(T_EXPAT_C:.c=.o)
-
-T_GUMBO_C = test_gumbo.c
-T_GUMBO_O = $(T_GUMBO_C:.c=.o)
-
-VECTOR_C = ../vector.c
-VECTOR_H = $(VECTOR_C:.c=.h) ../bool.h
-VECTOR_O = $(VECTOR_C:.c=.o)
-
-HASHSET_C = ../hashset.c
-HASHSET_H = $(HASHSET_C:.c=.h)
-HASHSET_O = $(HASHSET_C:.c=.o)
-
-ARTICLE_C = ../article.c
-ARTICLE_H = $(ARTICLE_C:.c=.h) ../rsstag.h
-ARTICLE_O = $(ARTICLE_C:.c=.o)
-
-RSSPARSER_C = ../rssparser.c $(VECTOR_C) $(HASHSET_C) $(ARTICLE_C)
-RSSPARSER_H = ../rssparser.h $(VECTOR_H) $(HASHSET_H) $(ARTICLE_H)
-RSSPARSER_O = $(RSSPARSER_C:.c=.o)
-
-T_RSSPARSER_C = test_rssparser.c $(RSSPARSER_C) 
-T_RSSPARSER_H = $(RSSPARSER_H)
-T_RSSPARSER_O = $(T_RSSPARSER_C:.c=.o) 
-
-STACK_C = ../stack.c
-STACK_H = $(STACK_C:.c=.h)
-STACK_O = $(STACK_C:.c=.o)
-
-TOKENIZER_C = ../tokenizer.c $(VECTOR_C) $(HASHSET_C) $(STACK_C)
-TOKENIZER_H = ../tokenizer.h $(VECTOR_H) $(HASHSET_H) $(STACK_H) ../bool.h
-TOKENIZER_O = $(TOKENIZER_C:.c=.o)
-
-T_TOKENIZER_C = test_tokenizer.c $(TOKENIZER_C)
-T_TOKENIZER_O = $(T_TOKENIZER_C:.c=.o)
-
-DEP_DIR = deps
-DEP_FILE = $(DEP_DIR)/Makefile.dependencies
-
-SRCS = $(T_CURL_C) $(T_RSSLIB_C) $(T_EXPAT_C) $(T_GUMBO_C) \
-	   $(T_RSSPARSER_C) $(TOKENIZER_C) $(T_TOKENIZER_C)
-HDRS = $(T_RSSPARSER_H) $(TOKENIZER_H)
-OBJS = $(SRCS:.c=.o)
-
-EXECS = testcurl \
-		testexpat \
-		testgumbo \
-		testrssparser \
-		testtokenizer
-		#testlib 
+RM 		= rm -f
 
 
-.PHONY: default depend clean
+# ===================== END OF FLAGS SETTINGS =======================
 
-default: $(EXECS)
 
-depend: $(SRCS) $(HDRS)
-	$(CC) $(CFLAGS) -MM $(SRCS) $(LDFLAGS) > $(DEP_FILE)
+ALL_O = testutils.o test_curl.o test_expat.o test_gumbo.o \
+		test_curlconn.o test_rssparser.o test_htmlparser.o test_tokenizer.o 
 
+CURL_O 		= testutils.o test_curl.o 
+EXPAT_O		= testutils.o test_expat.o
+GUMBO_O		= testutils.o test_gumbo.o 
+VECTOR_O	= testutils.o test_vector.o
+HASHSET_O	= testutils.o test_hashset.o
+CURLCONN_O	= testutils.o test_curlconn.o 
+RSSPARSER_O	= testutils.o test_rssparser.o 
+HTMLPARSER_O= testutils.o test_htmlparser.o 
+TOKENIZER_O	= testutils.o test_tokenizer.o 
+# INDEXER_O		= testutils.o test_indexer.o 
+
+
+ALL_T = testcurl testexpat testgumbo testvector testhashset \
+		testcurlconn testrssparser testhtmlparser testtokenizer \
+# 		testindexer
+
+
+.PHONY: all depend clean
+
+all: $(ALL_T)
+
+depend: 
+	mkdir -p $(DEP_DIR)
+	@$(CC) $(CFLAGS) -MM *.c > $(DEP_FILE)
 -include $(DEP_FILE)
 
-testcurl: $(T_CURL_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_CURL_O) $(LDFLAGS)
+testcurl: depend $(CURL_O)
+	$(CC) $(CFLAGS) -o $@ $(CURL_O) $(LDFLAGS)
 
-testlib: $(T_RSSLIB_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_RSSLIB_O) $(LDFLAGS)
+testexpat: depend $(EXPAT_O)
+	$(CC) $(CFLAGS) -o $@ $(EXPAT_O) $(LDFLAGS)
 
-testexpat: $(T_EXPAT_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_EXPAT_O) $(LDFLAGS)
+testgumbo: depend $(GUMBO_O)
+	$(CC) $(CFLAGS) -o $@ $(GUMBO_O) $(LDFLAGS)
 
-testgumbo: $(T_GUMBO_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_GUMBO_O) $(LDFLAGS)
+testvector: depend $(VECTOR_O)
+	$(CC) $(CFLAGS) -o $@ $(VECTOR_O) $(LDFLAGS)
 
-testrssparser: $(T_RSSPARSER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_RSSPARSER_O) $(LDFLAGS)
+testhashset: depend $(HASHSET_O)
+	$(CC) $(CFLAGS) -o $@ $(HASHSET_O) $(LDFLAGS)
 
-testtokenizer: $(T_TOKENIZER_O) depend
-	$(CC) $(CFLAGS) -o $@ $(T_TOKENIZER_O) $(LDFLAGS)
+testcurlconn: depend $(CURLCONN_O)
+	$(CC) $(CFLAGS) -o $@ $(CURLCONN_O) $(LDFLAGS)
 
+testrssparser: depend $(RSSPARSER_O)
+	$(CC) $(CFLAGS) -o $@ $(RSSPARSER_O) $(LDFLAGS)
 
+testhtmlparser: depend $(HTMLPARSER_O)
+	$(CC) $(CFLAGS) -o $@ $(HTMLPARSER_O) $(LDFLAGS)
+
+testtokenizer: depend $(TOKENIZER_O)
+	$(CC) $(CFLAGS) -o $@ $(TOKENIZER_O) $(LDFLAGS)
+
+# testindexer: depend $(INDEXER_O)
+# 	$(CC) $(CFLAGS) -o $@ $(INDEXER_O) $(LDFLAGS)
 
 clean:
-	-rm -f *.o ../*.o $(EXECS) $(DEP_FILE)
+	$(RM) $(ALL_O) $(ALL_T) $(DEP_FILE)

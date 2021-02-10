@@ -4,7 +4,7 @@
  * 
  * Check "XML_CharacterDataHandler" in expat
  * --> https://www.ghostscript.com/doc/expat/doc/reference.html#XML_SetCharacterDataHandler
- * ------------------------
+ * ----------------------------------------------------------------------------------------
  * A single block of contiguous text free of markup may still result in a sequence of 
  * calls to this handler. In other words, if you're searching for a pattern in the text, 
  * it may be split across calls to this handler. Note: Setting this handler to NULL may 
@@ -19,7 +19,6 @@
 #include "vector.h"
 #include <stdio.h>
 
-
 typedef struct {
 	long id;		// nanosecond scince unix epoch
 	vector title;
@@ -27,12 +26,33 @@ typedef struct {
 	vector description;
 } article;
 
+/* Constructor */
 void new_article(article *a);
 
-void add_data(article *a, const char *title, int size, rsstag tag);
+/** 
+ * update one of the article field. 
+ * it will delete the old one if it exists.
+ */
+void append_article(article *a, const char *title, int size, rsstag tag);
 
-void dispose_article(article *a);
+/* Free memory */
+void dispose_article(void *elemAddr);
 
-void map_article(article *a, FILE *out);
+/* Print article */
+void print_article(void *elemAddr, void *auxData);
 
+/**
+ * Copy each character of title field into a string buffer.
+ */
+void get_title(article *a, char *buff, size_t buffsize);
+
+/**
+ * Copy each character of link field into a string buffer.
+ */
+void get_link(article *a, char *buff, size_t buffsize);
+
+/**
+ * Copy each character of description field into a string buffer.
+ */
+void get_description(article *a, char *buff, size_t buffsize);
 #endif

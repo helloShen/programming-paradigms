@@ -1,300 +1,233 @@
-Article:[1611742826915733000]
-[title]: Senate Filibuster Debate Roils Chamber 
-        [link]: https://www.nytimes.com/2021/01/25/us/senate-filibuster.html 
-        [description]: Senator Mitch McConnell dropped his demand that Democrats promise to preserve the procedural weapon that can grind the Senate to a halt, but with President Biden’s agenda in the balance, the fight is not over. 
-        
-Article:[1611742826915764000]
-[title]: Republicans Waver on Convicting Donald J. Trump 
-        [link]: https://www.nytimes.com/2021/01/25/us/politics/trump-republicans-impeachment-trial.html 
-        [description]: House managers presented the Senate with an article charging Donald J. Trump with “incitement of insurrection.” But Republicans are increasingly indicating they are unlikely to find him guilty. 
-        
-Article:[1611742826915800000]
-[title]: Watchdog to Examine Whether Justice Dept. Helped Trump Effort to Overturn Election 
-        [link]: https://www.nytimes.com/2021/01/25/us/politics/justice-department-inspector-general-trump-voter-fraud.html 
-        [description]: The inquiry was announced after revelations about a plot between Donald Trump and a top former department official to promote false claims of voter fraud by replacing the acting attorney general. 
-        
-Article:[1611742826915835000]
-[title]: Senate Confirms Janet L. Yellen as Treasury Secretary 
-        [link]: https://www.nytimes.com/2021/01/25/us/politics/senate-yellen-treasury-secretary.html 
-        [description]: Janet L. Yellen, who received bipartisan support, now faces a big challenge in confronting an economic threat that has caused financial hardship for millions of Americans. 
-        
-Article:[1611742826915860000]
-[title]: Biden Launches Climate Change Efforts 
-        [link]: https://www.nytimes.com/2021/01/25/climate/biden-climate-change.html 
-        [description]: The president will announce a suite of executive actions on Wednesday to combat climate change, two people familiar with his plans said, and will ask federal agencies to determine the extent of a drilling ban. 
-        
-Article:[1611742826915887000]
-[title]: Biden Ends Military’s Transgender Ban, Part of Broad Discrimination Fight 
-        [link]: https://www.nytimes.com/2021/01/25/us/politics/biden-military-transgender.html 
-        [description]: The action reverses a Trump administration move, and came less than a week after the new president issued another wide-ranging civil rights executive order. 
-        
-Article:[1611742826915917000]
-[title]: Biden Raises Daily Vaccination Target and Extends Travel Bans 
-        [link]: https://www.nytimes.com/2021/01/25/us/politics/biden-coronavirus-vaccinations.html 
-        [description]: President Biden now says he hopes to administer 1.5 million coronavirus vaccinations a day, a 50 percent increase from his initial target, and he extended and expanded virus-driven travel bans. 
-        
-Article:[1611742826915945000]
-[title]: Is the Covid-19 Vaccine Effective Against New South African Variant? 
-        [link]: https://www.nytimes.com/2021/01/25/health/coronavirus-moderna-vaccine-variant.html 
-        [description]: Vaccines by Moderna and Pfizer-BioNTech effectively protect recipients. But in a worrying sign, they are slightly less effective against a variant found in South Africa. 
-        
-Article:[1611742826915973000]
-[title]: First Case of Brazil-Based Virus Variant Is Found in U.S. 
-        [link]: https://www.nytimes.com/live/2021/01/25/world/covid-19-coronavirus/ 
-        [description]: The variant was identified in a Minnesota resident who had recently traveled to Brazil. Here’s the latest on Covid-19. 
-        
-Article:[1611742826915989000]
-[title]: California Ends Strict Virus Restrictions as New Cases Fall 
-        [link]: https://www.nytimes.com/2021/01/25/us/california-covid-restrictions.html 
-        [description]: The state is returning to a tiered system of rules tied to the prevalence of the coronavirus in each county. Gov. Gavin Newsom has been under pressure from business owners. 
-        
-Article:[1611742826916011000]
-[title]:  What We Know About Trump Allies Like Sarah Huckabee Sanders Running for Office 
-        [link]: https://www.nytimes.com/article/trump-candidates.html 
-        [description]: The names of Lara Trump, Ivanka Trump, Donald Trump Jr. and others have been floated as potential political candidates. Here’s what we know about the chances they could run and their considerations. 
-        
-Article:[1611742826916045000]
-[title]: Senator Rob Portman of Ohio Will Not Seek Re-Election in 2022 
-        [link]: https://www.nytimes.com/2021/01/25/us/politics/rob-portman-ohio-senate-republicans.html 
-        [description]: The respected Republican legislator cited gridlock and partisanship in deciding to give up his seat. His exit underscores how far the party has strayed from its former identity. 
-        
-Article:[1611742826916071000]
-[title]: Four Falsehoods Giuliani Spread About Dominion 
-        [link]: https://www.nytimes.com/2021/01/25/technology/rudy-giuliani-dominion-election.html 
-        [description]: Dominion Voting Systems sued Rudy Giuliani, former President Trump’s lawyer, for defamation after he made inaccurate statements about the company. 
-        
-Article:[1611742826916082000]
-[title]: After the Capitol Riot, Teachers Try Explaining History in Real Time 
-        [link]: https://www.nytimes.com/2021/01/25/us/teaching-capitol-riot.html 
-        [description]: Educators have turned to Shakespeare, science fiction and cat people analogies to help students understand the past weeks. 
-        
-Article:[1611742826916105000]
-[title]: 25 Great Book Reviews From the Past 125 Years 
-        [link]: https://www.nytimes.com/2021/01/25/books/great-book-reviews.html 
-        [description]: To celebrate the Book Review’s 125th anniversary, we’re dipping into the archives to revisit our most thrilling, memorable and thought-provoking coverage. 
-        
-Article:[1611742826916140000]
-[title]: Justice Dept. Inquiry, Impeachment, Virus Variants: Your Monday Evening Briefing 
-        [link]: https://www.nytimes.com/2021/01/25/briefing/justice-probe-impeachment-virus-variants.html 
-        [description]: Here’s what you need to know at the end of the day. 
-        
-Article:[1611742826916156000]
-[title]: Aleksei Navalny and the Future of Russia 
-        [link]: https://www.nytimes.com/2021/01/25/podcasts/the-daily/alexei-navalny-russia-protests.html 
-        [description]: Over the weekend, a standoff between President Vladimir Putin and his loudest critic became a showdown in the streets. Could this be a turning point? 
-        
-Article:[1611742826916183000]
-[title]: The Ethics of Adoption in America 
-        [link]: https://www.nytimes.com/2021/01/22/books/review/american-baby-adoption-gabrielle-glaser-troubled-kenneth-rosen.html 
-        [description]: Gabrielle Glaser talks about “American Baby,” and Kenneth R. Rosen discusses “Troubled: The Failed Promise of America’s Behavioral Treatment Programs.” 
-        
-Article:[1611742826916206000]
-[title]: Got a Confidential News Tip? 
-        [link]: https://www.nytimes.com/tips 
-        [description]: The Times would like to hear from readers who want to share messages and materials with our journalists. 
-        
-Article:[1611742826916215000]
-[title]: Aleksei Navalny Protests in Russia Are Something Special 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/aleksei-navalny-russia-protests.html 
-        [description]: Crackdown and coercion are no longer enough to stop people protesting. 
-        
-Article:[1611742826916236000]
-[title]: Biden, Try for 2 Million Covid-19 Vaccinations a Day 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/covid-vaccine-plan-biden.html 
-        [description]: The administration’s vaccine plan isn’t ambitious enough. 
-        
-Article:[1611742826916261000]
-[title]: Helping Kids Is a Very Good Idea 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/democrats-aid-children.html 
-        [description]: Republicans won’t support the Democrats’ proposal, but they should. 
-        
-Article:[1611742826916284000]
-[title]: Dissidents First: A Foreign Policy Doctrine for the Biden Administration 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/navalny-biden-russia.html 
-        [description]: A dissident is to a dictatorship what a bald fact is to an edifice of lies, the revelation of which causes the whole thing to crumble. 
-        
-Article:[1611742826916328000]
-[title]: I’ve Said Goodbye to ‘Normal.’ You Should, Too. 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/new-normal-climate-catastrophes.html 
-        [description]: Climate change is upending the world as we know it, and coping with it demands widespread, radical action. 
-        
-Article:[1611742826916352000]
-[title]: Even for Bargain Hunters, Green Cars Make Sense 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/electric-cars-climate-change.html 
-        [description]: Electric cars are an even better value than I understood when I first bought one. 
-        
-Article:[1611742826916373000]
-[title]: The Site Trump Could Run To Next 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/sway-kara-swisher-chris-best.html 
-        [description]: Substack is the breakout newsletter platform media insiders are watching. Its chief executive says he has big plans — and an open door. 
-        
-Article:[1611742826916405000]
-[title]: Are We Ready for a Monday Without Trump? 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/trump-biden-media.html 
-        [description]: The White House, Congress and the media are all going to have to make some big adjustments. 
-        
-Article:[1611742826916432000]
-[title]: I Want to Call the Capitol Rioters ‘Terrorists.’ Here’s Why We Shouldn’t. 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/domestic-terrorism-capitol-riots.html 
-        [description]: New antiterrorism laws could end up targeting people of color. 
-        
-Article:[1611742826916447000]
-[title]: I Can’t Believe I Need to Say This, but We Need Schools More Than Bars 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/brazil-schools-coronavirus.html 
-        [description]: What we’re facing in Brazil is an educational catastrophe. 
-        
-Article:[1611742826916467000]
-[title]: Parler and the Far Right ' s Ever-Evolving Digital Ecosystem 
-        [link]: https://www.nytimes.com/2021/01/25/opinion/parler-social-media.html 
-        [description]: The Biden administration needs a game plan to deal with what will be a rolling and escalating threat from platform migration. 
-        
-Article:[1611742826916490000]
-[title]: ‘One Day, After Several Months of Not Stopping By, He Poked His Head In’ 
-        [link]: https://www.nytimes.com/2021/01/24/nyregion/metropolitan-diary.html 
-        [description]: A man in search of a certain item, a bike bound for the trash heap and more reader tales of New York City in this week’s Metropolitan Diary. 
-        
-Article:[1611742826916503000]
-[title]: Leon Black to Step Down as Apollo ' s C.E.O. Over Payments to Jeffrey Epstein 
-        [link]: https://www.nytimes.com/2021/01/25/business/leon-black-apollo-jeffrey-epstein.html 
-        [description]: An inquiry’s finding that Leon Black, the billionaire boss of Apollo Global Management, paid the convicted sex offender $158 million touched off an attempt to remove him. 
-        
-Article:[1611742826916522000]
-[title]: Rupert Murdoch, Accepting Award, Condemns ‘Awful Woke Orthodoxy’ 
-        [link]: https://www.nytimes.com/2021/01/25/business/media/rupert-murdoch-josh-hawley-woke.html 
-        [description]: Mr. Murdoch of News Corp, who spoke in a video, has been relatively quiet publicly in recent years. He called conformity on social media “a straitjacket on sensibility.” 
-        
-Article:[1611742826916550000]
-[title]: Supreme Court Ends Emoluments Suits Against Trump 
-        [link]: https://www.nytimes.com/2021/01/25/us/emoluments-trump-supreme-court.html 
-        [description]: The lawsuits accused the former president of violating the Constitution by doing business with foreign governments. The justices dismissed the suits as moot. 
-        
-Article:[1611742826916573000]
-[title]: In Israel, Infections Drop Sharply After One Shot of Vaccine 
-        [link]: https://www.nytimes.com/2021/01/25/world/middleeast/israels-vaccine-data.html 
-        [description]: Initial studies show a significant drop in infections and hospitalizations after just one dose, and very few cases after two. Experts caution that the results are preliminary. 
-        
-Article:[1611742826916596000]
-[title]: Former T.S.A. Agent Convicted of Tricking Woman Into Showing Her Breasts 
-        [link]: https://www.nytimes.com/2021/01/25/us/johnathon-lomeli-tsa.html 
-        [description]: Johnathon Lomeli was sentenced to 60 days in jail after he pleaded no contest to false imprisonment of a woman during a security screening at Los Angeles International Airport in June 2019. 
-        
-Article:[1611742826916619000]
-[title]: In Poor Madrid Neighborhood, Biggest Snowfall in Half Century Deepens Misery 
-        [link]: https://www.nytimes.com/2021/01/25/world/europe/madrid-canada-real.html 
-        [description]: Life in Cañada Real, home to about 8,000 people, is “just as horrendous” as in Bosnian refugee camps, said one humanitarian aid worker who has visited both. 
-        
-Article:[1611742826916636000]
-[title]: Giuseppe Conte to Resign as Italian Prime Minister 
-        [link]: https://www.nytimes.com/2021/01/25/world/europe/italy-government-conte.html 
-        [description]: Prime Minister Giuseppe Conte’s government is likely to collapse, leaving Italy in an uncertain political situation with Covid-19 infections still very high. 
-        
-Article:[1611742826916660000]
-[title]: China Wanted to Show Off Its Vaccines. It’s Backfiring. 
-        [link]: https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html 
-        [description]: Delays, inconsistent data, spotty disclosures and the country’s attacks on Western rivals have marred its ambitious effort to portray itself as a leader in global health. 
-        
-Article:[1611742826916688000]
-[title]: Dogs May Have Come From an Ice Age Meetup of Carnivores in Siberia 
-        [link]: https://www.nytimes.com/2021/01/25/science/dogs-Siberia-wolves.html 
-        [description]: Researchers propose that some remote ancestors of Native Americans may have been the first humans to forge the bond with wolves that led to domestication. 
-        
-Article:[1611742826916718000]
-[title]: Monitoring the Weather at the Edge of the World 
-        [link]: https://www.nytimes.com/2021/01/25/travel/remote-weather-station-iceland.html 
-        [description]: Marsibil Erlendsdottir runs a farm and provides weather reports from a remote outpost in eastern Iceland. The job requires vigilance and an unfailing resolve. 
-        
-Article:[1611742826916737000]
-[title]: Things To Do At Home 
-        [link]: https://www.nytimes.com/2021/01/23/at-home/things-to-do-this-week.html 
-        [description]: This week, celebrate Australia Day, make masala chai and listen to Natalie Portman discuss her new children’s book. 
-        
-Article:[1611742826916751000]
-[title]: Yes, Masks Are Still Necessary 
-        [link]: https://www.nytimes.com/2021/01/25/well/live/universal-mask-wearing.html 
-        [description]: Short of a total lockdown, universal mask-wearing is the most effective way to slow the relentless rise in hospitalizations and deaths from Covid-19. 
-        
-Article:[1611742826916775000]
-[title]: What’s on TV This Week: ‘Snowpiercer’ and ‘Resident Alien’ 
-        [link]: https://www.nytimes.com/2021/01/25/arts/television/whats-on-tv-this-week-snowpiercer-resident-alien.html 
-        [description]: “Snowpiercer” returns on TNT. And Alan Tudyk stars in a new comedy series on Syfy. 
-        
-Article:[1611742826916791000]
-[title]: Recreating an Archaeological Discovery From the Ground Down 
-        [link]: https://www.nytimes.com/2021/01/22/movies/the-dig-carey-mulligan-ralph-fiennes.html 
-        [description]: “The Dig,” on Netflix, revisits the astonishing find made by two amateurs in Britain as World War II was dawning. 
-        
-Article:[1611742826916813000]
-[title]: ‘Mike Nichols’ Captures a Star-Studded Life That Shuttled Between Broadway and Hollywood 
-        [link]: https://www.nytimes.com/2021/01/25/books/review-mike-nichols-biography-mark-harris.html 
-        [description]: Mark Harris’s biography tells the story of the writer and director who formed a beloved comedy duo with Elaine May and directed movies including “Who’s Afraid of Virginia Woolf?” and “The Graduate.” 
-        
-Article:[1611742826916836000]
-[title]: Black, Deaf and Extremely Online 
-        [link]: https://www.nytimes.com/2021/01/23/us/black-american-sign-language-tiktok.html 
-        [description]: On TikTok and in virtual hangouts, a younger generation is sharing the origins and nuances of Black American Sign Language, a rich variation of ASL that scholars say has been overlooked for too long. 
-        
-Article:[1611742826916865000]
-[title]: Men’s Wear Has an Emo Moment 
-        [link]: https://www.nytimes.com/2021/01/25/fashion/mens-wear-has-an-emo-moment.html 
-        [description]: Designers in Paris turned inward during lockdown and collectively found resources to keep creativity alive. 
-        
-Article:[1611742826916891000]
-[title]: ‘Margaret,’ ‘American Animals’ and More Streaming Alternatives 
-        [link]: https://www.nytimes.com/2021/01/25/movies/margaret-american-animals-streaming-movies.html 
-        [description]: Still looking for some new things to watch? Take some chances on these titles. 
-        
-Article:[1611742826916912000]
-[title]: Six Stars, Six Eclipses: ‘The Fact That It Exists Blows My Mind’ 
-        [link]: https://www.nytimes.com/2021/01/23/science/six-stars-eclipses.html 
-        [description]: A handful of other six-star systems have been discovered, but this one is unique. 
-        
-Article:[1611742826916936000]
-[title]: Emerging Coronavirus Variants May Pose Challenges to Vaccines 
-        [link]: https://www.nytimes.com/2021/01/20/health/coronavirus-variants-immunity.html 
-        [description]: Laboratory studies of mutations circulating in South Africa suggest they may dodge some of the body’s immune responses. 
-        
-Article:[1611742826916968000]
-[title]: Foods That May Lead to a Healthier Gut and Better Health 
-        [link]: https://www.nytimes.com/2021/01/11/well/eat/diet-gut-microbiome.html 
-        [description]: A diet full of highly processed foods with added sugars and salt promoted gut microbes linked to obesity, heart disease and diabetes. 
-        
-Article:[1611742826916995000]
-[title]: Revealed: The Shipworm Sex Tapes 
-        [link]: https://www.nytimes.com/2021/01/11/science/shipworm-sex-pseudocopulation.html 
-        [description]: Nature’s weirdest clam surprises scientists once again, this time in video footage of its mating habits. 
-        
-Article:[1611742826917022000]
-[title]: Son Tipped Off F.B.I. About His Father, Who Is Charged in Capitol Riot 
-        [link]: https://www.nytimes.com/2021/01/24/us/politics/jackson-reffitt-father-capitol-riot.html 
-        [description]: “I put my emotions behind me to do what I thought was right,” said Jackson Reffitt, who weeks before the siege alerted the F.B.I. that his father was planning “something big.” 
-        
-Article:[1611742826917051000]
-[title]: Rare Violin Tests Germany’s Commitment to Atone for Its Nazi Past 
-        [link]: https://www.nytimes.com/2021/01/25/arts/music/violin-restitution-germany.html 
-        [description]: The instrument’s holders refuse to compensate the heirs of a Jewish music dealer, jeopardizing a system for restitution that has been in place for nearly two decades. 
-        
-Article:[1611742826917074000]
-[title]: Song Yoo-jung, a South Korean Actress, Has Died at 26 
-        [link]: https://www.nytimes.com/2021/01/25/world/asia/south-korea-song-yoo-jung-death.html 
-        [description]: No cause of death was disclosed, but the case followed a string of suicides by young entertainers in the country. 
-        
-Article:[1611742826917099000]
-[title]: Do You Know Where the Vice President Lives? 
-        [link]: https://www.nytimes.com/2021/01/20/us/politics/naval-observatory-vice-president.html 
-        [description]: Kamala Harris and her husband, Doug Emhoff, will eventually reside at Number One Observatory Circle, renewing a spotlight on an often-overlooked Washington address. 
-        
-Article:[1611742826917133000]
-[title]: Spelling Bee 
-        [link]: https://www.nytimes.com/puzzles/spelling-bee 
-        [description]: Use 7 letters to make as many words as you can. 
-        
-Article:[1611742826917148000]
-[title]: The Crossword, Tiles and More 
-        [link]: https://www.nytimes.com/crosswords 
-        [description]: Solve the daily puzzle edited by Will Shortz, or try out other games like the Mini and Vertex. 
-        
-Article:[1611742826917160000]
-[title]: Vertex 
-        [link]: https://www.nytimes.com/puzzles/vertex 
-        [description]: Connect the dots to reveal the hidden picture. 
-        
+
+Article:[1612173563409861000]
+[title]: How the Search for Covid-19 Treatments Faltered While Vaccines Sped Ahead
+[link]: https://www.nytimes.com/2021/01/30/health/covid-drugs-antivirals.html
+[description]: Vaccine development exceeded everyone’s expectations. But the next few months will still bring many sick people — and doctors have woefully few drugs with which to treat them.
+Article:[1612173563409928000]
+[title]: E.U. Makes a Sudden and Embarrassing U-Turn on Vaccines
+[link]: https://www.nytimes.com/2021/01/30/world/europe/covid-vaccines-eu.html
+[description]: Already criticized for a slow rollout for its 27 members, Brussels retreated on export controls linked to Ireland and Brexit.
+Article:[1612173563409994000]
+[title]: Paris, Shuttered, Must be Imagined
+[link]: https://www.nytimes.com/2021/01/30/world/europe/covid-france-paris.html
+[description]: The pandemic has enshrouded and dimmed the City of Light. But there are many reasons to soldier through the fog.
+Article:[1612173563410024000]
+[title]: What Can Covid-19 Teach Us About the Mysteries of Smell?
+[link]: https://www.nytimes.com/2021/01/28/magazine/covid-smell-science.html
+[description]: The virus’s strangest symptom has opened new doors to understanding our most neglected sense.
+Article:[1612173563410059000]
+[title]: Which Covid Vaccine Should You Get? Experts Weigh the Effect Against Severe Disease
+[link]: https://www.nytimes.com/2021/01/29/health/Covid-vaccine-explainer.html
+[description]: Infectious disease doctors say getting a shot of the J&J vaccine, which has a lower efficacy against the virus than other vaccines, would still be well worthwhile.
+Article:[1612173563410122000]
+[title]: For McCarthy and McConnell, Two Paths on Trumpian Crisis Management
+[link]: https://www.nytimes.com/2021/01/30/us/politics/trump-mcconnell-mccarthy.html
+[description]: Kevin McCarthy, the House minority leader, and Mitch McConnell, the Senate minority leader, want to take back control of Congress in 2022. First they have to figure out how to handle Donald Trump.
+Article:[1612173563410165000]
+[title]: Marjorie Taylor Greene's Controversies Are Piling Up. Republicans Are Quiet.
+[link]: https://www.nytimes.com/2021/01/29/us/politics/marjorie-taylor-greene-republicans.html
+[description]: In a video from 2018, Ms. Greene falsely suggested that 9/11 was a hoax, President Barack Obama was a Muslim and the Clintons were guilty of murder.
+Article:[1612173563410215000]
+[title]: Proud Boys Charged With Conspiracy in Capitol Riot
+[link]: https://www.nytimes.com/2021/01/29/nyregion/proud-boys-charged-with-conspiracy-in-capitol-riot.html
+[description]: The conspiracy charges were the first to emerge against members of the extremist group in connection with the assault on Congress.
+Article:[1612173563410238000]
+[title]: Biden and Top Economic Officials Stress Urgency of More Pandemic Aid
+[link]: https://www.nytimes.com/2021/01/29/business/biden-coronavirus-stimulus-aid.html
+[description]: The president’s economic advisers are increasingly worried about the faltering recovery and the economic outlook.
+Article:[1612173563410285000]
+[title]: Fact-Checking Biden’s First Week in Office
+[link]: https://www.nytimes.com/2021/01/30/us/politics/fact-checking-biden-first-week.html
+[description]: All but three of 20 claims the president made were accurate, demonstrating his regard for basic facts and his proclivity to err when speaking off the cuff.
+Article:[1612173563410333000]
+[title]: G.M. Announcement Shakes Up U.S. Automakers’ Transition to Electric Cars
+[link]: https://www.nytimes.com/2021/01/29/business/general-motors-electric-cars.html
+[description]: Every carmaker is trying to figure out how to make the leap before governments force it and Tesla and other start-ups lure away drivers.
+Article:[1612173563410447000]
+[title]: As Protests Grip Russia, Putin Critics of Many Stripes Rally Around Navalny
+[link]: https://www.nytimes.com/2021/01/30/world/europe/russia-protests-navalny-putin.html
+[description]: While many at the protests are critical of Aleksei A. Navalny, the Kremlin’s treatment of the opposition leader has united a disparate group of Putin’s opponents who say they can no longer tolerate official injustice.
+Article:[1612173563410781000]
+[title]: Talking With Paul Krugman About the Pandemic Economy and More
+[link]: https://www.nytimes.com/2021/01/29/opinion/ezra-klein-podcast-paul-krugman.html
+[description]: Ezra Klein and Paul Krugman discuss Covid economics, cryptocurrencies and deficit delusions.
+Article:[1612173563410836000]
+[title]: Navigating the Maze of Paying for College
+[link]: https://www.nytimes.com/2021/01/29/books/review/podcast-price-you-pay-college-ron-lieber-breath-taking-michael-j-stephen.html
+[description]: Ron Lieber talks about “The Price You Pay for College,” and Michael J. Stephen discusses “Breath Taking: The Power, Fragility, and Future of Our Extraordinary Lungs.”
+Article:[1612173563410878000]
+[title]: Visit ‘At Home’
+[link]: https://www.nytimes.com/spotlight/at-home
+[description]: Get our best ideas for leading a full and cultured life every day.
+Article:[1612173563410891000]
+[title]: Doug Emhoff and the Opportunity of the Second Gentleman
+[link]: https://www.nytimes.com/2021/01/30/opinion/kamala-harris-doug-emhoff-husband.html
+[description]: As the country’s first male vice-presidential spouse, Doug Emhoff can model a masculinity that embraces support.
+Article:[1612173563410951000]
+[title]: The Real Meaning of Hillbilly
+[link]: https://www.nytimes.com/2021/01/30/opinion/hillbilly-redneck-progressivism.html
+[description]: I left my hometown because I felt alienated from its conservative values. Turns out many in my community had forgotten our progressive roots.
+Article:[1612173563410988000]
+[title]: Don’t Permanently Fence the Capitol
+[link]: https://www.nytimes.com/2021/01/30/opinion/sunday/capitol-attack-fence.html
+[description]: The proposal would diminish the building’s role as a symbol of American democracy.
+Article:[1612173563411026000]
+[title]: It’s Been 10 Months, and I Still Don’t Know When to Replace My Mask!
+[link]: https://www.nytimes.com/2021/01/29/opinion/coronavirus-masks.html
+[description]: Practical pandemic guidance is still a huge problem.
+Article:[1612173563411065000]
+[title]: Why Did the N.Y.P.D. Solve Fewer Crimes Last Year?
+[link]: https://www.nytimes.com/2021/01/29/opinion/nypd-crime-murder.html
+[description]: A confluence of factors means that too many murderers are walking free.
+Article:[1612173563411088000]
+[title]: Facebook and the Surveillance Society: The Other Coup
+[link]: https://www.nytimes.com/2021/01/29/opinion/sunday/facebook-surveillance-society-technology.html
+[description]: We can have democracy, or we can have a surveillance society, but we cannot have both.
+Article:[1612173563411112000]
+[title]: The Senate Needs Absentee Voting, Too
+[link]: https://www.nytimes.com/2021/01/30/opinion/sunday/senate-voting-remote.html
+[description]: The chamber’s new leadership should get serious about enabling members to vote remotely in the event of emergencies.
+Article:[1612173563411136000]
+[title]: Marco Rubio Deserves Ivanka Trump
+[link]: https://www.nytimes.com/2021/01/29/opinion/sunday/marco-rubio-ivanka-trump.html
+[description]: Will the senator’s sycophancy and shape-shifting come to naught?
+Article:[1612173563411156000]
+[title]: For Dreamers, Action Will Speak Louder Than Words
+[link]: https://www.nytimes.com/2021/01/29/opinion/biden-immigration-reform-dreamers.html
+[description]: President Biden has a bold immigration plan. But will he convince lawmakers to make it work?
+Article:[1612173563411182000]
+[title]: Get One Covid Vaccine Dose to Everyone Most Likely to Die
+[link]: https://www.nytimes.com/2021/01/29/opinion/covid-vaccine-booster.html
+[description]: Forget boosters and more trials. America’s overly prudent vaccination strategy is killing people.
+Article:[1612173563411214000]
+[title]: It’s Time for Police to Stop Lying to Suspects
+[link]: https://www.nytimes.com/2021/01/29/opinion/false-confessions-police-interrogation.html
+[description]: Innocent people are in jail because detectives tricked them.
+Article:[1612173563411243000]
+[title]: A Rare Menu That Tells the Truth: The Pork? Greasy. The Beef? Meh.
+[link]: https://www.nytimes.com/2021/01/29/dining/montreal-chinese-restaurant-honest-menu.html
+[description]: A Montreal restaurateur’s self-lacerating style has drawn worldwide attention, perhaps striking a collective chord of humility in the pandemic.
+Article:[1612173563411270000]
+[title]: Can Cute Windows Resurrect a Depressed Town in Upstate New York?
+[link]: https://www.nytimes.com/2021/01/29/nyregion/cherry-valley-new-york-windows.html
+[description]: A project in Cherry Valley, a longtime artists’ haven, is brightening storefronts and telling the world, “We’re still here!”
+Article:[1612173563411293000]
+[title]: The Joy of Watching Other People Clean
+[link]: https://www.nytimes.com/2021/01/29/realestate/cleaning-videos-youtube.html
+[description]: In this corner of YouTube, you can watch someone else clean the house — and you won’t be alone.
+Article:[1612173563411321000]
+[title]: Legal Pressure on Trump Increases With Judge’s Order in Fraud Inquiry
+[link]: https://www.nytimes.com/2021/01/29/nyregion/trump-fraud-investigation.html
+[description]: The order, answering a demand for documents by New York’s attorney general, rejected a bid to shield the records with attorney-client privilege.
+Article:[1612173563411353000]
+[title]: Sophie, Musician Who Pushed Pop to the Edges, Is Dead at 34
+[link]: https://www.nytimes.com/2021/01/30/arts/music/sophie-dead.html
+[description]: The producer and performer distilled speed, noise, melody and clarity, working simultaneously at the experimental fringes of dance music and the center of pop.
+Article:[1612173563411377000]
+[title]: 11 Fort Bliss Soldiers Hospitalized After Drinking Antifreeze, Officials Say
+[link]: https://www.nytimes.com/2021/01/29/us/fort-bliss-soldiers-injured.html
+[description]: Two of those taken ill were in an intensive care unit, military officials said, adding that the soldiers had believed they were consuming alcohol.
+Article:[1612173563411402000]
+[title]: Macron Tells Biden That Cooperation With U.S. Cannot Be Dependence
+[link]: https://www.nytimes.com/2021/01/29/world/europe/macron-biden.html
+[description]: In a “very agreeable call,” the French president told his American counterpart that Europe wanted “strategic autonomy.” In an interview with foreign media, he also reflected on the pandemic and threats to democracy.
+Article:[1612173563411442000]
+[title]: Washington Post, Reuters and Los Angeles Times Search for New Top Editors
+[link]: https://www.nytimes.com/2021/01/28/business/media/post-reuters-los-angeles-editors.html
+[description]: In an industrywide changing of the guard, other big newsroom jobs that have come open include the No. 1 slots at Vox, HuffPost and Wired.
+Article:[1612173563411513000]
+[title]: Forecast: Wild Weather in a Warming World
+[link]: https://www.nytimes.com/2021/01/30/climate/polar-vortex-weather-climate-change.html
+[description]: The polar vortex is experiencing an unusually long disturbance this year because of a “sudden stratospheric warming.” Bundle up.
+Article:[1612173563411541000]
+[title]: Biden Visits Walter Reed, Where His Son Battled Brain Cancer
+[link]: https://www.nytimes.com/2021/01/29/us/politics/biden-walter-reed-military.html
+[description]: “I’ve spent a lot of time at Walter Reed,” Mr. Biden said as he left the White House for the visit on Friday. “They’re great Americans. They’re great people.”
+Article:[1612173563411576000]
+[title]: Kouchner Casts Harsh Light on French Elite With Incest Charge
+[link]: https://www.nytimes.com/2021/01/29/world/europe/kouchner-duhamel-incest.html
+[description]: Camille Kouchner is pushing the country to a painful reckoning with incest, and with the elites who excuse one another’s sins.
+Article:[1612173563411608000]
+[title]: Why Grape-Nuts Cereal is No Longer Easy to Find
+[link]: https://www.nytimes.com/2021/01/29/business/grape-nuts-shortage.html
+[description]: A supply shortage of the venerable, if polarizing, cereal has customers scouring online for boxes, sometimes listed at inflated prices.
+Article:[1612173563411645000]
+[title]: Treat Yourself to a Parisian Cocktail Snack That Is Easy to Make
+[link]: https://www.nytimes.com/2021/01/27/magazine/cakes-sale-recipe.html
+[description]: In France, savory cakes salés are served as a light nibble before dinner. They’re remarkably versatile and come together in a snap.
+Article:[1612173563411663000]
+[title]: How Much Watching Time Do You Have This Weekend?
+[link]: https://www.nytimes.com/2021/01/28/arts/television/derek-delgaudio-lady-dale.html
+[description]: A one-man show blends magic and memoir, and a twisty new docu-series provides a breath of fresh air.
+Article:[1612173563411739000]
+[title]: What Do Gamers Wear?
+[link]: https://www.nytimes.com/2021/01/26/style/gaming-fashion.html
+[description]: With millions of fans on social media, gamers have stepped up their game, incorporating luxury, streetwear and even cosplay into their looks.
+Article:[1612173563411786000]
+[title]: ‘Penguin Bloom’ Review: Relearning to Fly
+[link]: https://www.nytimes.com/2021/01/27/movies/penguin-bloom-review.html
+[description]: In this sentimental Netflix film, Naomi Watts plays a woman who, after a life-changing accident, finds inspiration in a magpie.
+Article:[1612173563411809000]
+[title]: Instagram Showcases 'Cheap Old Houses'
+[link]: https://www.nytimes.com/2021/01/29/realestate/instagram-old-houses.html
+[description]: Instagram and fans of painstaking renovations have given new life to homes with some history, especially if they’re affordable.
+Article:[1612173563411858000]
+[title]: Kristin Hannah Reinvented Herself. She Thinks America Can Do the Same.
+[link]: https://www.nytimes.com/2021/01/29/books/kristin-hannah-four-winds.html
+[description]: In “The Four Winds,” the author of “The Nightingale” and “The Great Alone” takes readers back to another era of environmental disaster, economic collapse and fresh starts.
+Article:[1612173563411901000]
+[title]: The Great Beginning of Jules Olitski
+[link]: https://www.nytimes.com/2021/01/28/arts/design/jules-olitski-color-field-painter-yares-art.html
+[description]: The artist’s earliest Color Field paintings, with their indomitable colors, austere compositions and wild pictorial spaces, are among the movement’s signal achievements.
+Article:[1612173563411920000]
+[title]: The Shyamalan Secret to Being Scary? It’s in the Blood
+[link]: https://www.nytimes.com/2021/01/29/arts/television/m-night-shyamalan-servant.html
+[description]: For Season 2 of the slow-burn chiller “Servant,” M. Night Shyamalan brought in his daughter Ishana to help write and direct. Must have been all those family horror-movie nights.
+Article:[1612173563411953000]
+[title]: There’s Nothing Better Than This Cheesy Potato Soup
+[link]: https://www.nytimes.com/2021/01/29/dining/potato-cheddar-soup.html
+[description]: Silky-smooth and simple to make, it gets verve and heat from homemade pickled jalapeños.
+Article:[1612173563411975000]
+[title]: Novavax’s Vaccine Works Well — Except on Variant First Found in South Africa
+[link]: https://www.nytimes.com/2021/01/28/health/covid-vaccine-novavax-south-africa.html
+[description]: An early analysis in Britain found that the vaccine had an efficacy rate of nearly 90 percent. But in a small South Africa trial, the efficacy rate dropped to just under 50 percent.
+Article:[1612173563412006000]
+[title]: Evidence Builds That Pregnant Women Pass Covid Antibodies to Newborns
+[link]: https://www.nytimes.com/2021/01/29/well/family/covid-antibodies-pregnant-newborn.html
+[description]: A new study suggests that protective antibodies can be transferred through the placenta, and the baby may receive more of them if a mother is infected with Covid earlier in her pregnancy.
+Article:[1612173563412096000]
+[title]: There’s No Easy Fix for Children’s Weight Gain
+[link]: https://www.nytimes.com/2021/01/25/well/family/child-obesity-weight-pandemic.html
+[description]: Experts advise families to avoid blaming themselves and to look for opportunities to congratulate children for healthy behaviors and good decisions.
+Article:[1612173563412138000]
+[title]: Your Cat Isn’t Just Getting High Off Catnip
+[link]: https://www.nytimes.com/2021/01/20/science/catnip-mosquito-repellent.html
+[description]: A new study hints that plants like catnip and silver vine may also protect your feline friend from mosquitoes.
+Article:[1612173563412176000]
+[title]: New York Times Reporter Used Racial Slur With Student Group
+[link]: https://www.nytimes.com/2021/01/28/business/media/donald-mcneil-new-york-times.html
+[description]: Remarks in 2019 by Donald G. McNeil Jr., a science correspondent, during an educational trip led to complaints from students and parents. The Times offered an apology.
+Article:[1612173563412214000]
+[title]: Song Yoo-jung, a South Korean Actress, Has Died at 26
+[link]: https://www.nytimes.com/2021/01/25/world/asia/south-korea-song-yoo-jung-death.html
+[description]: No cause of death was disclosed, but the case followed a string of suicides by young entertainers in the country.
+Article:[1612173563412248000]
+[title]: Eleanor Torrey West, Preserver of Her Inherited Island, Dies at 108
+[link]: https://www.nytimes.com/2021/01/28/obituaries/eleanor-sandy-torrey-west-dead.html
+[description]: Off Georgia’s coast, the lush 26,000-acre Ossabaw Island had been in her family since 1924. She dedicated her life to keeping it out of the hands of developers.
+Article:[1612173563412275000]
+[title]: Susan Orlean Lists Her Upstate Retreat
+[link]: https://www.nytimes.com/2021/01/29/realestate/susan-orlean-house-columbia-county.html
+[description]: The writer’s modern three-bedroom house, lined with wood and stone, comes with a $3.495 million price tag.
+Article:[1612173563412299000]
+[title]: Spelling Bee
+[link]: https://www.nytimes.com/puzzles/spelling-bee
+[description]: Use 7 letters to make as many words as you can.
+Article:[1612173563412331000]
+[title]: The Crossword, Tiles and More
+[link]: https://www.nytimes.com/crosswords
+[description]: Solve the daily puzzle edited by Will Shortz, or try out other games like the Mini and Vertex.
+Article:[1612173563412346000]
+[title]: Vertex
+[link]: https://www.nytimes.com/puzzles/vertex
+[description]: Connect the dots to reveal the hidden picture.
