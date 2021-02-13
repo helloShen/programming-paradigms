@@ -64,7 +64,7 @@ static void test_freq(void) {
 	freq_maptostring(&banana, &buffer);
 	freq_maptostring(&kiwi, &buffer);
 	assert(strlen(buffer) == 33); 
-    assert(strcmp(buffer, "[apple, 3]\n[banana, 1]\n[kiwi, 6]\n") == 0);
+ 	assert(strcmp(buffer, "[apple, 3]\n[banana, 1]\n[kiwi, 6]\n") == 0);
 	free(buffer);
 
 	dispose_freq(&apple1);

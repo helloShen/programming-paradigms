@@ -1,35 +1,32 @@
-#include "vector.h"
-#include "data.h"
-#include "article.h"
-#include "curlconn.h"
-#include "rssparser.h"
+#include "../rssparser.c"
+#include "testutils.h"
 
+static void test_parserss(void) {
+	tstart("rssparser::parserrss()");
 
-/**
- * Give me a rss news xml link, I return a vector of articles.
- * Hide intermediary data details from search engine.
- */
-static void t_crawl_articles(vector *articles, const char *rsslink) { 
-	data buff;
-	new_data(&buff);
-	/* dump rss xml file into memory buffer */
-	dump_url(rsslink, &buff);
-	/* extract articles from memory buffer */
-	parserss(articles, &buff);
-	dispose_data(&buff);
-}
-
-static void test_rssparser(const char *rsslink) {
+	char *stream = t_read_whole_file("data/test-rss.xml");
+	data d;
+	new_data(&d);
+	append_data(&d, stream, strlen(stream));
 	vector articles;
 	VectorNew(&articles, sizeof(article), dispose_article, 128);	
-	t_crawl_articles(&articles, rsslink);
-	VectorMap(&articles, print_article, stdout);
+	parserss(&articles, &d);
+	for (int i = 0; i < articles.elemNum; i++) {
+		article *a = VectorNth(&articles, i);
+		for (int j = 0; j < articles.elemNum; j++) {
+			if (j != i) {
+				article *b = VectorNth(&articles, j);
+				assert(strcmp(a->title, b->title) != 0);
+				assert(strcmp(a->link, b->link) != 0);
+			}
+		}
+	}
+
 	VectorDispose(&articles);
+
+	tpass();
 }
 
 int main(void) {
-	char *bbc_rss = "http://feeds.bbci.co.uk/news/rss.xml?edition=int";
-	char *nyt_rss = "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml";
-	test_rssparser(bbc_rss);
-	test_rssparser(nyt_rss);
+	test_parserss();
 }

@@ -147,3 +147,47 @@ to do:
 1. de-coupling unit-test
 2. re-write article three fields
 
+
+##############################
+#   01/02/2021 - 07/02/2021  #
+##############################
+1. [done] rebuild all unit-test so far.
+2. [done] finish testing vector, hashset, tokenizer, ...
+3. [done] re-write article
+
+todo:
+1. test and clean legacy of article
+2. test indexer
+
+
+################
+#   08/02/2021 #
+################
+[done] 1. optimize legacy of article
+  [done] 1.1 rssparser
+  [done] 1.2 htmlparser
+[done] 2. identify duplicate articles
+[done] 3. test data
+[done] 4. re-write indexer
+
+todo:
+1. test indexer
+
+
+#############################
+#   09/02/2021 - 12/02/2021 #
+#############################
+[done] 1. learn to use lldb to debug
+[done] 2. test index
+
+[done] 3. move bag_into_index(), build_index() from index into engine
+    engine
+    /    \
+tokenizer index
+
+[done] 4. hashset<article> articles;
+[done] 5. isolate test_hashset 
+[done] 6. isolate test_vector
+
+todo:
+1. engine.c, engine.h

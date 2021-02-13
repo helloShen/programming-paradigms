@@ -33,17 +33,6 @@
 #include <ctype.h>
 #include <assert.h>
 
-#ifndef _FREQ_
-#define _FREQ_
-
-/**
- * word is null-terminated string
- * hide from user
- */
-typedef struct {
-	char *word;
-	int frequency;
-} freq;
 
 /**
  * HashSetMapFunction<char *>
@@ -84,7 +73,7 @@ static void freestr(void *elemAddr) {
  * result of snprintf() will be terminated with a null character, 
  * unless buf_size is zero
  */
-static char *freq_tostring(freq *fq) {
+static char *freq_tostring(const freq *fq) {
 	size_t wordlen = strlen(fq->word);
 	char *buffer = (char *)malloc(wordlen + 16); // maximum integer length = 10 digits
 	snprintf(buffer, wordlen + 16, "[%s, %d]\n", fq->word, fq->frequency);
@@ -147,7 +136,6 @@ static void dispose_freq(void *fq) {
 	free(((freq *)fq)->word);
 	((freq *)fq)->word = NULL;
 }
-#endif // _FREQ_
 
 /**
  * Dump current string into vector as a new word.
@@ -173,7 +161,7 @@ static void dumpstack(stack *s, vector *v) {
  * 
  */
 static const size_t kTokenStackDefaultSize = 64;
-static void tokenize(vector *words, char *stream) {
+static void tokenize(vector *words, const char *stream) {
 	stack s;
 	new_stack(&s, kTokenStackDefaultSize, sizeof(char), NULL);
 	size_t len = strlen(stream);
