@@ -1,93 +1,203 @@
 #include "hashset.h"
-#include "testutils.h"
-#include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <limits.h>
 #include <assert.h>
+#include <string.h>
+
+const int kNumBuckets = 26;
+
+struct frequency {
+    char ch;		      // a particular letter
+    int occurrences;	// the number of times it occurs
+};
 
 /**
- * void HashSetEnter(hashset *h, const void *elemAddr);
- * int HashSetCount(const hashset *h);
- * void HashSetDispose(hashset *h);
+ * Fucntion: HashFrequency
+ * -----------------------
+ * Hash function used to partition frequency structures into buckets.  Our
+ * hash function is pretty simplistic, we simply mod the char by the
+ * number of buckets.  This provides a number in the range 0 to numBuckets - 1,
+ * which is the proper range for our hashset.
  */
-static void test_HashSetEnterCountDispose(void) {
-	tstart("hashset::HashSetEnter()::HashSetCount()::HashSetDispose()");
 
-	hashset h;
-	HashSetNew(&h, sizeof(mock_freq), 4, t_hash_freq, t_comp_freq, t_dispose_freq);
-	mock_freq apple1;
-	t_new_freq(&apple1, "apple", 3);
-	HashSetEnter(&h, &apple1);
-	assert(HashSetCount(&h) == 1);
-	mock_freq apple2;
-	t_new_freq(&apple2, "apple", 2);
-	HashSetEnter(&h, &apple2);
-	assert(HashSetCount(&h) == 1);
-	mock_freq banana;
-	t_new_freq(&banana, "banana", 5);
-	HashSetEnter(&h, &banana);
-	assert(HashSetCount(&h) == 2);
-	HashSetDispose(&h);
-	assert(h.buckets == NULL);
-
-	tpass();
+static int HashFrequency(const void *elem, int numBuckets){
+    struct frequency *freq = (struct frequency *)elem;
+    return (freq->ch % numBuckets);
 }
 
 /**
- * void *HashSetLookup(const hashset *h, const void *elemAddr);
+ * Function: PrintFrequency
+ * -------------------------
+ * Mapping function used to print one frequency stored in a hashset.  The
+ * file is passed as the client data, so that it can be used to print to
+ * any FILE *.
  */
-static void test_HashSetLookup(void) {
-	tstart("hashset::HashSetLookup()");
 
-	hashset h;
-	HashSetNew(&h, sizeof(mock_freq), 4, t_hash_freq, t_comp_freq, t_dispose_freq);
-	mock_freq apple1;
-	t_new_freq(&apple1, "apple", 3);
-	mock_freq apple2;
-	t_new_freq(&apple2, "apple", 1);
-	mock_freq banana;
-	t_new_freq(&banana, "banana", 2);
-	HashSetEnter(&h, &apple1);
-	assert(HashSetLookup(&h, &apple2) != NULL);
-	assert(HashSetLookup(&h, &banana) == NULL);
-
-	HashSetDispose(&h);
-	t_dispose_freq(&apple2);
-	t_dispose_freq(&banana);
-
-	tpass();
+static void PrintFrequency(void *elem, void *fp)
+{
+    struct frequency *freq = (struct frequency *)elem;
+    fprintf((FILE *)fp, "Character %c occurred %4d times\n", freq->ch, freq->occurrences);
 }
 
 /**
- * void HashSetMap(hashset *h, HashSetMapFunction mapfn, void *auxData);
+ * Function: CompareLetter
+ * -----------------------
+ * Comparator function used to compare two frequency entries within hashset.
+ * Two frequencies are considered the same if they refer to the same char.
+ * This function is used in HashSetLookup to decide if a char already has been
+ * entered.  This function has the same return semantics as strcmp: 
+ * (negative if 1<2, zero if 1==2, positive if 1>2).
  */
-static void test_HashSetMap(void) {
-	tstart("hashset::HashSetMap()");
 
-	hashset h;
-	HashSetNew(&h, sizeof(mock_freq), 4, t_hash_freq, t_comp_freq, t_dispose_freq);
-	mock_freq apple;
-	t_new_freq(&apple, "apple", 3);
-	mock_freq banana;
-	t_new_freq(&banana, "banana", 2);
-	mock_freq kiwi;
-	t_new_freq(&kiwi, "kiwi", 5);
-	HashSetEnter(&h, &apple);
-	HashSetEnter(&h, &banana);
-	HashSetEnter(&h, &kiwi);
-	char *buffer = (char *)malloc(1);
-	buffer[0] = '\0';
-	HashSetMap(&h, t_freq_maptostring, &buffer);
-	assert(strlen(buffer) == 33); 
-	assert(strcmp(buffer, "[kiwi, 5]\n[banana, 2]\n[apple, 3]\n") == 0);
-	HashSetDispose(&h);
-	free(buffer);
+static int CompareLetter(const void *elem1, const void *elem2){
+    struct frequency *freq1 = (struct frequency *)elem1;
+    struct frequency *freq2 = (struct frequency *)elem2;    
+    return (freq1->ch - freq2->ch);
+}
 
-	tpass();
+/**
+ * Function: CompareOccurrences
+ * -----------------------------
+ * Comparator function used to compare two frequency entries.  This one sorts
+ * by occurrence as the primary key, and if occurrences are the same, it uses
+ * the char as the secondary key, thus the call to CompareLetter which
+ * compares the chars.  It "reverse-sorts" so a higher frequency bubbles to
+ * the top.
+ */
+
+static int CompareOccurrences(const void *elem1, const void *elem2)
+{
+    struct frequency *freq1 = (struct frequency *)elem1;
+    struct frequency *freq2 = (struct frequency *)elem2;
+    
+    if (freq1->occurrences > freq2->occurrences) return -1; 
+    else if (freq1->occurrences < freq2->occurrences) return 1;
+    else return CompareLetter(freq1, freq2);
+}
+
+/**
+ * Function: BuildTableOfLetterCounts
+ * ----------------------------------
+ * Opens a file (in this case, the hashsettest.c you are currently reading).
+ * and pulls characters out one by one and counts the number of times
+ * each character occurs.  The frequecy information about the alphabetic
+ * characters is stored in the counts hashset passed in by address.
+ */
+
+static void BuildTableOfLetterCounts(hashset *counts) {
+    struct frequency localFreq, *found;
+    int ch;
+    FILE *fp = fopen("test_hashset.c", "r"); // open self as file
+    assert(fp != NULL);
+    while ((ch = getc(fp)) != EOF) {
+        if (isalpha(ch)) { // only count letters 
+            localFreq.ch = tolower(ch);
+            localFreq.occurrences = 1;
+            // See if we already have an entry for this char		
+            found = (struct frequency *) HashSetLookup(counts, &localFreq);	
+            if (found != NULL){ 		// increment if already there 
+              	localFreq.occurrences = found->occurrences + 1;
+            }
+            HashSetEnter(counts, &localFreq); // enter should overwrite if needed
+        }
+    }
+    fclose(fp);
+}
+
+/**
+ * Function: AddFrequency
+ * ----------------------
+ * Mapping function used to take a frequency stored 
+ * in a hashset and append it to an vector of frequencies.  
+ * The address of the vector is passed in as the auxiliarydata.
+ */
+
+static void AddFrequency(void *elem, void *v)
+{
+    VectorAppend((vector *) v, elem);
+}
+
+/**
+ * Function: TestHashTable
+ * -----------------------
+ * Runs a test of the hashset using a frequency structure as the element 
+ * type.  It will open a file, read each char, and count the number of
+ * times each char occurs.  Tests enter, lookup, and mapping for the hashset. 
+ * Prints contents of table to stdout.  Then it dumps all the table elements 
+ * into a vector and sorts them by frequency of occurrences and 
+ * prints the array out.  Note that this particular stress test passes
+ * 0 as the initialAllocation, which the vector is required to handle
+ * gracefully - be careful!
+ */
+static void TestHashTable(void)
+{
+    hashset counts;
+    vector sortedCounts;
+  
+    HashSetNew(&counts, sizeof(struct frequency), kNumBuckets, HashFrequency, CompareLetter, NULL);
+  
+    fprintf(stdout, "\n\n ------------------------- Starting the HashTable test\n");
+    BuildTableOfLetterCounts(&counts);
+  
+    fprintf(stdout, "Here is the unordered contents of the table:\n");
+    HashSetMap(&counts, PrintFrequency, stdout);  // print contents of table
+  
+    VectorNew(&sortedCounts, sizeof(struct frequency), NULL, 0);
+    HashSetMap(&counts, AddFrequency, &sortedCounts);   // add all freq to array
+    VectorSort(&sortedCounts, CompareLetter);      // sort by char
+    fprintf(stdout, "\nHere are the trials sorted by char: \n");
+    VectorMap(&sortedCounts, PrintFrequency, stdout);
+    
+    VectorSort(&sortedCounts, CompareOccurrences); //sort by occurrences
+    fprintf(stdout, "\nHere are the trials sorted by occurrence & char: \n");
+    VectorMap(&sortedCounts, PrintFrequency, stdout);	// print out array 
+    
+    VectorDispose(&sortedCounts);				// free all storage 
+    HashSetDispose(&counts);
+}
+
+static const signed long kHashMultiplier = -1664117991L;
+static int StringHash(const void *s, int numBuckets) {
+    int i;
+    unsigned long hashcode = 0;
+    for (i = 0; i < strlen((char *)s); i++) {
+        hashcode = hashcode * kHashMultiplier + tolower(((char *)s)[i]);  
+    }
+    return hashcode % numBuckets;                                
+}
+
+static int CompString(const void *strAddr1, const void *strAddr2) {
+    return strcmp(*(char **)strAddr1, *(char **)strAddr2);
+}
+
+static void FreeString(void *strAddr) {
+    free(*(char **)strAddr);
+} 
+
+static void PrintString(void *strAddr, void *auxData) {
+    FILE *fp = (FILE *)auxData;
+    fprintf(fp, "%s\n", *(char **)strAddr);
+    fflush(fp);
+}
+
+static void TestStringTable(void) {
+    char *str1 = (char *)malloc(strlen("hello ") * sizeof(char));
+    char *str2 = (char *)malloc(strlen("world!") * sizeof(char));
+    strcpy(str1, "hello ");
+    strcpy(str2 , "world!");
+    hashset strtable;
+    HashSetNew(&strtable, sizeof(char *), 4, &StringHash, &CompString, &FreeString);
+    HashSetEnter(&strtable, &str1);
+    HashSetEnter(&strtable, &str2);
+    HashSetMap(&strtable, &PrintString, stdout);
+    HashSetDispose(&strtable);
 }
 
 int main(void) {
-	test_HashSetEnterCountDispose();
-	test_HashSetLookup();
-	test_HashSetMap();
+    TestHashTable();	
+    TestStringTable();
+    return 0;
 }
+

@@ -17,14 +17,14 @@ void new_data(data *d)  {
  * data->stream is always null-terminated.
  * Input stream "*ptr" don't have to be null-terminated.
  */
-static const char kDataNullTerminator = '\0';
 void append_data(data *d, const char *ptr, const size_t size) {
+	char terminator = '\0';
 	char *temp = (char *)realloc(d->stream, d->size + size + 1);
 	assert(temp != NULL);
 	strncat(temp, ptr, size);
-	strncat(temp, &kDataNullTerminator, 1);	
+	strncat(temp, &terminator, 1);	
 	d->stream = temp;	
-	d->size += (size + 1);
+	d->size += size;
 }
 
 /**

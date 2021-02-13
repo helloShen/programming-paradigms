@@ -46,17 +46,29 @@ static void start_handler(void *data, const char *el, const char **attr) {
 	}
 }
 
+/**
+ * Consider two online news articles to be the same if they have 
+ * the same URL (even if the titles are different), or if they have 
+ * the same title and come from the same server.
+ */
 static void end_handler(void *data, const char *el) {
+	itemtag = null_tag;
+	blocktag = null_tag;
 	if (strcmp(el, "item") == 0) {
+		for (int i = 0; i < VectorLength(local_articles); i++) {
+			article *a = VectorNth(local_articles, i);	
+			if (strcmp(a->title, local_article.title) == 0 || 
+				strcmp(a->link, local_article.link) == 0) {
+				return;
+			}
+		}
 		VectorAppend(local_articles, &local_article);
-		itemtag = null_tag;
-		blocktag = null_tag;
 	}
 }
 
 static void data_handler(void *data, const char *txt, int txtlen) {
 	if (itemtag == rss_item && blocktag != null_tag) {
-		append_article(&local_article, txt, txtlen, blocktag);
+		update_article(&local_article, txt, txtlen, blocktag);
 	}
 }
 

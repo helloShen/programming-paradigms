@@ -1,6 +1,20 @@
 /**
- * Data container must be a vector of char. Because datas are aplit into a sequence of
- * short blocks.
+ * Contents in each <item> tag of rss news xml represent the information about a remote news page.
+ * <item>
+ * 		<title><![CDATA[Myanmar coup: Detained Aung San Suu Kyi faces charges]]></title>
+ * 		<description><![CDATA[The elected civilian leader has not been heard from since she was detained on Monday.]]></description>
+ * 		<link>https://www.bbc.co.uk/news/world-asia-55915354</link>
+ * 		<guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-55915354</guid>
+ * 		<pubDate>Wed, 03 Feb 2021 11:57:28 GMT</pubDate>
+ * </item>
+ *
+ * We extract <title>, <link> and <description> fields, give it an id, and store in an
+ * article structure shown as below.
+ *
+ * 		[id]:1612173563370986000
+ * 		[title]: Myanmar coup: Aung San Suu Kyi detained as military seizes control
+ * 		[link]: https://www.bbc.co.uk/news/world-asia-55882489
+ * 		[description]: The army has seized power after alleging election fraud in the democratic vote held in November. 
  * 
  * Check "XML_CharacterDataHandler" in expat
  * --> https://www.ghostscript.com/doc/expat/doc/reference.html#XML_SetCharacterDataHandler
@@ -16,43 +30,75 @@
 #define _article_
 
 #include "rsstag.h"
-#include "vector.h"
-#include <stdio.h>
+#include "hashset.h"
 
 typedef struct {
-	long id;		// nanosecond scince unix epoch
-	vector title;
-	vector link;
-	vector description;
+	long id;			// nanosecond scince unix epoch
+	char *title;		// null-terminated
+	char *link;			// null-terminated
+	char *description;	// null-terminated
 } article;
 
 /* Constructor */
 void new_article(article *a);
 
 /** 
- * update one of the article field. 
- * it will delete the old one if it exists.
+ * Update article fields. 
+ * Because expat CharacterDataHandler will call this function more than 
+ * one time to concatenate a bunch of strings.
+ * Each field is NON null-terminated.
  */
-void append_article(article *a, const char *title, int size, rsstag tag);
+void update_article(article *a, const char *title, int size, rsstag tag);
 
-/* Free memory */
+/**
+ * VectorFreeFunction<article>
+ * HashSetFreeFunction<article>
+ */
 void dispose_article(void *elemAddr);
 
-/* Print article */
+/** 
+ * Have to free memory after use the returned string.
+ */
+char *article_tostring(article *a);
+
+/**
+ * VectorMapFunction<article>
+ * HashSetMapFunction<article>
+ */
 void print_article(void *elemAddr, void *auxData);
 
-/**
- * Copy each character of title field into a string buffer.
- */
-void get_title(article *a, char *buff, size_t buffsize);
+#endif // _ARTICLE_
+
+
+
+#ifndef _ARTICLES_
+#define _ARTICLES_
 
 /**
- * Copy each character of link field into a string buffer.
+ * *table is hashset<article>
  */
-void get_link(article *a, char *buff, size_t buffsize);
+typedef struct {
+	hashset *table;
+} articles; 
 
 /**
- * Copy each character of description field into a string buffer.
+ * Constructor
  */
-void get_description(article *a, char *buff, size_t buffsize);
-#endif
+void new_articles(articles *a);
+
+/**
+ * Insert new element
+ */
+void add_article(articles *as, article *a);
+
+/**
+ * Search article in article table by docid.
+ */
+article *search_article(const articles *a, const long docid);
+
+/**
+ * Free memory
+ */
+void dispose_articles(articles *a);
+
+#endif // _ARTICLES_

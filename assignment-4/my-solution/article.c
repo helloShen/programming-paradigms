@@ -1,7 +1,8 @@
 /**
- * title, link and descritption are NULL terminated.
+ * title, link and descritption are null-terminated strings.
  */
 #include "article.h"
+#include "hashset.h"
 #include "rsstag.h"
 #include <time.h>
 #include <string.h>
@@ -10,31 +11,36 @@
 #include <assert.h>
 
 /**
- * nanosecond since unix epoch, used as article id.
+ * Nanosecond since unix epoch, used as article id.
  */
+static long article_count = 0;	// prevent from generating identicle docid
 static long getnano(void) {
 	struct timespec ts;
 	timespec_get(&ts, TIME_UTC);
-	return (long)ts.tv_sec * 1000000000L + ts.tv_nsec;
+	return (long)ts.tv_sec * 1000000000L + ts.tv_nsec + ++article_count;
 }
 
-// static void test_getnano(void) {
-// 	printf("Timestamp: %ld\n", getnano());	
-// }
-
-/* Constructor */
-static const size_t kArticleFieldLength = 256;
+/** 
+ * Constructor 
+ */
 void new_article(article *a) {
 	a->id = getnano();
-	vector *v_title = (vector *)malloc(sizeof(vector));
-	vector *v_link = (vector *)malloc(sizeof(vector));
-	vector *v_description = (vector *)malloc(sizeof(vector));
-	VectorNew(v_title, sizeof(char), NULL, kArticleFieldLength);
-	VectorNew(v_link, sizeof(char), NULL, kArticleFieldLength);
-	VectorNew(v_description, sizeof(char), NULL, kArticleFieldLength);
-	a->title = *v_title;
-	a->link = *v_link;
-	a->description = *v_description;
+	a->title = (char *)malloc(1);
+	a->link = (char *)malloc(1);
+	a->description = (char *)malloc(1);
+	*a->title = '\0';
+	*a->link = '\0';
+	*a->description = '\0';
+}
+
+static void new_article_with_docid(article *a, const long docid) {
+	a->id = docid;
+	a->title = (char *)malloc(1);
+	a->link = (char *)malloc(1);
+	a->description = (char *)malloc(1);
+	*a->title = '\0';
+	*a->link = '\0';
+	*a->description = '\0';
 }
 
 /**
@@ -52,100 +58,132 @@ static int isenter(const char *data, int size) {
 }
 
 /** 
- * Append one of the article field. 
+ * Update article fields. 
  * Because expat CharacterDataHandler will call this function more than 
- * one time to concatenate a bunch of strings.
+ * one times to concatenate a bunch of strings.
  * Each field is NON null-terminated.
  */
-void append_article(article *a, const char *data, const int size, rsstag tag) {
+void update_article(article *a, const char *data, const int size, rsstag tag) {
 	if (isallspace(data, size) || isenter(data, size)) return;
-	vector *toAppend = NULL;
+	char **to_update = NULL;
 	switch (tag) {
 		case rss_title: 
-			toAppend = &a->title;
+			to_update = &a->title;
 			break;
 		case rss_link:
-			toAppend = &a->link;
+			to_update = &a->link;
 			break;
 		case rss_description:
-			toAppend = &a->description;
+			to_update = &a->description;
 			break;
 		default: break;
 	}
-	if (toAppend != NULL) {
-		for (int i = 0; i < size; i++) {
-			VectorAppend(toAppend, data + i);
-		}
+	if (to_update != NULL) {
+		int oldlen = strlen(*to_update);
+		char *temp = (char *)realloc(*to_update, oldlen + size + 1);
+		strncat(temp + oldlen, data, size);
+		strncat(temp + oldlen + size, "\0", 1);
+		*to_update = temp;
 	}
+}
+
+/**
+ * HashSetHashFunction<article>
+ */
+static int hash_article(const void *elemAddr, int numBuckets) {
+	return (int)(((article *)elemAddr)->id % numBuckets);
+}
+
+/**
+ * HashSetCompareFunction<article>
+ */
+static int comp_article(const void *elemAddr1, const void *elemAddr2) {
+	return (int)(((article *)elemAddr1)->id - ((article *)elemAddr2)->id);
 }
 
 /**
  * VectorFreeFunction<article>
- * Free memory
  */
 void dispose_article(void *elemAddr) {
 	article *a = (article *)elemAddr;
-	VectorDispose(&(a->title));
-	VectorDispose(&(a->link));
-	VectorDispose(&(a->description));
+	free(a->title);
+	free(a->link);
+	free(a->description);
+	a->title = NULL;
+	a->link = NULL;
+	a->description = NULL;
 }
 
 /**
- * VectorMapFunction<char>
+ * Have to free memory after use the returned string.
  */
-static void printchar(void *elemAddr, void *auxData) {
-	FILE *fp = (FILE *)auxData;
-	fprintf(fp, "%c", *(char *)elemAddr);
-	fflush(fp);
+char *article_tostring(article *a) {
+	char *buffer = (char *)malloc(64 + strlen(a->title) + strlen(a->link) + strlen(a->description)); 
+	char *start = buffer;
+	strcpy(start, "[id]:");
+	start += 5;
+	snprintf(start, 20, "%ld", a->id); // docid always has 19 digits
+	start += 19;
+	strcpy(start, "\n[title]:");
+	start += 9;
+	strcpy(start, a->title);
+	start += strlen(a->title);
+	strcpy(start, "\n[link]:");
+	start += 8;
+	strcpy(start, a->link);
+	start += strlen(a->link);
+	strcpy(start, "\n[description]:");
+	start += 15;
+	strcpy(start, a->description);	
+	start += strlen(a->description);
+	strcpy(start, "\n\0");	
+	return buffer;
 }
 
 /**
+ * HashSetMapFunction<article>
  * VectorMapFunction<article>
- * Print article
  */
 void print_article(void *elemAddr, void *auxData) {
-	FILE *out = (FILE *)auxData;
-	article *a = (article *)elemAddr;
-	fprintf(out, "\nArticle:[%ld]", a->id);
-	fprintf(out, "\n%s: ", "[title]");
-	VectorMap(&a->title, printchar, out);
-	fprintf(out, "\n%s: ", "[link]");
-	VectorMap(&a->link, printchar, out);
-	fprintf(out, "\n%s: ", "[description]");
-	VectorMap(&a->description, printchar, out);
+	char *str = (article_tostring((article *)elemAddr));
+	fprintf((FILE *)auxData, "%s\n", str);
+	free(str);
 }
 
 /**
- * Copy a field to the buffer char by char.
- * String in buffer is null-terminated.
+ * Constructor
  */
-static void getfield(vector *field, char *buff, size_t buffsize) {
-	int len = VectorLength(field);
-	assert(len < buffsize);
-	int i;
-	for (i = 0; i < len; i++) {
-		*(buff + i) = *(char *)VectorNth(field, i);
-	}
-	*(buff + i) = '\0';
+static const size_t kArticlesBucketNumber = 1024;
+void new_articles(articles *a) {
+	a->table = (hashset *)malloc(sizeof(hashset));
+	HashSetNew(a->table, sizeof(article), kArticlesBucketNumber, hash_article, comp_article, dispose_article);
 }
 
 /**
- * Copy each character of title field into a string buffer.
+ * Insert new element
  */
-void get_title(article *a, char *buff, size_t buffsize) {
-	getfield(&(a->title), buff, buffsize);
+void add_article(articles *as, article *a) {
+	HashSetEnter(as->table, a);
 }
 
 /**
- * Copy each character of link field into a string buffer.
+ * Search article in article table by docid.
  */
-void get_link(article *a, char *buff, size_t buffsize) {
-	getfield(&(a->link), buff, buffsize);
+article *search_article(const articles *a, const long docid) {
+	article phantom;
+	new_article_with_docid(&phantom, docid);
+	return (article *)HashSetLookup(a->table, &phantom);
+	dispose_article(&phantom);
 }
 
 /**
- * Copy each character of description field into a string buffer.
+ * Free memory
  */
-void get_description(article *a, char *buff, size_t buffsize) {
-	getfield(&(a->description), buff, buffsize);
+void dispose_articles(articles *a) {
+	HashSetDispose(a->table);
+	free(a->table);
+	a->table = NULL;
 }
+
+
+

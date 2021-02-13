@@ -1,14 +1,30 @@
 /**
  * Interface of tokenizer.c that exposed to user.
  */
-#include "vector.h"
-#include "hashset.h"
+
+
+#ifndef _FREQ_
+#define _FREQ_
+
+/**
+ * word is null-terminated string
+ * hide from user
+ */
+typedef struct {
+	char *word;
+	int frequency;
+} freq;
+
+#endif // _FREQ_
+
 
 
 #ifndef _BAG_OF_WORDS_
 #define _BAG_OF_WORDS_
 
+#include "hashset.h"
 #include <stdio.h>
+
 /**
  * hashset<freq>
  */
@@ -21,7 +37,10 @@ void new_bagofwords(bag_of_words *bag);
 void print_bagofwords(bag_of_words *bag, FILE *outfile);
 
 void dispose_bagofwords(bag_of_words *bag);
-#endif
+
+#endif // _BAG_OF_WORDS_
+
+
 
 /**
  * Return a hashset<char *>, each element is a stopword.
@@ -29,6 +48,9 @@ void dispose_bagofwords(bag_of_words *bag);
  */
 hashset *load_stopwords(void);
 
+/**
+ * Free memory
+ */
 void dispose_stopwords(hashset *stopwords);
 
 /**
@@ -38,8 +60,3 @@ void dispose_stopwords(hashset *stopwords);
  * stopwords.
  */
 void to_bagofwords(bag_of_words *bag, char *stream, hashset *stopwords);
-
-/**
- * Allow unit test to test static tokenize() function
- */
-void test_tokenize_helper(vector *words, char *stream);

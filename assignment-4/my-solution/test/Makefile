@@ -49,24 +49,33 @@ RM 		= rm -f
 # ===================== END OF FLAGS SETTINGS =======================
 
 
-ALL_O = testutils.o test_curl.o test_expat.o test_gumbo.o \
-		test_curlconn.o test_rssparser.o test_htmlparser.o test_tokenizer.o 
+ALL_O = testutils.o \
+		test_curl.o test_expat.o test_gumbo.o \
+		test_vector.o test_hashset.o test_article.o test_data.o \
+		test_curlconn.o test_rssparser.o test_htmlparser.o test_tokenizer.o test_index.o \
+		test_nothing.o
 
 CURL_O 		= testutils.o test_curl.o 
 EXPAT_O		= testutils.o test_expat.o
 GUMBO_O		= testutils.o test_gumbo.o 
 VECTOR_O	= testutils.o test_vector.o
 HASHSET_O	= testutils.o test_hashset.o
+ARTICLE_O	= testutils.o test_article.o
+DATA_O		= testutils.o test_data.o
 CURLCONN_O	= testutils.o test_curlconn.o 
 RSSPARSER_O	= testutils.o test_rssparser.o 
 HTMLPARSER_O= testutils.o test_htmlparser.o 
 TOKENIZER_O	= testutils.o test_tokenizer.o 
-# INDEXER_O		= testutils.o test_indexer.o 
+INDEX_O	= testutils.o test_index.o 
+
+NOTHING_O	= test_nothing.o
 
 
-ALL_T = testcurl testexpat testgumbo testvector testhashset \
-		testcurlconn testrssparser testhtmlparser testtokenizer \
-# 		testindexer
+
+ALL_T = testcurl testexpat testgumbo \
+		testvector testhashset testarticle testdata \
+		testcurlconn testrssparser testhtmlparser testtokenizer testindex \
+		testnothing
 
 
 .PHONY: all depend clean
@@ -93,6 +102,12 @@ testvector: depend $(VECTOR_O)
 testhashset: depend $(HASHSET_O)
 	$(CC) $(CFLAGS) -o $@ $(HASHSET_O) $(LDFLAGS)
 
+testarticle: depend $(ARTICLE_O)
+	$(CC) $(CFLAGS) -o $@ $(ARTICLE_O) $(LDFLAGS)
+
+testdata: depend $(DATA_O)
+	$(CC) $(CFLAGS) -o $@ $(DATA_O) $(LDFLAGS)
+
 testcurlconn: depend $(CURLCONN_O)
 	$(CC) $(CFLAGS) -o $@ $(CURLCONN_O) $(LDFLAGS)
 
@@ -105,8 +120,11 @@ testhtmlparser: depend $(HTMLPARSER_O)
 testtokenizer: depend $(TOKENIZER_O)
 	$(CC) $(CFLAGS) -o $@ $(TOKENIZER_O) $(LDFLAGS)
 
-# testindexer: depend $(INDEXER_O)
-# 	$(CC) $(CFLAGS) -o $@ $(INDEXER_O) $(LDFLAGS)
+testindex: depend $(INDEX_O)
+	$(CC) $(CFLAGS) -o $@ $(INDEX_O) $(LDFLAGS)
+
+testnothing: depend $(NOTHING_O)
+	$(CC) $(CFLAGS) -o $@ $(NOTHING_O) $(LDFLAGS)
 
 clean:
-	$(RM) $(ALL_O) $(ALL_T) $(DEP_FILE)
+	$(RM) *.o $(ALL_T) $(DEP_FILE)

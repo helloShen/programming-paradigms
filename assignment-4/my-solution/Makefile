@@ -82,5 +82,5 @@ depend:
 -include $(DEP_FILE)
 
 clean:
-	$(RM) $(APP_O) $(LIB_O) $(APP_T) $(LIB_T) $(DEP_FILE)
+	$(RM) *.o $(APP_T) $(LIB_T) $(DEP_FILE)
 	+$(MAKE) clean --directory=$(TEST_DIR) 
