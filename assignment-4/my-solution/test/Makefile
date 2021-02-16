@@ -53,6 +53,7 @@ ALL_O = testutils.o \
 		test_curl.o test_expat.o test_gumbo.o \
 		test_vector.o test_hashset.o test_article.o test_data.o \
 		test_curlconn.o test_rssparser.o test_htmlparser.o test_tokenizer.o test_index.o \
+		test_engine.o \
 		test_nothing.o
 
 CURL_O 		= testutils.o test_curl.o 
@@ -66,7 +67,8 @@ CURLCONN_O	= testutils.o test_curlconn.o
 RSSPARSER_O	= testutils.o test_rssparser.o 
 HTMLPARSER_O= testutils.o test_htmlparser.o 
 TOKENIZER_O	= testutils.o test_tokenizer.o 
-INDEX_O	= testutils.o test_index.o 
+INDEX_O		= testutils.o test_index.o 
+ENGINE_O	= testutils.o test_engine.o
 
 NOTHING_O	= test_nothing.o
 
@@ -75,6 +77,7 @@ NOTHING_O	= test_nothing.o
 ALL_T = testcurl testexpat testgumbo \
 		testvector testhashset testarticle testdata \
 		testcurlconn testrssparser testhtmlparser testtokenizer testindex \
+		testengine \
 		testnothing
 
 
@@ -122,6 +125,9 @@ testtokenizer: depend $(TOKENIZER_O)
 
 testindex: depend $(INDEX_O)
 	$(CC) $(CFLAGS) -o $@ $(INDEX_O) $(LDFLAGS)
+
+testengine: depend $(ENGINE_O)
+	$(CC) $(CFLAGS) -o $@ $(ENGINE_O) $(LDFLAGS)
 
 testnothing: depend $(NOTHING_O)
 	$(CC) $(CFLAGS) -o $@ $(NOTHING_O) $(LDFLAGS)

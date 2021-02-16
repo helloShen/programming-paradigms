@@ -55,8 +55,8 @@ DEP_FILE= $(DEP_DIR)/Makefile.dependencies
 
 
 UTIL_O 	= stack.o vector.o hashset.o strhash.o article.o data.o
-CORE_O	= curlconn.o rssparser.o htmlparser.o tokenizer.o
-# 		  indexer.o
+CORE_O	= curlconn.o rssparser.o htmlparser.o tokenizer.o index.o \
+		  engine.o
 LIB_O	= $(UTIL_O) $(CORE_O)
 # APP_O	= 
 

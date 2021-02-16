@@ -195,9 +195,17 @@ static void TestStringTable(void) {
     HashSetDispose(&strtable);
 }
 
+static void TestEmptyHashSet(void) {
+    hashset strtable;
+    HashSetNew(&strtable, sizeof(char *), 4, &StringHash, &CompString, &FreeString);
+    char *word = "hello";
+    assert(HashSetLookup(&strtable, &word) == NULL);
+}
+
 int main(void) {
     TestHashTable();	
     TestStringTable();
+    TestEmptyHashSet();
     return 0;
 }
 

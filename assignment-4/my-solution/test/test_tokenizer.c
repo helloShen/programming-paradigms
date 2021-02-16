@@ -27,10 +27,10 @@ static void test_str(void) {
 /**
  * typedef struct {
  *     char *word;
- *	   int frequency;
+ *	   int freq;
  * } freq;
  * 
- * static void new_freq(freq *fq, const char *word, const int frequency);
+ * static void new_freq(freq *fq, const char *word, const int freq);
  * static void freq_tostring(freq *fq, char *buffer);
  * static void dispose_freq(void *fq);
  * static int comp_freq(const void *fq1, const void *fq2);
@@ -114,7 +114,7 @@ static void test_bagofwords(void) {
 	tstart("tokenizer::bagofwords");
 	/* test new_bagofwords() */
 	bag_of_words bag;
-	new_bagofwords(&bag);
+	new_bagofwords(&bag, 1611742826915764000L);
 	assert(&bag != NULL);
 
 	/* test enter_bagofwords */
@@ -128,13 +128,13 @@ static void test_bagofwords(void) {
 	freq *apple_record = HashSetLookup(bag.freqs, &freq_apple);
 	assert(apple_record != NULL);
 	assert(strcmp(apple_record->word, "apple") == 0);
-	assert(apple_record->frequency == 2);
+	assert(apple_record->freq== 2);
 	dispose_freq(&freq_apple);
 	freq freq_green;
 	new_freq(&freq_green, "green", 2);
 	freq *green_record = HashSetLookup(bag.freqs, &freq_green);
 	assert(green_record != NULL);
-	assert(green_record->frequency == 1);
+	assert(green_record->freq== 1);
 	dispose_freq(&freq_green);
 
 	/* test	dispose_bagofwords() */
@@ -165,9 +165,6 @@ static void test_stopwords(void) {
 static void test_to_bagofwords(void) {
 	tstart("tokenizer::to_bagofwords()");
 
-	/* mock bag_of_words */
-	bag_of_words bag;
-	new_bagofwords(&bag);
 	/* mock input stream */
 	char *sentence = "apple is red. apple is green.";
 	/* mock hashset of stopwords */
@@ -177,22 +174,23 @@ static void test_to_bagofwords(void) {
 	strcpy(stopstr, "is");
 	HashSetEnter(&stopwords, &stopstr);
 	/* test with stopwords */
-	to_bagofwords(&bag, sentence, &stopwords);
+	bag_of_words *bag = to_bagofwords(1611742826915764000L, sentence, &stopwords);
 	char *wordapple = "apple";
 	char *wordis = "is";
-	freq *freqapple = (freq *)HashSetLookup(bag.freqs, &wordapple);
+	freq *freqapple = (freq *)HashSetLookup(bag->freqs, &wordapple);
 	assert(freqapple != NULL);
-	assert(freqapple->frequency == 2);
-	assert(HashSetLookup(bag.freqs, &wordis) == NULL);
+	assert(freqapple->freq== 2);
+	assert(HashSetLookup(bag->freqs, &wordis) == NULL);
+	dispose_bagofwords(bag);
+	free(bag);
 	/* test without stopwords */
-	dispose_bagofwords(&bag);
-	new_bagofwords(&bag);
-	to_bagofwords(&bag, sentence, NULL);
-	freq *freqis = (freq *)HashSetLookup(bag.freqs, &wordis);
+	bag = to_bagofwords(1611742826915764000L, sentence, NULL);
+	freq *freqis = (freq *)HashSetLookup(bag->freqs, &wordis);
 	assert(freqis != NULL);
-	assert(freqis->frequency == 2);
+	assert(freqis->freq== 2);
 	/* free resources */
-	dispose_bagofwords(&bag);
+	dispose_bagofwords(bag);
+	free(bag);
 	HashSetDispose(&stopwords);
 
 	tpass();

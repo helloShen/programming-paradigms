@@ -7,7 +7,6 @@
 #include <string.h>
 #include <assert.h>
 
-
 /**
  * Reallocate a new memory of twice of original size
  * return 1 if reallocation success, otherwise return -1.

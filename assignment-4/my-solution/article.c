@@ -33,7 +33,7 @@ void new_article(article *a) {
 	*a->description = '\0';
 }
 
-static void new_article_with_docid(article *a, const long docid) {
+void new_article_with_docid(article *a, const long docid) {
 	a->id = docid;
 	a->title = (char *)malloc(1);
 	a->link = (char *)malloc(1);
@@ -103,6 +103,7 @@ static int comp_article(const void *elemAddr1, const void *elemAddr2) {
 
 /**
  * VectorFreeFunction<article>
+ * HashSetFreeFunction<article>
  */
 void dispose_article(void *elemAddr) {
 	article *a = (article *)elemAddr;
@@ -122,7 +123,7 @@ char *article_tostring(article *a) {
 	char *start = buffer;
 	strcpy(start, "[id]:");
 	start += 5;
-	snprintf(start, 20, "%ld", a->id); // docid always has 19 digits
+	snprintf(start, 20, "%019ld", a->id); // docid always has 19 digits
 	start += 19;
 	strcpy(start, "\n[title]:");
 	start += 9;
@@ -175,6 +176,10 @@ article *search_article(const articles *a, const long docid) {
 	return (article *)HashSetLookup(a->table, &phantom);
 	dispose_article(&phantom);
 }
+
+void print_articles(articles *as, FILE * outfile) {
+	HashSetMap(as->table, print_article, outfile);
+} 
 
 /**
  * Free memory

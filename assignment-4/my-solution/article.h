@@ -31,6 +31,7 @@
 
 #include "rsstag.h"
 #include "hashset.h"
+#include <stdio.h>
 
 typedef struct {
 	long id;			// nanosecond scince unix epoch
@@ -42,6 +43,8 @@ typedef struct {
 /* Constructor */
 void new_article(article *a);
 
+void new_article_with_docid(article *a, const long docid);
+
 /** 
  * Update article fields. 
  * Because expat CharacterDataHandler will call this function more than 
@@ -50,22 +53,13 @@ void new_article(article *a);
  */
 void update_article(article *a, const char *title, int size, rsstag tag);
 
+void print_article(void *elemAddr, void *auxData);
+
 /**
  * VectorFreeFunction<article>
  * HashSetFreeFunction<article>
  */
 void dispose_article(void *elemAddr);
-
-/** 
- * Have to free memory after use the returned string.
- */
-char *article_tostring(article *a);
-
-/**
- * VectorMapFunction<article>
- * HashSetMapFunction<article>
- */
-void print_article(void *elemAddr, void *auxData);
 
 #endif // _ARTICLE_
 
