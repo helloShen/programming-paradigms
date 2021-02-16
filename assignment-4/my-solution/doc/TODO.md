@@ -191,3 +191,25 @@ tokenizer index
 
 todo:
 1. engine.c, engine.h
+
+
+##############
+# 13/02/2021 #
+##############
+[done] 1. copy data when building bag_of_words
+[done] 2. build_index() in engine
+
+todo:
+0. debug articles
+1. search() in engine
+2. curlconn.c treat 301 redirction
+
+##############
+# 15/02/2021 #
+##############
+[done] 1. debug articles
+[done] 2. engine can run!
+
+todo:
+1. curlconn.c treat 301 redirection
+2. try to write index into file, and also read it from file. No need to download article and build index everytime. Or I can optimize it with con-current programming.

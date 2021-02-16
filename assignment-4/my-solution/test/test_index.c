@@ -118,6 +118,34 @@ static void test_comp_wordindex(void) {
 }
 
 /**
+ * 
+ * void merge_wordindex(word_index *wi1, const word_index *wi2);
+ */
+static void test_merge_wordindex(void) {
+	tstart("index::merge_wordindex()");
+
+	word_index empty;
+	new_wordindex(&empty, "");
+	word_index *apple = apple_index();
+	word_index *banana = banana_index();
+	merge_wordindex(&empty, apple);
+	char *str = wordindex_tostring(&empty);
+	char *answer1 = "apple:\t[docid=1611742826915538000, freq=10][docid=1611742826915764000, freq=5]";
+	assert(strcmp(str, answer1) == 0);
+	merge_wordindex(apple, banana);
+	str = wordindex_tostring(apple);
+	char *answer2 = "apple banana:\t[docid=1611742826915538000, freq=10][docid=1611742826915764000, freq=8][docid=1611742826916710000, freq=6]";
+	assert(strcmp(str, answer2) == 0);
+	dispose_wordindex(&empty);
+	dispose_wordindex(apple);
+	dispose_wordindex(banana);
+	free(apple);
+	free(banana);
+
+	tpass();
+}
+
+/**
  * static doc_freq *search_in_wordindex(const word_index *wi, const long docid);
  */
 static void test_search_in_wordindex(void) {
@@ -132,27 +160,6 @@ static void test_search_in_wordindex(void) {
 
 	dispose_wordindex(apple);
 	free(apple);
-
-	tpass();
-}
-
-/**
- * 
- * void merge_wordindex(word_index *wi1, const word_index *wi2);
- */
-static void test_merge_wordindex(void) {
-	tstart("index::merge_wordindex()");
-
-	word_index *apple = apple_index();
-	word_index *banana = banana_index();
-	merge_wordindex(apple, banana);
-	char *str = wordindex_tostring(apple);
-	char *answer = "apple banana:\t[docid=1611742826915538000, freq=10][docid=1611742826915764000, freq=8][docid=1611742826916710000, freq=6]";
-	assert(strcmp(str, answer) == 0);
-	dispose_wordindex(apple);
-	dispose_wordindex(banana);
-	free(apple);
-	free(banana);
 
 	tpass();
 }
@@ -241,15 +248,28 @@ static void test_enter_index(void) {
  * word_index *search_index(const idx *i, const char *word);
  */
 static void test_search_in_index(void) {
-	tstart("index::search_in_index()");
+	tstart("index::search_word_in_index()");
 
 	idx i;
 	new_index(&i);
-	assert(search_in_index(&i, "apple") == NULL);
+	vector query;
+	VectorNew(&query, sizeof(char *), NULL, 4);
+	char *apple = "apple";
+	char *banana = "banana";
+	VectorAppend(&query, &apple);
+	VectorAppend(&query, &banana);
+	word_index *result = search_in_index(&i, &query);
+	assert(result != NULL);
+	assert(strcmp(result->word, "") == 0);
+	assert(HashSetCount(result->freqs) == 0);
 	enter_index(&i, 1611742826915764000, "apple", 5);
-	assert(search_in_index(&i, "apple") != NULL);
-
+	enter_index(&i, 1611742826915538000, "banana", 10);
+	result = search_in_index(&i, &query);
+	char *result_str = wordindex_tostring(result);
+	char *answer = "apple banana:\t[docid=1611742826915538000, freq=10][docid=1611742826915764000, freq=5]";
+	assert(strcmp(result_str, answer) == 0);
 	dispose_index(&i);
+	VectorDispose(&query);
 
 	tpass();
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - US & Canada]]></title>
+        <description><![CDATA[BBC News - US & Canada]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - US &amp; Canada</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 15 Feb 2021 00:56:16 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Biden calls for gun law reform on anniversary of Parkland shooting]]></title>
+            <description><![CDATA[The US president asks Congress to pass new laws, including a ban on assault weapons.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56064770</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56064770</guid>
+            <pubDate>Sun, 14 Feb 2021 21:22:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Solving Covid easy compared with climate - Bill Gates]]></title>
+            <description><![CDATA[Solving global warming would be “the most amazing thing humanity has done”, says the billionaire.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-56042029</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-56042029</guid>
+            <pubDate>Mon, 15 Feb 2021 00:07:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

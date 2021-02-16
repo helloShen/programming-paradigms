@@ -1,5 +1,6 @@
 #include "index.h"
 #include "strhash.h"
+#include "vector.h"
 #include "hashset.h"
 #include <stdlib.h>
 #include <string.h>
@@ -71,6 +72,11 @@ static void print_docfreq(void *elemAddr, void *auxData) {
 }
 
 /**
+ * HashSetFreeFunction<doc_freq>
+ */
+// dispose_docfreq() should be NULL
+
+/**
  * Constructor
  * word should be null-terminated
  */
@@ -125,9 +131,13 @@ void merge_wordindex(word_index *wi1, const word_index *wi2) {
 	size_t len1 = strlen(wi1->word);
 	size_t len2 = strlen(wi2->word);
 	char *temp = (char *)realloc(wi1->word, len1 + len2 + 2); // +1 for middle space, +1 for null-terminator
-	char space = ' ';
-	strncat(temp + len1, &space, 1);
-	strcat(temp + len1 + 1, wi2->word);
+	if (len1 > 0) {
+		char space = ' ';
+		strncat(temp + len1, &space, 1);
+		strcat(temp + len1 + 1, wi2->word);
+	} else {
+		strcat(temp + len1, wi2->word);
+	}
 	wi1->word = temp;
 	/* merge freqs */
 	HashSetMap(wi2->freqs, merge_docfreq, wi1->freqs);
@@ -221,28 +231,50 @@ void new_index(idx *i) {
 }
 
 /**
+ * enter_index() copies the word, hashset copies docid and freq, so that the 
+ * original bag_of_words can be freed after building index.
  * Update idx, replace the old doc_freq if exist.
  */
 void enter_index(idx *i, const long docid, const char *word, const int freq) {
-	word_index *phantom = (word_index *)malloc(sizeof(word_index));
-	new_wordindex(phantom, word);
-	word_index *history = (word_index *)HashSetLookup(i->index, phantom);
+	word_index phantom; // hashset will copy phantom word_index, no need to malloc new space.
+	char *cp_word = (char *)malloc(strlen(word));
+	strcpy(cp_word, word);
+	new_wordindex(&phantom, cp_word);
+	word_index *history = (word_index *)HashSetLookup(i->index, &phantom);
 	if (history != NULL) {
 		enter_wordindex(history, docid, freq);
+		dispose_wordindex(&phantom);
 	} else {
-		enter_wordindex(phantom, docid, freq);	
-		HashSetEnter(i->index, phantom);
+		enter_wordindex(&phantom, docid, freq);	
+		HashSetEnter(i->index, &phantom);
 	}
 }
 
 /**
  * Main entry for search engine to lookup a key word.
  */
-word_index *search_in_index(const idx *i, const char *word) {
+static void search_word_in_index(const idx *i, const char *word, word_index *result) {
 	word_index target;
 	new_wordindex(&target, word);
-	return (word_index *)HashSetLookup(i->index, &target);
+	word_index *local_result = (word_index *)HashSetLookup(i->index, &target);
+	if (local_result != NULL) {
+		merge_wordindex(result, local_result);
+	}
 	dispose_wordindex(&target);
+}
+
+word_index *search_in_index(const idx *i, const vector *query) {
+	word_index *result = (word_index *)malloc(sizeof(word_index));
+	new_wordindex(result, "");
+	for (int j = 0; j < query->elemNum; j++) {
+		char *word = *(char **)VectorNth(query, j);
+		search_word_in_index(i, word, result);
+	}
+	return result;
+}
+
+void print_index(const idx *i, FILE *outfile) {
+	HashSetMap(i->index, print_wordindex, outfile);
 }
 
 /**

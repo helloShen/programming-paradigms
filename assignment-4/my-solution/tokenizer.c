@@ -46,7 +46,7 @@ static void printstr(void *elemAddr, void *auxData) {
 /**
  * HashSetHashFunction<char *>
  */
-static int hashstr(const void *elemAddr, int numBuckets) {
+int hashstr(const void *elemAddr, int numBuckets) {
 	char *str = *(char **)elemAddr;
 	return string_hash(str, numBuckets); 
 }
@@ -54,7 +54,7 @@ static int hashstr(const void *elemAddr, int numBuckets) {
 /**
  * HashSetCompareFunction<char *>
  */
-static int compstr(const void *elemAddr1, const void *elemAddr2) {
+int compstr(const void *elemAddr1, const void *elemAddr2) {
 	char *str1 = *(char **)elemAddr1;
 	char *str2 = *(char **)elemAddr2;
 	return strcmp(str1, str2);
@@ -63,9 +63,10 @@ static int compstr(const void *elemAddr1, const void *elemAddr2) {
 /**
  * HashSetFreeFunction<char *>
  */
-static void freestr(void *elemAddr) {
-	char *str = *(char **)elemAddr;
-	free(str);
+void freestr(void *elemAddr) {
+	char **strp = (char **)elemAddr;
+	free(*strp);
+	*strp = NULL;
 }
 
 /**
@@ -76,7 +77,7 @@ static void freestr(void *elemAddr) {
 static char *freq_tostring(const freq *fq) {
 	size_t wordlen = strlen(fq->word);
 	char *buffer = (char *)malloc(wordlen + 16); // maximum integer length = 10 digits
-	snprintf(buffer, wordlen + 16, "[%s, %d]\n", fq->word, fq->frequency);
+	snprintf(buffer, wordlen + 16, "[%s, %d]\n", fq->word, fq->freq);
 	return buffer;
 }
 
@@ -101,17 +102,17 @@ static void freq_maptostring(void *elemAddr, void *auxData) {
 static void print_freq(void *elemAddr, void *auxData) {
 	FILE *out = (FILE *)auxData;
 	freq *fq = (freq *)elemAddr;
-	fprintf(out, "[%s, %d]\n", fq->word, fq->frequency);
+	fprintf(out, "[%s, %d]\n", fq->word, fq->freq);
 	fflush(out);
 } 
 
 /**
  * Word need to be null-terminated c string
  */ 
-static void new_freq(freq *fq, const char *word, const int frequency) {
-	fq->word = (char *)malloc((strlen(word) + 1) * sizeof(char)); // +1 for null-terminator
+static void new_freq(freq *fq, char *word, const int freq) {
+	fq->word = (char *)malloc(strlen(word) + 1);
 	strcpy(fq->word, word);
-	fq->frequency = frequency;
+	fq->freq= freq;
 }
 
 /**
@@ -161,7 +162,7 @@ static void dumpstack(stack *s, vector *v) {
  * 
  */
 static const size_t kTokenStackDefaultSize = 64;
-static void tokenize(vector *words, const char *stream) {
+void tokenize(vector *words, const char *stream) {
 	stack s;
 	new_stack(&s, kTokenStackDefaultSize, sizeof(char), NULL);
 	size_t len = strlen(stream);
@@ -211,26 +212,25 @@ static void tokenize(vector *words, const char *stream) {
 }
 
 static const size_t kTokenizerBagofwordsDefaultBuckets = 128;
-void new_bagofwords(bag_of_words *bag) {
+void new_bagofwords(bag_of_words *bag, const long docid) {
+	bag->docid = docid;
 	bag->freqs = (hashset *)malloc(sizeof(hashset));
 	HashSetNew(bag->freqs, sizeof(freq), kTokenizerBagofwordsDefaultBuckets, hash_freq, comp_freq, dispose_freq);
 }
 
-static void enter_bagofwords(bag_of_words *bag, const char *word) {
-	freq newfreq;
+void enter_bagofwords(bag_of_words *bag, char *word) {
+	freq newfreq; // new_freq() will make a copy of word field, no need to malloc new space.
 	new_freq(&newfreq, word, 1);
 	freq *history = (freq *)HashSetLookup(bag->freqs, &newfreq);
 	if (history != NULL) {
-		history->frequency++;
+		history->freq++;
+		dispose_freq(&newfreq);
 	} else {
 		HashSetEnter(bag->freqs, &newfreq);
 	}
 }
 
-/**
- * Exposed to user.
- */
-void print_bagofwords(bag_of_words *bag, FILE *outfile) {
+static void print_bagofwords(bag_of_words *bag, FILE *outfile) {
 	HashSetMap(bag->freqs, print_freq, outfile);
 }
 
@@ -257,8 +257,7 @@ static const char *kTokenizerStopwordsArray[] = {
 static const size_t kTokenizerStopwordsBucket = 256;
 hashset *load_stopwords(void) {
 	hashset *stopwords = (hashset *)malloc(sizeof(hashset));
-	// HashSetNew(stopwords, sizeof(char *), kTokenizerStopwordsBucket, hashstr, compstr, freestr);
-	HashSetNew(stopwords, sizeof(char *), kTokenizerStopwordsBucket, hashstr, compstr, NULL);
+	HashSetNew(stopwords, sizeof(char *), kTokenizerStopwordsBucket, hashstr, compstr, NULL); // freefn is NULL, because we didn't malloc space for each stopword.
 	size_t arrsize = sizeof(kTokenizerStopwordsArray)/sizeof(char *);
 	for (int i = 0; i < arrsize; i++) {
 		HashSetEnter(stopwords, kTokenizerStopwordsArray + i);
@@ -273,7 +272,7 @@ void dispose_stopwords(hashset *stopwords) {
 /**
  * Use output words vector of tokenize() function as input, count the frequency of each word.
  */
-static void count(bag_of_words *bag, vector *words, hashset *stopwords) {
+static void count(bag_of_words *bag, const vector *words, const hashset *stopwords) {
 	for (int i = 0; i < VectorLength(words); i++) {
 		char *word = *(char **)VectorNth(words, i);
 		if (stopwords != NULL && HashSetLookup(stopwords, &word) != NULL) continue;
@@ -285,12 +284,15 @@ static void count(bag_of_words *bag, vector *words, hashset *stopwords) {
  * Read the input stream, return words frequencies of that file.
  */
 static const size_t kTokenizerVectorSize = 1024;
-void to_bagofwords(bag_of_words *bag, char *buffer, hashset *stopwords) {
+bag_of_words *to_bagofwords(const long docid, const char *stream, const hashset *stopwords) {
+	bag_of_words *bag = (bag_of_words *)malloc(sizeof(bag_of_words));
+	new_bagofwords(bag, docid);
 	vector words;
 	VectorNew(&words, sizeof(char *), freestr, kTokenizerVectorSize);
-	tokenize(&words, buffer);
+	tokenize(&words, stream);
 	count(bag, &words, stopwords);
 	VectorDispose(&words);
+	return bag;
 }
 
 

@@ -97,6 +97,16 @@ static void test_comp_article(void) {
 }
 
 /**
+ * HashSetMapFunction<article>
+ * Used to print articles.
+ */
+static void map_articles(void *elemAddr, void *auxData) {
+	FILE *outfile = (FILE *)auxData;
+	article *a = (article *)elemAddr;
+	print_article(a, outfile);
+}
+
+/**
  * void new_articles(articles *a);
  * void add_articles(articles *as, article *a);
  * article *search_article(const articles *a, const long docid);
@@ -110,11 +120,18 @@ static void test_articles(void) {
 	assert(as.table != NULL);
 
 	article a;
-	new_article(&a);
+	new_article_with_docid(&a, 1L);
+	update_article(&a, "apple", 5, rss_title);
+	update_article(&a, "www.apple.com", 13, rss_link);
+	update_article(&a, "I love apple.", 13, rss_description);
 	add_article(&as, &a);
-	assert(HashSetCount(as.table) == 1);
 
-	assert(search_article(&as, a.id) != NULL);
+	assert(HashSetCount(as.table) == 1);
+	article *result = search_article(&as, a.id);
+	assert(result != NULL);
+	char *result_str = article_tostring(&a);
+	char *answer_str = "[id]:0000000000000000001\n[title]:apple\n[link]:www.apple.com\n[description]:I love apple.\n";
+	assert(strcmp(result_str, answer_str) == 0);
 
 	dispose_articles(&as);
 	assert(as.table == NULL);

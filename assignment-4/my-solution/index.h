@@ -1,4 +1,6 @@
+#include "vector.h"
 #include "hashset.h"
+#include <stdio.h>
 
 
 #ifndef _DOC_FREQ_
@@ -69,9 +71,14 @@ void new_index(idx *i);
 void enter_index(idx *i, const long docid, const char *word, const int freq);
 
 /**
- * Main entry for user to lookup a key word.
+ * Main entry for search engine.
  */
-word_index *search_in_index(const idx *i, const char *word);
+word_index *search_in_index(const idx *i, const vector *query);
+
+/**
+ * Useful for unit-test.
+ */
+void print_index(const idx *i, FILE *outfile);
 
 /**
  * Free memory
