@@ -213,3 +213,11 @@ todo:
 todo:
 1. curlconn.c treat 301 redirection
 2. try to write index into file, and also read it from file. No need to download article and build index everytime. Or I can optimize it with con-current programming.
+
+
+##############
+# 16/02/2021 #
+##############
+[done] 1. curlconn.c treat 301 redirection
+[done] 2. rss_search user interface
+[done] 3. test the whole application

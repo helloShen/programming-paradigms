@@ -237,9 +237,7 @@ void new_index(idx *i) {
  */
 void enter_index(idx *i, const long docid, const char *word, const int freq) {
 	word_index phantom; // hashset will copy phantom word_index, no need to malloc new space.
-	char *cp_word = (char *)malloc(strlen(word));
-	strcpy(cp_word, word);
-	new_wordindex(&phantom, cp_word);
+	new_wordindex(&phantom, word); // new_wordindex() will copy the word, no need to malloc new space for word.
 	word_index *history = (word_index *)HashSetLookup(i->index, &phantom);
 	if (history != NULL) {
 		enter_wordindex(history, docid, freq);

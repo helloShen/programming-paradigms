@@ -58,16 +58,17 @@ UTIL_O 	= stack.o vector.o hashset.o strhash.o article.o data.o
 CORE_O	= curlconn.o rssparser.o htmlparser.o tokenizer.o index.o \
 		  engine.o
 LIB_O	= $(UTIL_O) $(CORE_O)
-# APP_O	= 
+APP_O	= rss_search.o
+ALL_O	= $(LIB_O) $(APP_O)
 
 LIB_T	= $(LIB_DIR)/librss_search.a
-# APP_T	= 
+APP_T	= rss_search
 
 
 .PHONY:	all test genstopwords depend clean
 
-# all: genstopwords depend $(APP_O) $(LIB_O)
-# 	$(CC) $(CFLAGS) -o $(APP_T) $(APP_O) $(LIB_O) $(LDFLAGS)
+all: genstopwords depend $(ALL_O)
+	$(CC) $(CFLAGS) -o $(APP_T) $(ALL_O) $(LDFLAGS)
 
 test: genstopwords depend $(LIB_O)
 	$(AR) $(LIB_T) $(LIB_O)

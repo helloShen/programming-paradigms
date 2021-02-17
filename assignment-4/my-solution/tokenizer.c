@@ -161,7 +161,7 @@ static void dumpstack(stack *s, vector *v) {
  * 	==> 2. each token in return vector is null-terminated.
  * 
  */
-static const size_t kTokenStackDefaultSize = 64;
+static const size_t kTokenStackDefaultSize = 128;
 void tokenize(vector *words, const char *stream) {
 	stack s;
 	new_stack(&s, kTokenStackDefaultSize, sizeof(char), NULL);
@@ -211,7 +211,7 @@ void tokenize(vector *words, const char *stream) {
 	dispose_stack(&s);
 }
 
-static const size_t kTokenizerBagofwordsDefaultBuckets = 128;
+static const size_t kTokenizerBagofwordsDefaultBuckets = 512;
 void new_bagofwords(bag_of_words *bag, const long docid) {
 	bag->docid = docid;
 	bag->freqs = (hashset *)malloc(sizeof(hashset));
@@ -254,7 +254,7 @@ static const char *kTokenizerStopwordsArray[] = {
 #include "data/stopwords.data"
 };
 
-static const size_t kTokenizerStopwordsBucket = 256;
+static const size_t kTokenizerStopwordsBucket = 512;
 hashset *load_stopwords(void) {
 	hashset *stopwords = (hashset *)malloc(sizeof(hashset));
 	HashSetNew(stopwords, sizeof(char *), kTokenizerStopwordsBucket, hashstr, compstr, NULL); // freefn is NULL, because we didn't malloc space for each stopword.

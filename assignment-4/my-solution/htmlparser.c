@@ -44,7 +44,9 @@ static void gumbo_clean_text(GumboNode *node, data *buff) {
  * Both data->stream are null-terminated.
  */
 void clean_text(data *raw, data *clean) {
-	/* call CleanText() to parse content */
-	GumboOutput *output = gumbo_parse(raw->stream);
-	gumbo_clean_text(output->root, clean);
+	if (raw != NULL) {
+		/* call CleanText() to parse content */
+		GumboOutput *output = gumbo_parse(raw->stream);
+		gumbo_clean_text(output->root, clean);
+	}
 }

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  
+	>
+
+<channel>
+	<title>The Seattle Times The Seattle Times</title>
+	<atom:link href="https://www.seattletimes.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.seattletimes.com</link>
+	<description>Local news, sports, business, politics, entertainment, travel, restaurants and opinion for Seattle and the Pacific Northwest.</description>
+	<lastBuildDate>Tue, 16 Feb 2021 14:20:19 -0800</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<item>
+		<title>McIlroy to become 1st international player on PGA Tour board</title>
+		<link>https://www.seattletimes.com/sports/mcilroy-to-become-1st-international-player-on-pga-tour-board/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/mcilroy-to-become-1st-international-player-on-pga-tour-board/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 14:17:23 -0800</pubDate>
+		<dc:creator><![CDATA[DOUG FERGUSON]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/mcilroy-to-become-1st-international-player-on-pga-tour-board/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>LOS ANGELES (AP) — Rory McIlroy was on a shuttle ride back to the Liberty National clubhouse in August 2019 when he was surprised to hear during a chat about tour policies that no foreign-born player has ever served on the PGA Tour policy board. “That&#8217;s going to change,” McIlroy said with a smile. The [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Liverpool gets respite with 2-0 win over Leipzig in CL</title>
+		<link>https://www.seattletimes.com/sports/liverpool-gets-respite-with-2-0-win-over-leipzig-in-cl/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/liverpool-gets-respite-with-2-0-win-over-leipzig-in-cl/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 14:03:42 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/liverpool-gets-respite-with-2-0-win-over-leipzig-in-cl/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-0448eff1baf0fa7545676b4d3d9dd42cHungary_Soccer_Champions_League_32754-1200x630.jpg"><br/>BUDAPEST, Hungary (AP) — Mohamed Salah and Sadio Mane pounced on defensive mistakes to score Liverpool’s goals in a 2-0 win over Leipzig in the Champions League on Tuesday, giving the six-time European champions some respite amid an alarming slump in form domestically. The Champions League is the only trophy Liverpool can win this season [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Mbappé&#8217;s hat trick gives PSG 4-1 win over Barcelona in CL</title>
+		<link>https://www.seattletimes.com/sports/mbappes-hat-trick-gives-psg-4-1-win-over-barcelona-in-cl/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/mbappes-hat-trick-gives-psg-4-1-win-over-barcelona-in-cl/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:58:44 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/mbappes-hat-trick-gives-psg-4-1-win-over-barcelona-in-cl/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-03278a0e8c4ff2f69ebf49e9867a49a5Spain_Soccer_Champions_League_23625-1200x630.jpg"><br/>BARCELONA, Spain (AP) — Kylian Mbappé scored a hat trick as Paris Saint-Germain came from behind to rout Barcelona 4-1 in the first leg of the round of 16 of the Champions League on Tuesday. Lionel Messi put Barcelona in front by converting a first-half penalty but Mbappé led PSG’s comeback in the absence of [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Mexico suffers another day of rolling blackouts due to storm</title>
+		<link>https://www.seattletimes.com/business/mexico-suffers-another-day-of-rolling-blackouts-due-to-storm/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/business/mexico-suffers-another-day-of-rolling-blackouts-due-to-storm/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:56:15 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Business]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/mexico-suffers-another-day-of-rolling-blackouts-due-to-storm/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>MEXICO CITY (AP) — Mexican authorities announced Tuesday that rolling blackouts would hit 12 states covering more than one-third of the country, extending the power cuts from northern Mexico into the central part of the nation as hundreds of factories were forced to shut down. The announcement by the National Energy Control office marked the [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Steelers hire Grady Brown as secondary coach</title>
+		<link>https://www.seattletimes.com/sports/steelers-hire-grady-brown-as-secondary-coach/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/steelers-hire-grady-brown-as-secondary-coach/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:54:37 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/steelers-hire-grady-brown-as-secondary-coach/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>PITTSBURGH (AP) — The Pittsburgh Steelers have hired Grady Brown as their new secondary coach. The team made the announcement on Tuesday. Brown replaces Tom Bradley, whose contract was not renewed at the end of last season. This is the first NFL job for Brown. He takes over a veteran unit that includes cornerbacks Joe [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Black MLB players, executives strive to diversify baseball</title>
+		<link>https://www.seattletimes.com/sports/mlb/black-mlb-players-executives-strive-to-diversify-baseball/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/mlb/black-mlb-players-executives-strive-to-diversify-baseball/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:39:38 -0800</pubDate>
+		<dc:creator><![CDATA[DAVID BRANDT]]></dc:creator>
+		<category>
+			<![CDATA[ MLB, Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/black-mlb-players-executives-strive-to-diversify-baseball/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-f9c0665d94953de4a5ca907e28276da3Black_Voices_in_Baseball_28533-1200x630.jpg"><br/>Michele Meyer-Shipp doesn&#8217;t have to travel far to realize the challenge of growing the sport of baseball in the Black community. She just sits down at the dinner table. Meyer-Shipp, who is Major League Baseball&#8217;s chief people and culture officer, has three sons who love sports. They know all about some of baseball&#8217;s Black legends [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Pirates&#8217; Shelton focusing on improvement, not outside noise</title>
+		<link>https://www.seattletimes.com/sports/pirates-shelton-focusing-on-improvement-not-outside-noise/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/pirates-shelton-focusing-on-improvement-not-outside-noise/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:33:08 -0800</pubDate>
+		<dc:creator><![CDATA[WILL GRAVES]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/pirates-shelton-focusing-on-improvement-not-outside-noise/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>PITTSBURGH (AP) — Pittsburgh Pirates manager Derek Shelton has a bit of advice for his players as they prepare to report to spring training. Tune out the outside noise. All of it. Shelton is aware expectations aren&#8217;t particularly high for a club in the midst of a massive overhaul under Shelton and general manager Ben [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Florida lawyer whose pants caught fire charged with cocaine</title>
+		<link>https://www.seattletimes.com/nation-world/nation/florida-lawyer-whose-pants-caught-fire-charged-with-cocaine/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/nation-world/nation/florida-lawyer-whose-pants-caught-fire-charged-with-cocaine/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:28:42 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Nation]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/florida-lawyer-whose-pants-caught-fire-charged-with-cocaine/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>MIAMI (AP) — A former South Florida lawyer whose pants caught on fire during a 2017 arson trial has been charged with cocaine possession, authorities said. Stephen Gutierrez, 32, was pulled over on Monday night for a broken headlight, according to a Miami-Dade police report. An officer noted a bulge in Gutierrez’s pocket, which he [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>US Virgin Islands probes helicopter crash that killed 4</title>
+		<link>https://www.seattletimes.com/nation-world/nation/us-virgin-islands-probes-helicopter-crash-that-killed-4/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/nation-world/nation/us-virgin-islands-probes-helicopter-crash-that-killed-4/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:21:42 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Nation]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/us-virgin-islands-probes-helicopter-crash-that-killed-4/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>SAN JUAN, Puerto Rico (AP) — Authorities in the U.S. Virgin Islands on Tuesday investigated what caused a helicopter crash that killed at least four people. The crash occurred Monday at the western end of St. Thomas around Botany Bay, said Erik Ackerson, emergency management spokesman. He said officials were not yet releasing the names [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>How major US stock indexes fared Tuesday</title>
+		<link>https://www.seattletimes.com/business/how-major-us-stock-indexes-fared-tuesday-139/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/business/how-major-us-stock-indexes-fared-tuesday-139/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:19:19 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Business]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/how-major-us-stock-indexes-fared-tuesday-139/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>Stocks ended a tentative day of trading with mixed results as gains for energy companies and banks were offset by losses in other sectors. The S&amp;P 500 ended down less than 0.1% Tuesday, and the Nasdaq lost 0.3%. The Dow Jones Industrial Average managed to eke out another record high with a gain of 0.2%. [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Indians sign reliever Blake Parker to minor league deal</title>
+		<link>https://www.seattletimes.com/sports/indians-sign-reliever-blake-parker-to-minor-league-deal/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/indians-sign-reliever-blake-parker-to-minor-league-deal/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:18:54 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/indians-sign-reliever-blake-parker-to-minor-league-deal/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-b7144ff51c075843d8ee920e853b9fa3Indians_Parker_Baseball_56769-1200x630.jpg"><br/>CLEVELAND (AP) — The Indians could be adding another veteran arm to their bullpen after signing Blake Parker to a minor league contract on Tuesday. Parker&#8217;s deal includes an invitation to training camp in Arizona, where Cleveland will try to upgrade its relief corps to complement a solid starting staff. The 35-year-old Parker spent the [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Leaders of Iowa town jailed in long-running corruption case</title>
+		<link>https://www.seattletimes.com/nation-world/nation/leaders-of-iowa-town-jailed-in-long-running-corruption-case/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/nation-world/nation/leaders-of-iowa-town-jailed-in-long-running-corruption-case/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:15:25 -0800</pubDate>
+		<dc:creator><![CDATA[RYAN J. FOLEY]]></dc:creator>
+		<category>
+			<![CDATA[ Nation]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/leaders-of-iowa-town-jailed-in-long-running-corruption-case/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-291152ffe59174ac81852deda44d2bfaCity_Officials_Misconduct_36953-474x711.jpg"><br/>IOWA CITY, Iowa (AP) — Years of government corruption preceded the arrests of five officials from a small northwestern Iowa city, including the mayor and police chief, according to prosecutors and a state audit. The Armstrong officials embezzled tens of thousands of dollars in public funds, falsified public records to conceal wrongdoing and used city [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Rangers acquire RHP Sborz from Dodgers for minor leaguer</title>
+		<link>https://www.seattletimes.com/sports/rangers-acquire-rhp-sborz-from-dodgers-for-minor-leaguer/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/rangers-acquire-rhp-sborz-from-dodgers-for-minor-leaguer/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:13:46 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/rangers-acquire-rhp-sborz-from-dodgers-for-minor-leaguer/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>ARLINGTON, Texas (AP) — The Texas Rangers have acquired right-hander Josh Sborz from the Los Angeles Dodgers for minor league pitcher Jhan Zambrano. The trade was announced Tuesday, five days after the Dodgers designated Sborz for assignment while signing free agent ace Trevor Bauer. The Rangers designated right-hander Jimmy Herget for assignment. The 27-year-old Sborz [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Earthquake warning system to roll out to Oregon, Washington</title>
+		<link>https://www.seattletimes.com/seattle-news/earthquake-warning-system-to-roll-out-to-oregon-washington/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/seattle-news/earthquake-warning-system-to-roll-out-to-oregon-washington/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:13:15 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Local News, Northwest, Science]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/?p=13594709</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>LOS ANGELES (AP) — The earthquake early warning system known as ShakeAlert will be capable of delivering alerts directly to wireless devices in Oregon on March 11 and to Washington state in May, completing the West Coast rollout, the U.S. Geological Survey said Tuesday. The ShakeAlert system, which warns of significant quakes, has been enabled [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Palantir, CoStar Group fall; AutoNation, BorgWarner rise</title>
+		<link>https://www.seattletimes.com/business/palantir-costar-group-fall-autonation-borgwarner-rise/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/business/palantir-costar-group-fall-autonation-borgwarner-rise/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:10:22 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Business]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/palantir-costar-group-fall-autonation-borgwarner-rise/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>NEW YORK (AP) — Stocks that traded heavily or had substantial price changes Tuesday: CoStar Group Inc., down $39.39 to $900.37. The real estate data company made a competing buyout offer for CoreLogic, which has agreed to be sold to private equity groups. AutoNation Inc. up $1.04 to $79.43. Most Read Stories A winter wonderland [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Home invasion suspect dies after 82-year-old man fights back</title>
+		<link>https://www.seattletimes.com/nation-world/nation/home-invasion-suspect-dies-after-82-year-old-man-fights-back/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/nation-world/nation/home-invasion-suspect-dies-after-82-year-old-man-fights-back/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:05:49 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ Nation]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/home-invasion-suspect-dies-after-82-year-old-man-fights-back/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>JACKSON, S.C. (AP) — A man accused of attacking a South Carolina couple inside their home ended up dead after being bludgeoned to the floor by the 82-year-old husband, authorities said Tuesday. The couple told the Aiken County Sheriff&#8217;s Office that a man came to their door Monday afternoon and forced his way into the [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Swiss prosecutors appeal against verdicts in FIFA trial</title>
+		<link>https://www.seattletimes.com/sports/swiss-prosecutors-appeal-against-verdicts-in-fifa-trial/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/swiss-prosecutors-appeal-against-verdicts-in-fifa-trial/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:05:04 -0800</pubDate>
+		<dc:creator><![CDATA[GRAHAM DUNBAR]]></dc:creator>
+		<category>
+			<![CDATA[ Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/swiss-prosecutors-appeal-against-verdicts-in-fifa-trial/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2020/10/urn-publicid-ap-org-0520f8a9de8eb1f7089ba45abaa5fa74Soccer_FIFA_Investigation_99712-1200x630.jpg"><br/>GENEVA (AP) — Prosecutors in Switzerland have appealed against federal court verdicts that cleared former FIFA official Jérôme Valcke of bribery and acquitted Qatari soccer and broadcasting executive Nasser al-Khelaïfi on a lesser charge. The Swiss attorney general’s office said Tuesday it appealed to the Court of Appeal of the Federal Criminal Court against a [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Winter weather in Texas impacts pro, college sports</title>
+		<link>https://www.seattletimes.com/sports/college/winter-weather-in-texas-impacts-pro-college-sports/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/sports/college/winter-weather-in-texas-impacts-pro-college-sports/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 13:03:10 -0800</pubDate>
+		<dc:creator><![CDATA[The Associated Press]]></dc:creator>
+		<category>
+			<![CDATA[ College Sports, Hockey, NBA, Sports]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/winter-weather-in-texas-impacts-pro-college-sports/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-c4cb1ab02464e8d05843224bebc760afPredators_Stars_Hockey_56046-1200x630.jpg"><br/>DALLAS (AP) — The wintry blast causing misery across Texas has prompted the postponement of an NBA game in Dallas, a second consecutive NHL game and disrupted the college basketball schedule for a number of teams. The Dallas Mavericks and Detroit Pistons were supposed to play Wednesday night. NHL games scheduled for Monday and Tuesday [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Vegas airport name change to honor former Sen.  Harry Reid</title>
+		<link>https://www.seattletimes.com/nation-world/nation/vegas-airport-name-change-to-honor-former-sen-harry-reid/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/nation-world/nation/vegas-airport-name-change-to-honor-former-sen-harry-reid/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 12:54:34 -0800</pubDate>
+		<dc:creator><![CDATA[MICHELLE L. PRICE]]></dc:creator>
+		<category>
+			<![CDATA[ Nation]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/vegas-airport-name-change-to-honor-former-sen-harry-reid/</guid>
+		<description><![CDATA[<img src="https://static.seattletimes.com/wp-content/uploads/2021/02/urn-publicid-ap-org-41141c1b6d48c6179a5cf84d09d13b0aVegas_Airport_Harry_Reid_17985-1200x630.jpg"><br/>LAS VEGAS (AP) — A county board voted unanimously Tuesday to rename busy McCarran International Airport in Las Vegas after former U.S. Sen. Harry Reid of Nevada. The all-Democratic Clark County Commission approved a measure directing the county’s airport staff to file a change with the Federal Aviation Administration renaming the facility Harry Reid International [&hellip;]]]></description>    
+	  		</item>
+	<item>
+		<title>Governor wants to overhaul citizen arrests after Arbery case</title>
+		<link>https://www.seattletimes.com/nation-world/nation/governor-wants-to-overhaul-citizen-arrests-after-arbery-case/?utm_source=RSS&amp;utm_medium=Referral&amp;utm_campaign=RSS_all</link>
+		<comments>https://www.seattletimes.com/nation-world/nation/governor-wants-to-overhaul-citizen-arrests-after-arbery-case/#respond</comments>
+		<pubDate>Tue, 16 Feb 2021 12:54:32 -0800</pubDate>
+		<dc:creator><![CDATA[JEFF AMY]]></dc:creator>
+		<category>
+			<![CDATA[ Nation]]>
+		</category>
+		<guid isPermaLink="false">https://www.seattletimes.com/news/governor-wants-to-overhaul-citizen-arrests-after-arbery-case/</guid>
+		<description><![CDATA[<img src="https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"><br/>ATLANTA (AP) — Georgia&#8217;s governor is backing a plan to overhaul the state&#8217;s citizen&#8217;s arrest law, taking aim at a statute scrutinized last year after white men fatally shot Ahmaud Arbery, a Black man they claimed had committed a crime. Since 1863, Georgia&#8217;s written law has allowed a private citizen to make an arrest if [&hellip;]]]></description>    
+	  		</item>
+</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 347/373 objects using memcached
+
+Served from: www.seattletimes.com @ 2021-02-16 14:22:27 by W3 Total Cache
+-->

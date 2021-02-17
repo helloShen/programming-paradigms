@@ -95,7 +95,7 @@ static void test_search(const char *link, const char *query) {
 
 int main(void) {
 	char *bbcrss = "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml?edition=int";
-	// test_bag_into_index();
-	// test_build_index(bbcrss);
+	test_bag_into_index();
+	test_build_index(bbcrss);
 	test_search(bbcrss, "covid-19 virus");
 }
