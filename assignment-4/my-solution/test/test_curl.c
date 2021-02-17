@@ -61,14 +61,19 @@ static void SimpleTest(const char *link) {
 
 int main(void) {
 	/* sources */
+	char *bbc_rss_origin = "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml";
 	char *bbc_rss = "http://feeds.bbci.co.uk/news/rss.xml?edition=int";
 	char *bbc_news = "https://www.bbc.co.uk/news/world-europe-55791389";
 	char *seattle_rss = "http://seattletimes.nwsource.com/rss/home.xml";
+	char *philadelphia_rss = "http://www.philly.com/mld/philly/news/rss.xml";
 	char *nytimes_rss = "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml";
 	char *nytimes_news = "https://www.nytimes.com/2021/01/24/us/west-virginia-vaccine.html";
 
 	/* SimpleTest() */
-	SimpleTest(bbc_rss);
+	SimpleTest(bbc_rss);			// good link
+	SimpleTest(bbc_rss_origin); 	// get code 301, need to redirct.
+	SimpleTest(seattle_rss);		// get code 301, need to redirct.
+	SimpleTest(philadelphia_rss);	// get code 301, need to redirct.
 
 	/* DumpLink() to files */
 	DumpUrl(bbc_rss, "data/bbc-rss.txt");

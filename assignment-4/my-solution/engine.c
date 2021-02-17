@@ -5,6 +5,7 @@
 #include "htmlparser.h"
 #include "tokenizer.h"
 #include "index.h"
+#include <stdlib.h>
 #include <assert.h>
 
 /**
@@ -35,21 +36,20 @@ static void bag_into_index(idx *i, const bag_of_words *bag) {
 static const size_t kEngineArticleVectorSize = 256;
 void build_index(idx *i, articles *as, const char *link) {
 	/* download rss.xml by url */
-	data buffer;
-	new_data(&buffer);
-	dump_url(link, &buffer);
+	data *buffer = dump_url_with_redirect(link);
 
 	/* rssparser parse articles from rss.xml */
 	vector vas;
 	VectorNew(&vas, sizeof(article), dispose_article, kEngineArticleVectorSize);
-	parserss(&vas, &buffer);
-	dispose_data(&buffer);
+	parserss(&vas, buffer);
+	dispose_data(buffer);
+	free(buffer);
 
 	/* load stopwords */
 	hashset *stopwords = load_stopwords();
 
 	article *a;
-	data article_buffer;
+	data *article_buffer;
 	data clean_buffer;
 	/* for each article */
 	for (int j = 0; j < VectorLength(&vas); j++) {
@@ -58,22 +58,24 @@ void build_index(idx *i, articles *as, const char *link) {
 		add_article(as, a);
 
 		/* download article raw text by url */
-		new_data(&article_buffer);
-		new_data(&clean_buffer);
-		dump_url(a->link, &article_buffer);
+		article_buffer = dump_url_with_redirect(a->link);
 
-		/* htmlparser extract clean text from .html web page. */
-		clean_text(&article_buffer, &clean_buffer);
+		if (article_buffer != NULL) {
+			/* htmlparser extract clean text from .html web page. */
+			new_data(&clean_buffer);
+			clean_text(article_buffer, &clean_buffer);
 
-		/* tokenizer cut clean text into vector of words */
-		bag_of_words *bag = to_bagofwords(a->id, clean_buffer.stream, stopwords);
+			/* tokenizer cut clean text into vector of words */
+			bag_of_words *bag = to_bagofwords(a->id, clean_buffer.stream, stopwords);
 
-		/* update index by bag_of_words */
-		bag_into_index(i, bag);
+			/* update index by bag_of_words */
+			bag_into_index(i, bag);
 
-		dispose_bagofwords(bag); // I have copy everything in bag_of_words into index. So I can dispose it.
-		dispose_data(&article_buffer);
-		dispose_data(&clean_buffer);
+			dispose_bagofwords(bag); // I have copy everything in bag_of_words into index. So I can dispose it.
+			dispose_data(article_buffer);
+			free(article_buffer);
+			dispose_data(&clean_buffer);
+		}
 	}
 
 	dispose_stopwords(stopwords);

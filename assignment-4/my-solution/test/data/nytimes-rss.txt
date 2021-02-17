@@ -7,863 +7,752 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2021 The New York Times Company</copyright>
-    <lastBuildDate>Fri, 12 Feb 2021 16:26:54 +0000</lastBuildDate>
-    <pubDate>Fri, 12 Feb 2021 16:26:54 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2021 17:14:16 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2021 17:14:16 +0000</pubDate>
     <image>
       <title>NYT &gt; Top Stories</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com</link>
     </image>
     <item>
-      <title>Trump’s Defense in Impeachment Trial to Focus on First Amendment</title>
-      <link>https://www.nytimes.com/live/2021/02/12/us/impeachment-trial/</link>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2021/02/12/us/impeachment-trial/</guid>
-      <atom:link href="https://www.nytimes.com/live/2021/02/12/us/impeachment-trial/" rel="standout"></atom:link>
-      <description>Former President Trump’s lawyers are expected to argue that he did not encourage violence at the Capitol and that his speech ahead of the riot was protected by the First Amendment. His defense may use only four hours of 16 available for oral arguments, one of his lawyers said, making a verdict on Saturday possible.</description>
+      <title>Millions of Americans Without Power From Sprawling Winter Storm</title>
+      <link>https://www.nytimes.com/live/2021/02/16/us/winter-storm-weather-live/</link>
+      <guid isPermaLink="true">https://www.nytimes.com/live/2021/02/16/us/winter-storm-weather-live/</guid>
+      <atom:link href="https://www.nytimes.com/live/2021/02/16/us/winter-storm-weather-live/" rel="standout"></atom:link>
+      <description>Millions were left without electricity after frigid temperatures gripped parts of the U.S. that are unaccustomed to slick roads and a deep freeze. Texas received one of its largest snowfalls on record.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 15:28:50 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 17:07:32 +0000</pubDate>
     </item>
     <item>
-      <title>House Managers Rest Their Case Against Trump, but Most Republicans Are Not Swayed</title>
-      <link>https://www.nytimes.com/2021/02/11/us/politics/trump-impeachment-trial.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/politics/trump-impeachment-trial.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/politics/trump-impeachment-trial.html" rel="standout"></atom:link>
-      <description>Their warning that the ex-president remains a danger to democracy and could foment still more violence if not barred from running for office again does not convince his fellow Republicans.</description>
-      <dc:creator>Peter Baker and Nicholas Fandos</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 02:09:52 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/politics/11dc-impeach1/11dc-impeach1-moth.jpg" width="151"></media:content>
-      <media:credit>Erin Schaff/The New York Times</media:credit>
-      <media:description>Representative Jamie Raskin, the lead House impeachment manager, on Thursday before the start of the third day of former President Donald J. Trump’s Senate trial.</media:description>
+      <title>A Glimpse of the Future in Texas: Climate Change Means Trouble for Power Grids</title>
+      <link>https://www.nytimes.com/2021/02/16/climate/texas-power-grid-failures.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/climate/texas-power-grid-failures.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/climate/texas-power-grid-failures.html" rel="standout"></atom:link>
+      <description>Systems are designed to handle spikes in demand, but the wild and unpredictable weather linked to global warming will very likely push grids beyond their limits.</description>
+      <pubDate>Tue, 16 Feb 2021 16:44:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Texas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Snow and Snowstorms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Power Failures and Blackouts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Heating</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alternative and Renewable Energy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/climate/16CLI-GRID1/16CLI-GRID1-moth.jpg" width="151"></media:content>
+      <media:credit>Tamir Kalifa for The New York Times</media:credit>
+      <media:description>A street in Austin, Texas, without power on Monday evening.</media:description>
     </item>
     <item>
-      <title>What to Watch For in the Impeachment Trial on Friday</title>
-      <link>https://www.nytimes.com/2021/02/12/us/politics/time-impeachment-trial.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/us/politics/time-impeachment-trial.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/us/politics/time-impeachment-trial.html" rel="standout"></atom:link>
-      <description>Lawyers representing former President Donald J. Trump will state their case on Friday. A final vote could follow as early as Saturday.</description>
-      <dc:creator>Zach Montague</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:08 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Raskin, Jamie (1962- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Twenty-Fifth Amendment (US Constitution)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/multimedia/12dc-whatto-watch/12dc-whatto-watch-moth.jpg" width="151"></media:content>
-      <media:credit>Anna Moneymaker for The New York Times</media:credit>
-      <media:description>David Schoen, a lawyer for former President Donald Trump, has indicated that the defense team could use as little as three hours to make its case.</media:description>
-    </item>
-    <item>
-      <title>Oath Keepers Plotting Before Capitol Riot Awaited ‘Direction’ From Trump, Prosecutors Say</title>
-      <link>https://www.nytimes.com/2021/02/11/us/politics/oath-keepers-trump-investigation.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/politics/oath-keepers-trump-investigation.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/politics/oath-keepers-trump-investigation.html" rel="standout"></atom:link>
-      <description>The suspects discussed conveying “heavy weapons” into Washington and began to train for “urban warfare” even before Election Day, court papers said.</description>
-      <dc:creator>Alan Feuer</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 01:22:08 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fringe Groups and Movements</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Justice Department</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Oath Keepers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Proud Boys</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Three Percenters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Caldwell, Thomas Edward</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Crowl, Donovan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Watkins, Jessica Marie</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/politics/11dc-investigate/11dc-investigate-moth-v2.jpg" width="151"></media:content>
-      <media:credit>Jim Bourg/Reuters</media:credit>
-      <media:description>Jessica M. Watkins, second from left, and Donovan Crowl, center, during the mob attack on the Capitol on Jan. 6. “If Trump asks me to come, I will,” Ms. Watkins said in a text message.</media:description>
-    </item>
-    <item>
-      <title>Videos Turn Eugene Goodman Into a Reluctant Hero in the Capitol Attack</title>
-      <link>https://www.nytimes.com/2021/02/11/us/politics/eugene-goodman-capitol-riot.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/politics/eugene-goodman-capitol-riot.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/politics/eugene-goodman-capitol-riot.html" rel="standout"></atom:link>
-      <description>The Capitol Police officer, who served in the Sunni triangle during one of the most dangerous periods of the Iraq War, is credited with saving the lives of members of Congress on Jan. 6.</description>
-      <dc:creator>Zolan Kanno-Youngs and Eric Schmitt</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 01:32:51 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Goodman, Eugene (1980- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Capitol Police</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Romney, Mitt</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/politics/11dc-goodman1/11dc-goodman1-moth-v2.jpg" width="151"></media:content>
-      <media:credit>Brandon Bell for The New York Times</media:credit>
-      <media:description>The Capitol Police officer Eugene Goodman watching new footage of the Jan. 6 attack.</media:description>
-    </item>
-    <item>
-      <title>Officers’ Injuries, Including Concussions, Show Scope of Violence at Capitol Riot</title>
-      <link>https://www.nytimes.com/2021/02/11/us/politics/capitol-riot-police-officer-injuries.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/politics/capitol-riot-police-officer-injuries.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/politics/capitol-riot-police-officer-injuries.html" rel="standout"></atom:link>
-      <description>The impeachment trial of former President Donald J. Trump has heightened attention on the rioters’ attacks on officers, some of which resulted in serious damage.</description>
-      <dc:creator>Michael S. Schmidt and Luke Broadwater</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 01:27:52 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Attacks on Police</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Capitol Police</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Metropolitan Police Department (DC)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sicknick, Brian D (1978-2021)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/politics/11dc-officers/11dc-officers-moth-v4.jpg" width="151"></media:content>
-      <media:credit>Kenny Holston for The New York Times</media:credit>
-      <media:description>A Metropolitan Police officer, right, was covered in blood and chemical spray during the mob attack on the Capitol on Jan. 6.</media:description>
-    </item>
-    <item>
-      <title>New Allegations of Cover-Up by Cuomo Over Nursing Home Virus Toll</title>
-      <link>https://www.nytimes.com/2021/02/12/nyregion/new-york-nursing-homes-cuomo.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/nyregion/new-york-nursing-homes-cuomo.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/nyregion/new-york-nursing-homes-cuomo.html" rel="standout"></atom:link>
-      <description>In a leaked conversation, the governor’s top aide admitted that data was withheld on nursing homes, where more than 10,000 New Yorkers have died during the pandemic.</description>
-      <dc:creator>Jesse McKinley and Luis Ferré-Sadurní</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 15:02:30 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nursing Homes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Health Department (NYS)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/nyregion/12nyvirus-nursinghomes2/12nyvirus-nursinghomes2-moth.jpg" width="151"></media:content>
-      <media:credit>Jacquelyn Martin/Associated Press</media:credit>
-      <media:description>The governor’s top aide, Melissa DeRosa, is at the center of the latest controversy over the state’s handling of coronavirus related nursing home deaths. </media:description>
-    </item>
-    <item>
-      <title>U.S. Pharmacies to Play Bigger Role in Vaccinations</title>
-      <link>https://www.nytimes.com/live/2021/02/12/world/covid-19-coronavirus/</link>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2021/02/12/world/covid-19-coronavirus/</guid>
-      <atom:link href="https://www.nytimes.com/live/2021/02/12/world/covid-19-coronavirus/" rel="standout"></atom:link>
-      <description>A federal program will send doses to drugstores and grocery store pharmacies across the country. Here are the latest pandemic updates.</description>
-      <dc:creator>The New York Times</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 14:49:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>With More Vaccines Secured, Biden Warns of Hurdles to Come</title>
-      <link>https://www.nytimes.com/2021/02/11/us/politics/biden-coronavirus-vaccines.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/politics/biden-coronavirus-vaccines.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/politics/biden-coronavirus-vaccines.html" rel="standout"></atom:link>
-      <description>The Biden administration has secured more coronavirus vaccines, but the president struck a cautious tone about logistical issues that could keep some Americans from being vaccinated.</description>
-      <dc:creator>Katie Rogers, Noah Weiland and Sharon LaFraniere</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 14:14:40 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Centers for Disease Control and Prevention</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Institutes of Health</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/world/11virus-briefing-vaccine-doses/11virus-briefing-vaccine-doses-moth.jpg" width="151"></media:content>
-      <media:credit>Pool photo by Oliver Contreras</media:credit>
-      <media:description>President Biden touring a lab at the National Institutes of Health on Thursday.</media:description>
-    </item>
-    <item>
-      <title>Trump Was Sicker Than Acknowledged With Covid-19</title>
-      <link>https://www.nytimes.com/2021/02/11/us/politics/trump-coronavirus.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/politics/trump-coronavirus.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/politics/trump-coronavirus.html" rel="standout"></atom:link>
-      <description>When he was hospitalized with the coronavirus in October, his blood oxygen levels had plunged and officials feared he was on the verge of being placed on a ventilator.</description>
-      <dc:creator>Noah Weiland, Maggie Haberman, Mark Mazzetti and Annie Karni</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:44:18 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">White House Coronavirus Outbreak (2020)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dexamethasone (Drug)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antibodies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Regeneron Pharmaceuticals Inc</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Conley, Sean Patrick</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Food and Drug Administration</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/politics/11dc-trump-health1/11dc-trump-health1-moth-v2.jpg" width="151"></media:content>
-      <media:credit>Doug Mills/The New York Times</media:credit>
-      <media:description>President Donald J. Trump arriving at Walter Reed National Military Medical Center in October after testing positive for the coronavirus.</media:description>
-    </item>
-    <item>
-      <title>What Sun Dawu&#39;s Prosecution Says About China</title>
-      <link>https://www.nytimes.com/2021/02/12/business/china-sun-dawu.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/business/china-sun-dawu.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/business/china-sun-dawu.html" rel="standout"></atom:link>
-      <description>A rural businessman, Sun Dawu, angered Beijing twice. His fate the second time around could augur the future of the world’s other superpower.</description>
-      <dc:creator>Li Yuan</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:20 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sun Dawu</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Dawu Agricultural and Animal Husbandry Group</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Agriculture and Farming</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Communist Party of China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hubei Province (China)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/08/business/08Newworld-illo/06Newworld-illo-moth.jpg" width="151"></media:content>
-      <media:credit>Dion MBD</media:credit>
-    </item>
-    <item>
-      <title>The Californians Are Coming. So Is Their Housing Crisis.</title>
-      <link>https://www.nytimes.com/2021/02/12/business/economy/california-housing-crisis.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/business/economy/california-housing-crisis.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/business/economy/california-housing-crisis.html" rel="standout"></atom:link>
-      <description>Is it possible to import growth without also importing housing problems? “I can’t point to a city that has done it right.”</description>
-      <dc:creator>Conor Dougherty</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 15:11:07 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Boise (Idaho)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Idaho</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Affordable Housing</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/14/business/00Housing-01/00Housing-01-moth.jpg" width="151"></media:content>
-      <media:credit>Ruth Fremson/The New York Times</media:credit>
-      <media:description>Construction of homes in Eagle, Idaho, in 2018. The Boise area has become one of the fastest-growing areas in the country.</media:description>
-    </item>
-    <item>
-      <title>Britain’s Economic Collapse Last Year Was Worst Since 1709</title>
-      <link>https://www.nytimes.com/live/2021/02/12/business/stock-market-today/</link>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2021/02/12/business/stock-market-today/</guid>
-      <atom:link href="https://www.nytimes.com/live/2021/02/12/business/stock-market-today/" rel="standout"></atom:link>
-      <description>The British economy had its deepest recession in 300 years in 2020, contracting by 9.9 percent, estimates showed. Read the latest business updates.</description>
-      <dc:creator>The New York Times</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 14:49:37 +0000</pubDate>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/business/12economy-briefing-ukgdp/12economy0-briefing-ukgdp-moth.jpg" width="151"></media:content>
-      <media:credit>Mary Turner for The New York Times</media:credit>
-      <media:description>Newcastle, in northern England, in December. Britain’s services sector, which has been shut down for much of the past year because of lockdowns, declined by 8.9 percent.</media:description>
-    </item>
-    <item>
-      <title>The 9 Ingredients of a Great Love Story</title>
-      <link>https://www.nytimes.com/2021/02/11/books/love-potion-no-9-or-the-nine-ingredients-of-a-great-love-story.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/books/love-potion-no-9-or-the-nine-ingredients-of-a-great-love-story.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/books/love-potion-no-9-or-the-nine-ingredients-of-a-great-love-story.html" rel="standout"></atom:link>
-      <description>What can we learn about romance from 125 years of New York Times book reviews?</description>
-      <dc:creator>Dan Saltzstein</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 13:05:05 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Love (Emotion)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dating and Relationships</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/books/review/11Saltzstein-VALENTINES01/11Saltzstein-VALENTINES01-moth.jpg" width="151"></media:content>
-      <media:credit>Joanna Neborsky</media:credit>
-    </item>
-    <item>
-      <title>Covid Absolutism</title>
-      <link>https://www.nytimes.com/2021/02/12/briefing/trump-covid-chick-corea-olympics-president.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/briefing/trump-covid-chick-corea-olympics-president.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/briefing/trump-covid-chick-corea-olympics-president.html" rel="standout"></atom:link>
-      <description>And what else you need to know today.</description>
-      <dc:creator>David Leonhardt</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 11:04:21 +0000</pubDate>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/us/12ambriefing-promo/merlin_183210741_3d147358-fccd-4683-90fa-fefb34ef5320-moth.jpg" width="151"></media:content>
-      <media:credit>Pete Kiehart for The New York Times</media:credit>
-      <media:description>A woman uses a kit to swab herself for the coronavirus in Durham, N.C.</media:description>
-    </item>
-    <item>
-      <title>Indoor Dining Resumes in N.Y.C.</title>
-      <link>https://www.nytimes.com/2021/02/12/nyregion/indoor-dining-nyc.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/nyregion/indoor-dining-nyc.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/nyregion/indoor-dining-nyc.html" rel="standout"></atom:link>
-      <description>In the coming weeks, New Yorkers will also be able to return to sports arenas and attend larger weddings across the state.</description>
-      <dc:creator>Juliana Kim</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:43:29 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus Reopenings</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lunar New Year</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Barclays Center (Brooklyn, NY)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">de Blasio, Bill</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stadiums and Arenas</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/nyregion/12nytoday/merlin_181144197_9d17c9a3-3400-4bd1-a125-7c2dbda1ae61-moth.jpg" width="151"></media:content>
-      <media:credit>Sarah Blesener for The New York Times</media:credit>
-    </item>
-    <item>
-      <title>France, Islam and ‘Laïcité’</title>
-      <link>https://www.nytimes.com/2021/02/12/podcasts/the-daily/france-secularism-laicite-samuel-paty.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/podcasts/the-daily/france-secularism-laicite-samuel-paty.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/podcasts/the-daily/france-secularism-laicite-samuel-paty.html" rel="standout"></atom:link>
-      <description>After the beheading of a teacher in a Paris suburb, the debate over the relationship between government and religion is raging again.</description>
-      <pubDate>Fri, 12 Feb 2021 11:00:07 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Religion-State Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Paty, Samuel (1973-2020)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/world/12daily-1/12daily-1-moth.jpg" width="151"></media:content>
-      <media:credit>Francois Mori/Associated Press</media:credit>
-      <media:description>A memorial event for the schoolteacher Samuel Paty in Paris in October. His killing was seen as an attack on the very foundation of French citizenship.</media:description>
-    </item>
-    <item>
-      <title>Fran Lebowitz Isn’t Buying What Jack Dorsey Is Selling</title>
-      <link>https://www.nytimes.com/2021/02/11/opinion/sway-kara-swisher-fran-lebowitz.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/opinion/sway-kara-swisher-fran-lebowitz.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/opinion/sway-kara-swisher-fran-lebowitz.html" rel="standout"></atom:link>
-      <description>The 70-year old social commentator and humorist doesn’t have a smartphone. That doesn’t stop her from having a take on big tech (and everything else).</description>
-      <dc:creator>Kara Swisher</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 10:00:06 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lebowitz, Fran</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Mayors</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Twitter</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dorsey, Jack</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Pretend It&#39;s a City (TV Program)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Scorsese, Martin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yang, Andrew (1975- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Adams, Eric L</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stringer, Scott M</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wiley, Maya</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/opinion/11sway-lebowitz-image/sway-lebowitz-image-moth.jpg" width="151"></media:content>
-      <media:credit>Illustration by The New York Times; photograph by Jamie McCarthy/Getty Images for Film at Lincoln Center</media:credit>
-      <media:description>Caption</media:description>
-    </item>
-    <item>
-      <title>DealBook D.C. Policy Project</title>
-      <link>https://www.nytdealbookconference.com/dealbookdc2020/827493?ref=briefingbar</link>
-      <guid isPermaLink="true">https://www.nytdealbookconference.com/dealbookdc2020/827493?ref=briefingbar</guid>
-      <atom:link href="https://www.nytdealbookconference.com/dealbookdc2020/827493?ref=briefingbar" rel="standout"></atom:link>
-      <description>Now, the real work begins. Join us Feb. 22-23.</description>
-      <dc:creator>The New York Times</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 11:06:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Tense Lunar New Year for the Bay Area After Attacks on Asian-Americans</title>
-      <link>https://www.nytimes.com/2021/02/12/us/asian-american-racism.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/us/asian-american-racism.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/us/asian-american-racism.html" rel="standout"></atom:link>
-      <description>The attacks have renewed fears over a wave of anti-Asian violence and harassment that was spurred earlier in the pandemic.</description>
-      <dc:creator>Jill Cowan</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 15:23:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Asian-Americans</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/us/12california-today/12california-today-moth.jpg" width="151"></media:content>
-      <media:credit>Jane Tyska/East Bay Times, via Getty Images</media:credit>
-      <media:description>Attacks in San Francisco and Oakland reinvigorated simmering outrage over a wave of anti-Asian violence and harassment that occurred early in the pandemic.</media:description>
-    </item>
-    <item>
-      <title>Impeachment Offers Republicans Grace. They Don’t Want It.</title>
-      <link>https://www.nytimes.com/2021/02/11/opinion/trump-impeachment-trial-republicans.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/opinion/trump-impeachment-trial-republicans.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/opinion/trump-impeachment-trial-republicans.html" rel="standout"></atom:link>
-      <description>House managers are treating Trump’s enablers as his victims.</description>
-      <dc:creator>Michelle Goldberg</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 00:54:27 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McConnell, Mitch</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hawley, Josh D (1979- )</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/opinion/11goldberg-lead/11goldberg-lead-moth.jpg" width="151"></media:content>
-      <media:credit>Samuel Corum for The New York Times</media:credit>
-      <media:description>Mitch McConnell is reported to have welcomed Donald Trump’s impeachment, but then voted that it was unconstitutional.</media:description>
-    </item>
-    <item>
-      <title>Is This the End of Obsessively Hating Donald Trump?</title>
-      <link>https://www.nytimes.com/2021/02/12/opinion/trump-impeachment-media.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/opinion/trump-impeachment-media.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/opinion/trump-impeachment-media.html" rel="standout"></atom:link>
-      <description>Loathing him has been a passion, an addiction, a compulsion. Let impeachment be the last hurrah.</description>
-      <dc:creator>Keith Olbermann</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 11:42:17 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Watergate Affair</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">CNN</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">MSNBC</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New Jersey Generals</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Bill</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">All in the Family (TV Program)</category>
-    </item>
-    <item>
-      <title>Stacey Abrams and Lauren Groh-Wargo: How to Turn Your Red State Blue</title>
-      <link>https://www.nytimes.com/2021/02/11/opinion/stacey-abrams-georgia-election.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/opinion/stacey-abrams-georgia-election.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/opinion/stacey-abrams-georgia-election.html" rel="standout"></atom:link>
-      <description>It may take 10 years. Do it anyway.</description>
-      <dc:creator>Stacey Abrams and Lauren Groh-Wargo</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 02:15:46 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Georgia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <title>Adam Kinzinger’s Lonely Mission</title>
+      <link>https://www.nytimes.com/2021/02/15/us/politics/adam-kinzinger-republicans-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/us/politics/adam-kinzinger-republicans-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/us/politics/adam-kinzinger-republicans-trump.html" rel="standout"></atom:link>
+      <description>Censured by his party and shunned by family members, Mr. Kinzinger, a six-term Illinois congressman, is pressing Republicans to leave Donald Trump behind — and risking his career doing so.</description>
+      <dc:creator>Reid J. Epstein</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 22:05:30 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Campaign Finance</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">State Legislatures</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Redistricting and Reapportionment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voter Registration and Requirements</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conservatism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, House of Representatives</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kinzinger, Adam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/13/us/00KINZINGER-3-promo/00KINZINGER-3-promo-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Taylor Glascock for The New York Times</media:credit>
+      <media:description>“For the last four and a half years, the only spokesman for the Republican Party has been Donald Trump,” said Representative Adam Kinzinger of Illinois. “It’s time to present an alternative narrative and fight for the soul of the party.”</media:description>
     </item>
     <item>
-      <title>The Senate Is Making a Mockery of Itself</title>
-      <link>https://www.nytimes.com/2021/02/12/opinion/ezra-klein-podcast-adam-jentleson.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/opinion/ezra-klein-podcast-adam-jentleson.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/opinion/ezra-klein-podcast-adam-jentleson.html" rel="standout"></atom:link>
-      <description>A former Senate staffer explains how the institution became a legislative black hole — and how to fix it.</description>
-      <dc:creator>Ezra Klein</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 16:09:40 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Filibusters and Debate Curbs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <title>Police Forces Have Long Tried to Weed Out Extremists in the Ranks. Then Came the Capitol Riot.</title>
+      <link>https://www.nytimes.com/2021/02/16/us/police-extremists-capitol-riot.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/us/police-extremists-capitol-riot.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/us/police-extremists-capitol-riot.html" rel="standout"></atom:link>
+      <description>At least 30 law enforcement officers from around the country took part in the rally on Jan. 6 that preceded the riot. Many are now being investigated.</description>
+      <dc:creator>Neil MacFarquhar</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Attacks on Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">West, Chris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fringe Groups and Movements</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/01/19/us/politics/00police-extremists/19transition-briefing-oathkeeper-arrest-moth.jpg" width="151"></media:content>
+      <media:credit>Jason Andrew for The New York Times</media:credit>
+      <media:description>Protestors storming the Senate side of the Capitol on Jan. 6 after a rally at which President Donald J. Trump spoke.</media:description>
+    </item>
+    <item>
+      <title>As Fox News Struggles at Home, Murdoch Brings Its Playbook to the U.K.</title>
+      <link>https://www.nytimes.com/2021/02/16/world/europe/murdoch-uk-news-channel.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/world/europe/murdoch-uk-news-channel.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/world/europe/murdoch-uk-news-channel.html" rel="standout"></atom:link>
+      <description>His venture and another upstart by a rival group of investors will challenge the BBC and Britain’s efforts to guard against political bias in television news.</description>
+      <dc:creator>Mark Landler</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 14:48:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">GB News</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">News UK TV</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Murdoch, Rupert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">British Broadcasting Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Fox News Channel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/13/world/00UK-MEDIA1/00UK-MEDIA1-moth.jpg" width="151"></media:content>
+      <media:credit>Celeste Sloman for The New York Times</media:credit>
+      <media:description>The Fox News headquarters in New York.</media:description>
+    </item>
+    <item>
+      <title>South Africa to Share Unused Vaccine After Weak Results Against Variant</title>
+      <link>https://www.nytimes.com/live/2021/02/16/world/covid-19-coronavirus/</link>
+      <guid isPermaLink="true">https://www.nytimes.com/live/2021/02/16/world/covid-19-coronavirus/</guid>
+      <atom:link href="https://www.nytimes.com/live/2021/02/16/world/covid-19-coronavirus/" rel="standout"></atom:link>
+      <description>AstraZeneca doses will be distributed to nations that “do not have this particular challenge of this variant,” an official said. Here’s the latest on Covid-19.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 17:07:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Covid-Linked Syndrome in Children Is Growing and Cases Are More Severe</title>
+      <link>https://www.nytimes.com/2021/02/16/health/covid-children-inflammatory-syndrome.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/health/covid-children-inflammatory-syndrome.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/health/covid-children-inflammatory-syndrome.html" rel="standout"></atom:link>
+      <description>The condition, which usually emerges several weeks after infection, is still rare, but can be dangerous. “A higher percentage of them are really critically ill,” one doctor said.</description>
+      <dc:creator>Pam Belluck</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 08:00:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pediatric Inflammatory Multisystem Syndrome (PIMS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Disease Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="">multisystem inflammatory syndrome in children (MIS-C)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/science/11VIRUS-KIDS2-promo/11VIRUS-KIDS2-promo-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Rosem Morton for The New York Times</media:credit>
+      <media:description>Mayson Barillas, 11, was hospitalized for eight days at Children’s National Hospital, where his doctors said he exhibited cardiogenic shock.</media:description>
+    </item>
+    <item>
+      <title>My Teens Are Coronavirus Vaccine Guinea Pigs</title>
+      <link>https://www.nytimes.com/2021/02/16/parenting/teen-coronavirus-vaccine-trial.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/parenting/teen-coronavirus-vaccine-trial.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/parenting/teen-coronavirus-vaccine-trial.html" rel="standout"></atom:link>
+      <description>A health journalist is getting a front-row seat to one of the most-anticipated pediatric trials in history.</description>
+      <dc:creator>Sheila Mulrooney Eldred</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 15:48:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Clinical Trials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Placebos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parenting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Moderna Inc</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/well/16well-teen-vaccine/16well-teen-vaccine-moth.jpg" width="151"></media:content>
+      <media:credit>Tim Gruber for The New York Times</media:credit>
+      <media:description>The author’s children, Wes and Zoe, are volunteering for the ongoing Moderna vaccine trial.</media:description>
+    </item>
+    <item>
+      <title>Turkish Forces in Syria Protect 5 Million People</title>
+      <link>https://www.nytimes.com/2021/02/16/world/middleeast/syria-turkey-erdogan-afrin.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/world/middleeast/syria-turkey-erdogan-afrin.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/world/middleeast/syria-turkey-erdogan-afrin.html" rel="standout"></atom:link>
+      <description>Three years ago, Turkey was widely criticized when it sent forces into Syria. But today, the Syrians they protect are glad the Turks are there, despite their hardship.</description>
+      <dc:creator>Carlotta Gall</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 14:24:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War and Armed Conflicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kurds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Free Syrian Army</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Akar, Hulusi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erdogan, Recep Tayyip</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McConnell, Mitch</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Kill Switch: The Rise of the Modern Senate and the Crippling of American Democracy (Book)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jentleson, Adam</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/opinion/12ekshow-jentleson-image/12ekshow-jentleson-image-moth.png" width="151"></media:content>
-      <media:credit>Illustration by The New York Times; photograph by Tom Williams/CQ Roll Call, via Getty Images</media:credit>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afrin (Syria)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Idlib (Syria)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/world/00Turkey-Afrin/00Turkey-Afrin-moth.jpg" width="151"></media:content>
+      <media:credit>Ivor Prickett for The New York Times</media:credit>
+      <media:description>Refugees, who were displaced during a Syrian regime offensive in nearby Idlib last year, live in a sprawling tent camp on a hill above the city of Afrin.</media:description>
     </item>
     <item>
-      <title>When Did You Realize Covid Would Change Everything?</title>
-      <link>https://www.nytimes.com/2021/02/12/opinion/covid-march-2020.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/opinion/covid-march-2020.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/opinion/covid-march-2020.html" rel="standout"></atom:link>
-      <description>We want to hear your stories about March 2020.</description>
-      <dc:creator>New York Times Opinion</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:14 +0000</pubDate>
+      <title>A Black Soldier’s Heroism, Overlooked in 1965, May Finally Be Lauded in 2021</title>
+      <link>https://www.nytimes.com/2021/02/15/us/paris-davis-medal-of-honor.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/us/paris-davis-medal-of-honor.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/us/paris-davis-medal-of-honor.html" rel="standout"></atom:link>
+      <description>Comrades repeatedly told the Army that Capt. Paris Davis, one of the first Black officers in the Special Forces, deserved the Medal of Honor. The Army kept losing the paperwork.</description>
+      <dc:creator>Dave Philipps</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 22:25:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Davis, Paris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medal of Honor (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Army</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Army Special Forces (Green Berets)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Veterans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vietnam War</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/00medalofhonor-promo/00medalofhonor-promo-moth.jpg" width="151"></media:content>
+      <media:credit>Michael A. McCoy for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>With Indoor Rinks Closed, Players Turn to ‘Speakeasy Hockey’</title>
+      <link>https://www.nytimes.com/2021/02/15/sports/hockey/rinks-pandemic-restrictions.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/sports/hockey/rinks-pandemic-restrictions.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/sports/hockey/rinks-pandemic-restrictions.html" rel="standout"></atom:link>
+      <description>In barns and backyards, outdoor rinks built with kits or from scratch are filling a void for hockey players amid pandemic-related closures.</description>
+      <dc:creator>Kevin Armstrong</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 18:17:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hockey, Ice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wisconsin</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/sports/15hockey-odrs/15hockey-odrs-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Cindy Schultz for The New York Times</media:credit>
+      <media:description>A Friday hockey game at Christian Klueg’s backyard ice rink in Northville, N.Y.</media:description>
+    </item>
+    <item>
+      <title>Stuck at Home, Pastry Chefs Find Freedom. New Yorkers Find Cookies.</title>
+      <link>https://www.nytimes.com/2021/02/16/dining/pastry-chefs-small-business.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/dining/pastry-chefs-small-business.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/dining/pastry-chefs-small-business.html" rel="standout"></atom:link>
+      <description>At dozens of microbakeries in apartment kitchens, laid-off chefs are flexing their creativity to meet the city’s demand for cheer and calories.</description>
+      <dc:creator>Pete Wells</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 16:27:09 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantine (Life and Culture)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/opinion/12opreader1/12opreader1-moth.jpg" width="151"></media:content>
-      <media:credit>John Minchillo/Associated Press</media:credit>
-    </item>
-    <item>
-      <title>Many Jobless Workers Aren’t Getting Help</title>
-      <link>https://www.nytimes.com/2021/02/11/opinion/unemployment-insurance-biden.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/opinion/unemployment-insurance-biden.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/opinion/unemployment-insurance-biden.html" rel="standout"></atom:link>
-      <description>The unemployment insurance system needs a major overhaul.</description>
-      <dc:creator>The Editorial Board</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 00:52:53 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment Insurance</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/opinion/11unemployment/11unemployment-moth.jpg" width="151"></media:content>
-      <media:credit>Joe Raedle/Getty Images</media:credit>
-    </item>
-    <item>
-      <title>Missing Haircuts and More This Lunar New Year</title>
-      <link>https://www.nytimes.com/2021/02/12/opinion/lunar-new-year-2021.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/opinion/lunar-new-year-2021.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/opinion/lunar-new-year-2021.html" rel="standout"></atom:link>
-      <description>The pandemic has changed so many of the practices that began as a way to relieve the darkness of winter.</description>
-      <dc:creator>Vanessa Hua</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:14 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lunar New Year</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">New Year</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hair</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chinese-Americans</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco Bay Area (Calif)</category>
-    </item>
-    <item>
-      <title>The Coming Technology Boom</title>
-      <link>https://www.nytimes.com/2021/02/11/opinion/science-technology.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/opinion/science-technology.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/opinion/science-technology.html" rel="standout"></atom:link>
-      <description>Politics is grim but science is working.</description>
-      <dc:creator>David Brooks</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 00:43:04 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Geothermal Power</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Earth</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Productivity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">RNA (Ribonucleic Acid)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alternative and Renewable Energy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/opinion/11brooks-alternate/11brooks-alternate-moth.jpg" width="151"></media:content>
-      <media:credit>Stuart Franklin/Magnum Photos</media:credit>
-    </item>
-    <item>
-      <title>Biden Is the Big Spender America Wants</title>
-      <link>https://www.nytimes.com/2021/02/11/opinion/biden-economic-plan.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/opinion/biden-economic-plan.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/opinion/biden-economic-plan.html" rel="standout"></atom:link>
-      <description>His economic plans are overwhelmingly popular.</description>
-      <dc:creator>Paul Krugman</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 23:00:07 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
-      <category domain="">American Rescue Plan</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/opinion/11krugman-lead-second/11krugman-lead-second-moth.jpg" width="151"></media:content>
-      <media:credit>Damon Winter/The New York Times</media:credit>
-    </item>
-    <item>
-      <title>Covid Puts the Lie to Los Angeles Exceptionalism</title>
-      <link>https://www.nytimes.com/2021/02/12/opinion/covid-los-angeles-lockdown.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/opinion/covid-los-angeles-lockdown.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/opinion/covid-los-angeles-lockdown.html" rel="standout"></atom:link>
-      <description>We thought this would be like a Hollywood movie. We were wrong.</description>
-      <dc:creator>Erin Aubry Kaplan</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 15:06:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantine (Life and Culture)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Los Angeles (Calif)</category>
-    </item>
-    <item>
-      <title>My Veteran Problem</title>
-      <link>https://www.nytimes.com/2021/02/12/opinion/veterans-Capitol-Cherry-film.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/opinion/veterans-Capitol-Cherry-film.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/opinion/veterans-Capitol-Cherry-film.html" rel="standout"></atom:link>
-      <description>I have an instinct to protect the image of American service members. But veterans alone should not control the conversation.</description>
-      <dc:creator>Elliot Ackerman</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 13:53:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Veterans</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polls and Public Opinion</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vietnam War</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/opinion/12Ackerman/12Ackerman-moth.jpg" width="151"></media:content>
-      <media:credit>Apple TV+</media:credit>
-      <media:description>Tom Holland in “Cherry.”</media:description>
-    </item>
-    <item>
-      <title>Hidden for a Century, a Susan B. Anthony Portrait Is Found</title>
-      <link>https://www.nytimes.com/2021/02/12/nyregion/susan-b-anthony-geneva-portraits.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/nyregion/susan-b-anthony-geneva-portraits.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/nyregion/susan-b-anthony-geneva-portraits.html" rel="standout"></atom:link>
-      <description>Last year, David Whitcomb bought a building for $100,000 in Geneva, N.Y. He discovered a trove of photographs tucked away in the attic.</description>
-      <dc:creator>Maria Cramer</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 12:33:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bakeries and Baked Products</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Desserts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chefs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Joy Cho Pastry (Brooklyn, NY, Retailer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Kemi Dessert Bar (Queens, NY, Retailer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Boy Blue Coffee &amp; Goods Store (Manhattan, NY, Retailer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Wrightwood &amp; Sawyer (Brooklyn, NY, Retailer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Seabird Bakery (Brooklyn, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/17/dining/17pastrychefs18/16pastrychefs18-moth.jpg" width="151"></media:content>
+      <media:credit>Stephanie Mei-Ling for The New York Times</media:credit>
+      <media:description>Marissa Sanders and David Yang hope to turn their business, Wrightwood &amp;amp; Sawyer, into a retail shop.</media:description>
+    </item>
+    <item>
+      <title>Two Men, Two Decades, No Evidence</title>
+      <link>https://www.nytimes.com/2021/02/16/briefing/winter-storm-adam-kinzinger-pelosi-congress.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/briefing/winter-storm-adam-kinzinger-pelosi-congress.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/briefing/winter-storm-adam-kinzinger-pelosi-congress.html" rel="standout"></atom:link>
+      <description>And what else you need to know today.</description>
+      <dc:creator>David Leonhardt</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 11:24:45 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/multimedia/16snow-add2-promo/merlin_183790989_ebe40f17-cc10-4055-8af9-0929756d1164-moth.jpg" width="151"></media:content>
+      <media:credit>Tamir Kalifa for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>The Heated Debate in the Birding Community</title>
+      <link>https://www.nytimes.com/2021/02/16/nyregion/birding-central-park.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/nyregion/birding-central-park.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/nyregion/birding-central-park.html" rel="standout"></atom:link>
+      <description>As the Manhattan Bird Alert account on Twitter  gained traction, so did  opposition. Critics said the crowds it encouraged could be harmful.</description>
+      <dc:creator>Juliana Kim</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:11:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Birdwatching</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Birds</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Anthony, Susan B</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Seneca Falls (NY)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women&#39;s Rights</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Historic Buildings and Sites</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Finger Lakes Region (NY)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Treasure Troves</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">David Whitcomb</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">James Ellery Hale</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/10/multimedia/12xp-portraits-03/12xp-portraits-03-moth-v2.jpg" width="151"></media:content>
-      <media:credit>David Whitcomb</media:credit>
-      <media:description>David Whitcomb with some of the items he found in a building he bought last year. The photographs and equipment appeared to belong to James Ellery Hale, a successful portrait photographer.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hale, James Ellery (Photographer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Whitcomb, David (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Geneva (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antiques</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/nyregion/16nytoday/16nytoday-moth.jpg" width="151"></media:content>
+      <media:credit>Dave Sanders for The New York Times</media:credit>
     </item>
     <item>
-      <title>Modern Love: Please Go Shelter in Another Place</title>
-      <link>https://www.nytimes.com/2021/02/12/style/modern-love-please-go-shelter-in-another-place.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/style/modern-love-please-go-shelter-in-another-place.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/style/modern-love-please-go-shelter-in-another-place.html" rel="standout"></atom:link>
-      <description>During lockdown, a 25-year marriage shakes and resettles.</description>
-      <dc:creator>Michelle White</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 05:00:07 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Love (Emotion)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantine (Life and Culture)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dating and Relationships</category>
+      <title>Stacey Plaskett on the Second Trump Impeachment </title>
+      <link>https://www.nytimes.com/2021/02/16/podcasts/the-daily/stacey-plaskett-impeachment-donald-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/podcasts/the-daily/stacey-plaskett-impeachment-donald-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/podcasts/the-daily/stacey-plaskett-impeachment-donald-trump.html" rel="standout"></atom:link>
+      <description>We look at the former president’s trial through the eyes of Stacey Plaskett, a Democratic congresswoman who sought his conviction.</description>
+      <pubDate>Tue, 16 Feb 2021 11:00:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Virgin Islands (US)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/world/16daily-1/16daily-1-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+      <media:description>Because she represents a U.S. territory, Delegate Stacey Plaskett of the Virgin Islands cannot cast votes on the House floor.</media:description>
     </item>
     <item>
-      <title>Myanmar May Target Free Speech in Bid to Stop Anti-Coup Protests</title>
-      <link>https://www.nytimes.com/2021/02/12/world/asia/myanmar-military-protest.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/world/asia/myanmar-military-protest.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/world/asia/myanmar-military-protest.html" rel="standout"></atom:link>
-      <description>Civil society groups say a proposed measure to limit online expression and privacy rights could lead to mass arrests of those who criticize the military government.</description>
-      <dc:creator>Richard C. Paddock</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 13:53:02 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coups D&#39;Etat and Attempted Coups D&#39;Etat</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National League for Democracy (Myanmar)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Telenor Communications SA</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Min Aung Hlaing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Aung San Suu Kyi</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yangon (Myanmar)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mandalay (Myanmar)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Naypyidaw (Myanmar)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/world/12myanmar-1/12myanmar-1-moth.jpg" width="151"></media:content>
-      <media:credit>The New York Times</media:credit>
-      <media:description>Doctors and medical students gathered at the Chinese embassy in Yangon, Myanmar, to call on China to withhold support for Myanmar’s military government.</media:description>
+      <title>Innovation, Not Trees. How Bill Gates Plans to Save the Planet.</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/sway-kara-swisher-bill-gates.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/sway-kara-swisher-bill-gates.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/sway-kara-swisher-bill-gates.html" rel="standout"></atom:link>
+      <description>He has billions to donate for crises from coronavirus to climate change, and more hope now that Trump is out of office.</description>
+      <dc:creator>Kara Swisher</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 10:00:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gates, Bill</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Musk, Elon</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/opinion/15sway-gates-image/15sway-gates-image-moth.jpg" width="151"></media:content>
+      <media:credit>Illustration by The New York Times; photograph by Yuri Gripas/Reuters</media:credit>
     </item>
     <item>
-      <title>Maryland Nears Country’s First Tax on Big Tech’s Ad Revenue</title>
-      <link>https://www.nytimes.com/2021/02/12/technology/maryland-digital-ads-tax.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/technology/maryland-digital-ads-tax.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/technology/maryland-digital-ads-tax.html" rel="standout"></atom:link>
-      <description>Analysts estimate that the tax would generate up to $250 million for schools in the state in the first year. It would also probably face fierce legal challenges.</description>
-      <dc:creator>David McCabe</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:16 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Taxation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corporate Taxes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vetoes (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Maryland</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hogan, Lawrence J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">State Legislatures</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/business/00HFO-bigtechtax/00HFO-bigtechtax-moth.jpg" width="151"></media:content>
-      <media:credit>Andrew Mangum for The New York Times</media:credit>
-      <media:description>Bill Ferguson, president of the Maryland Senate, is the primary champion of a bill that would tax tech giants.</media:description>
+      <title>Visit ‘At Home’</title>
+      <link>https://www.nytimes.com/spotlight/at-home</link>
+      <guid isPermaLink="true">https://www.nytimes.com/spotlight/at-home</guid>
+      <atom:link href="https://www.nytimes.com/spotlight/at-home" rel="standout"></atom:link>
+      <description>Get our best ideas for leading a full and cultured life every day.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 11:34:41 +0000</pubDate>
     </item>
     <item>
-      <title>Janet Irvin Arrested in Case of Teen Found Dead in a Field</title>
-      <link>https://www.nytimes.com/2021/02/11/us/janet-irvin-quawan-bobby-charles.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/janet-irvin-quawan-bobby-charles.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/janet-irvin-quawan-bobby-charles.html" rel="standout"></atom:link>
-      <description>Janet Irvin, 37, was charged with failure to report a missing child in the disappearance of Quawan Charles, 15. The case has raised questions about the urgency of the police response.</description>
-      <dc:creator>Christine Hauser</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 20:39:01 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Abuse and Neglect</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Autopsies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Charles, Quawan (d 2020)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Irvin, Janet</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Louisiana</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/us/11xp-Louisiana/11xp-Louisiana-moth.jpg" width="151"></media:content>
-      <media:credit>Hannah Mckay/Reuters</media:credit>
-      <media:description>A portrait of Quawan Charles during a Black Lives Matter vigil in Richmond, Va., last November.</media:description>
-    </item>
-    <item>
-      <title>National Book Foundation Names Ruth Dickey as Executive Director</title>
-      <link>https://www.nytimes.com/2021/02/11/books/national-book-foundation-ruth-dickey.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/books/national-book-foundation-ruth-dickey.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/books/national-book-foundation-ruth-dickey.html" rel="standout"></atom:link>
-      <description>Ruth Dickey, the executive director of Seattle Arts &amp; Lectures, is succeeding Lisa Lucas, who left the organization to become the publisher of Pantheon and Schocken.</description>
-      <dc:creator>Alexandra Alter</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 10:00:19 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Poetry and Poets</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nonprofit Organizations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">National Book Awards</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Book Foundation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lucas, Lisa</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Seattle (Wash)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/books/11NATIONALBOOK/11NATIONALBOOK-moth.jpg" width="151"></media:content>
-      <media:credit>via Ruth E. Dickey</media:credit>
-      <media:description>&amp;ldquo;As a queer kid growing up in a small town, books brought me the world,&amp;rdquo; Ruth Dickey said.</media:description>
-    </item>
-    <item>
-      <title>Tessica Brown&#39;s Hair is Finally Free of Gorilla Glue</title>
-      <link>https://www.nytimes.com/2021/02/12/style/tessica-brown-gorilla-glue.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/style/tessica-brown-gorilla-glue.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/style/tessica-brown-gorilla-glue.html" rel="standout"></atom:link>
-      <description>No one could figure out how to help Tessica Brown until a Los Angeles plastic surgeon stepped in. If she could go back, she said, she would just have worn a hat.</description>
-      <dc:creator>Marie Fazio</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 16:10:09 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tessica Brown</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Adhesives</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hair</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Instagram Inc</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">TikTok (ByteDance)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">St Bernard Parish (La)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Michael Obeng</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/07/multimedia/11xp-gorillaglue/07xp-gorillaglue-moth.jpg" width="151"></media:content>
-      <media:description>“It went from scary to terrifying to pretty much being tortured,” Ms. Brown, 40, said in an interview on Thursday.</media:description>
-    </item>
-    <item>
-      <title>Chick Corea, Jazz Keyboardist and Innovator, Dies at 79</title>
-      <link>https://www.nytimes.com/2021/02/11/arts/music/chick-corea-dead.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/arts/music/chick-corea-dead.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/arts/music/chick-corea-dead.html" rel="standout"></atom:link>
-      <description>When jazz and rock fused in the 1970s, he was at the forefront of the movement. But he never abandoned his love of the acoustic piano.</description>
-      <dc:creator>Giovanni Russonello</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 05:35:06 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Corea, Chick</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Return to Forever (Music Group)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Davis, Miles</category>
-    </item>
-    <item>
-      <title>Evangelist Ravi Zacharias Accused of Sexual Abuse</title>
-      <link>https://www.nytimes.com/2021/02/11/us/ravi-zacharias-sexual-abuse.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/us/ravi-zacharias-sexual-abuse.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/us/ravi-zacharias-sexual-abuse.html" rel="standout"></atom:link>
-      <description>An investigation found credible evidence of sexual misconduct spanning many years. Several massage therapists made accusations against Mr. Zacharias, who died last spring.</description>
-      <dc:creator>Ruth Graham</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 23:13:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zacharias, Ravi (1946-2020)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Christians and Christianity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Evangelical Movement</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sexual Harassment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sexting</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ravi Zacharias International Ministries Inc</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/03/10/us/10zacharias/10zacharias-moth.jpg" width="151"></media:content>
-      <media:credit>Jeff Morehead/The Chronicle-Tribune, via Associated Press</media:credit>
-      <media:description>Ravi Zacharias’s ministry appealed to donors who saw him as able to reach atheists and intellectuals in elite spaces.</media:description>
-    </item>
-    <item>
-      <title>New Footage Emerges of Police Pepper-Spraying of Distraught 9-Year-Old</title>
-      <link>https://www.nytimes.com/2021/02/11/nyregion/rochester-police-pepper-spray.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/nyregion/rochester-police-pepper-spray.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/nyregion/rochester-police-pepper-spray.html" rel="standout"></atom:link>
-      <description>“Please don’t do this to me,” the child said to an officer in Rochester, N.Y. “You did it to yourself, hon,” the officer replied.</description>
-      <dc:creator>Ed Shanahan</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 16:22:44 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Police Department (Rochester, NY)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Prude, Daniel (d 2020)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Warren, Lovely A</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rochester (NY)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/multimedia/11rochester-2--back-of-car/merlin_183596466_2cc6c92d-70cb-496a-b516-5f0dffc03c68-moth.jpg" width="151"></media:content>
-      <media:credit>Rochester Police Department, via Associated Press</media:credit>
-      <media:description>Body-camera footage showed a 9-year-old girl handcuffed by the Rochester police after they had used pepper spray on her.</media:description>
-    </item>
-    <item>
-      <title>Helen Etuk, Who Planned to Be a Pediatrician, Dies at 20</title>
-      <link>https://www.nytimes.com/2021/02/10/obituaries/helen-etuk-dead-coronavirus.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/10/obituaries/helen-etuk-dead-coronavirus.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/10/obituaries/helen-etuk-dead-coronavirus.html" rel="standout"></atom:link>
-      <description>Ms. Etuk was attending classes at the University of North Texas when she caught the coronavirus, her mother said. She died of complications of the virus.</description>
-      <dc:creator>Katharine Q. Seelye</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 11:16:38 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <title>Who’s Eligible for the Vaccine in California Right Now?</title>
+      <link>https://www.nytimes.com/2021/02/16/us/ca-vaccine-eligibility.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/us/ca-vaccine-eligibility.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/us/ca-vaccine-eligibility.html" rel="standout"></atom:link>
+      <description>Tuesday: The latest on the state’s efforts to vaccinate millions of people. Also: An update on the Newsom recall effort; and self-care for men.</description>
+      <dc:creator>Jill Cowan</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 13:41:54 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Etuk, Helen (2000-21)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">University of North Texas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Arlington (Tex)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/us/16vaccinecatoday/merlin_182911803_00891859-b4df-48b1-b79a-07c4369e495b-moth.jpg" width="151"></media:content>
+      <media:credit>Ariana Drehsler for The New York Times</media:credit>
+      <media:description>A vaccination super site operated by Sharp HealthCare in San Diego last month.</media:description>
     </item>
     <item>
-      <title>5 Things to Do This Weekend</title>
-      <link>https://www.nytimes.com/2021/02/11/arts/things-to-do-weekend-coronavirus.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/arts/things-to-do-weekend-coronavirus.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/arts/things-to-do-weekend-coronavirus.html" rel="standout"></atom:link>
-      <description>Our critics and writers have selected noteworthy cultural events to experience virtually.</description>
-      <pubDate>Thu, 11 Feb 2021 19:04:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantine (Life and Culture)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lunar New Year</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dancing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Comedy and Humor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Museums</category>
+      <title>The Plot to Help America’s Children</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/child-tax-credit.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/child-tax-credit.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/child-tax-credit.html" rel="standout"></atom:link>
+      <description>And what we can learn from right-wing opposition.</description>
+      <dc:creator>Paul Krugman</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 00:00:06 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Baryshnikov Arts Center</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Metropolitan Museum of Art</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Victoria and Albert Museum</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moore, Lane</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Satpathy, Bijayini</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vigil, Rebecca (Actor)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kaufman, Evan (Actor)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McFarlane, Bonnie</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Your Love, Our Musical (Play)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/arts/11wkd-arts-roundup-classical/11wkd-arts-roundup-classical-moth.jpg" width="151"></media:content>
-      <media:credit>Dmitrij Matvejev</media:credit>
-      <media:description>Joana Daunyt, a harpist for the Lithuanian National Symphony Orchestra, and the composer Zibuokle Martinaityte during the recording of the album “Saudade,” which was recently released on Ondine.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Poverty</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Welfare (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Taxes (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/opinion/15krugmanSub-print/merlin_173720076_6503e70e-446e-4535-b2d8-e1dc81edecb0-moth.jpg" width="151"></media:content>
+      <media:credit>Desiree Rios for The New York Times</media:credit>
     </item>
     <item>
-      <title>Remote Learning Isn’t Just for Kids</title>
-      <link>https://www.nytimes.com/2021/02/09/education/online-learning-older-adults.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/09/education/online-learning-older-adults.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/09/education/online-learning-older-adults.html" rel="standout"></atom:link>
-      <description>New online tools and an array of remote classes and programs are ramping up education and training for adults.</description>
-      <dc:creator>Kerry Hannon</dc:creator>
-      <pubDate>Tue, 09 Feb 2021 10:00:11 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Adult Education</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elderly</category>
+      <title>DNA and Race: What Ancestry and 23andMe Reveal</title>
+      <link>https://www.nytimes.com/2021/02/16/opinion/23andme-ancestry-race.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/opinion/23andme-ancestry-race.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/opinion/23andme-ancestry-race.html" rel="standout"></atom:link>
+      <description>Our country has struggled to reckon with the horrors of the past. Could DNA tests help?</description>
+      <dc:creator>Libby Copeland</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">DNA (Deoxyribonucleic Acid)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genealogy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Slavery (Historical)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">23andMe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ancestry.com</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/opinion/16Copeland/16Copeland-moth.jpg" width="151"></media:content>
+      <media:credit>FangXiaNuo/E+, via Getty Images</media:credit>
+    </item>
+    <item>
+      <title>Inflation Isn’t Lurking Around the Corner. This Isn’t the 1970s.</title>
+      <link>https://www.nytimes.com/2021/02/16/opinion/democrats-biden-inflation.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/opinion/democrats-biden-inflation.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/opinion/democrats-biden-inflation.html" rel="standout"></atom:link>
+      <description>Democrats need to shelve the memory of stagflation.</description>
+      <dc:creator>Binyamin Appelbaum</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stimulus (Economic)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Keynes, John Maynard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Summers, Lawrence H</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blanchard, Olivier J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/opinion/15appelbaum/15appelbaum-moth.jpg" width="151"></media:content>
+      <media:credit>Stephen Speranza for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>What We Learned From Mubarak</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/arab-spring-mubarak.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/arab-spring-mubarak.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/arab-spring-mubarak.html" rel="standout"></atom:link>
+      <description>Regimes that muzzle their people’s voices eventually push people into venting their frustrations from muzzles of a different sort.</description>
+      <dc:creator>Bret Stephens</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 00:14:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Middle East and North Africa Unrest (2010- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Qaddafi, Muammar el-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khamenei, Ali</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mubarak, Hosni</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lebanon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Libya</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/opinion/15stephens1/15stephens1-moth.jpg" width="151"></media:content>
+      <media:credit>Tomas Munita for The New York Times</media:credit>
+      <media:description>A mural in Cairo in 2012 depicted President Hosni Mubarak of Egypt and former ministers after he was deposed in the Arab Spring.</media:description>
+    </item>
+    <item>
+      <title>What Racism Costs All Americans</title>
+      <link>https://www.nytimes.com/2021/02/16/opinion/ezra-klein-podcast-heather-mcghee.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/opinion/ezra-klein-podcast-heather-mcghee.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/opinion/ezra-klein-podcast-heather-mcghee.html" rel="standout"></atom:link>
+      <description>Heather McGhee and Ezra Klein discuss the terrible price of drained-pool politics.</description>
+      <dc:creator>Ezra Klein</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McGhee, Heather C (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Demos: A Network for Ideas &amp; Action</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/opinion/16ekshow-mcghee-image/16ekshow-mcghee-image-moth.png" width="151"></media:content>
+      <media:credit>Illustration by The New York Times; photograph by Mike Pont/WireImage, via Getty Images</media:credit>
+    </item>
+    <item>
+      <title>I Actually Like Teaching on Zoom</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/zoom-video-school-teaching.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/zoom-video-school-teaching.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/zoom-video-school-teaching.html" rel="standout"></atom:link>
+      <description>There may be less human warmth. But there can be more human connection.</description>
+      <dc:creator>Viet Thanh Nguyen</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 20:00:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Videophones and Videoconferencing</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Learning</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantine (Life and Culture)</category>
+    </item>
+    <item>
+      <title>Ancient Rome Has an Urgent Warning for Us</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/ancient-rome-covid.html" rel="standout"></atom:link>
+      <description>The era of the Antonine Plague offers a reminder of what a powerful force nature has been throughout human history.</description>
+      <dc:creator>Kyle Harper</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 10:00:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Epidemics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Plague</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smallpox</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Roman Civilization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/opinion/15harper/15harper-moth.jpg" width="151"></media:content>
+      <media:credit>llustration by Vanessa Saba; Photographs by Fajrul Islam and clu, via Getty Images</media:credit>
+    </item>
+    <item>
+      <title>Impeachment’s Over. Bring On the Criminal Investigations.</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/mcconnell-impeachment-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/mcconnell-impeachment-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/mcconnell-impeachment-trump.html" rel="standout"></atom:link>
+      <description>After Mitch McConnell’s cynical speech, Republicans can’t complain.</description>
+      <dc:creator>Michelle Goldberg</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 21:31:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Raskin, Jamie (1962- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McConnell, Mitch</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/opinion/15goldbergNew/15goldbergNew-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>The New Debt Prisons</title>
+      <link>https://www.nytimes.com/2021/02/16/opinion/politics/debt-america.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/opinion/politics/debt-america.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/opinion/politics/debt-america.html" rel="standout"></atom:link>
+      <description>Entrapping debtors betrays the American idea. It must end.</description>
+      <dc:creator>Gene B. Sperling</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fines (Penalties)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debt Collection</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Criminal Justice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ex-Convicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Probation and Parole</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Budgets and Budgeting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Credit and Debt</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/opinion/16sperling/16sperling-moth.jpg" width="151"></media:content>
+      <media:credit>The Heads of State</media:credit>
+    </item>
+    <item>
+      <title>Mitch McConnell Is So Over Trump That He Voted to Absolve Him</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/mitch-mcconnell-trump-impeachment.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/mitch-mcconnell-trump-impeachment.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/mitch-mcconnell-trump-impeachment.html" rel="standout"></atom:link>
+      <description>On the impeachment front, it was an exciting — if sometimes perplexing — weekend.</description>
+      <dc:creator>Gail Collins and Bret Stephens</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 10:00:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conservatism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">de Blasio, Bill</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haley, Nikki R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yang, Andrew (1975- )</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/opinion/15conversation/merlin_183684216_95f5303a-c9e6-46dc-95a8-2c6c5e90abac-moth.jpg" width="151"></media:content>
+      <media:credit>Alexander Drago/Reuters</media:credit>
+    </item>
+    <item>
+      <title>Lessons From Virtual Kindergarten</title>
+      <link>https://www.nytimes.com/2021/02/15/opinion/kindergarten-remote-learning-covid.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/opinion/kindergarten-remote-learning-covid.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/opinion/kindergarten-remote-learning-covid.html" rel="standout"></atom:link>
+      <description>The characteristics of a rhombus. The limits of parental authority. Gratitude.</description>
+      <dc:creator>David Sax</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 10:00:12 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/09/multimedia/09sp-currents-educate/09sp-currents-educate-moth.gif" width="151"></media:content>
-      <media:credit>James Yang </media:credit>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/opinion/11sax/11sax-moth.jpg" width="151"></media:content>
+      <media:credit>Roman Muradov</media:credit>
     </item>
     <item>
-      <title>Kristen Wiig and Annie Mumolo on ‘Barb and Star Go to Vista Del Mar’</title>
-      <link>https://www.nytimes.com/2021/02/10/movies/kristen-wiig-annie-mumolo-barb-and-star.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/10/movies/kristen-wiig-annie-mumolo-barb-and-star.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/10/movies/kristen-wiig-annie-mumolo-barb-and-star.html" rel="standout"></atom:link>
-      <description>The friends, confidants and collaborators explain why it took more than a decade between films and why Jamie Dornan is their dream co-star.</description>
-      <dc:creator>Dave Itzkoff</dc:creator>
-      <pubDate>Wed, 10 Feb 2021 22:48:33 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dornan, Jamie</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mumolo, Annie</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wiig, Kristen</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Bridesmaids (Movie)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Barb and Star Go to Vista Del Mar (Movie)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/14/arts/14barb-star-lead/14barb-star-lead-moth.jpg" width="151"></media:content>
-      <media:credit>Photographs by Maggie Shannon for The New York Times</media:credit>
-      <media:description>Kristen Wiig, left, and Annie Mumolo star as middle-aged suburbanites in &amp;ldquo;Barb and Star.&amp;rdquo; The &amp;ldquo;characters are a lot who we are,&amp;rdquo; Mumolo said, and Wiig added, &amp;ldquo;Just the part we don&amp;rsquo;t show anybody.&amp;rdquo;</media:description>
+      <title>Opera Singers Help Covid-19 Patients Learn to Breathe Again</title>
+      <link>https://www.nytimes.com/2021/02/16/arts/music/opera-singers-covid-19-treatment-eno-breathe.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/arts/music/opera-singers-covid-19-treatment-eno-breathe.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/arts/music/opera-singers-covid-19-treatment-eno-breathe.html" rel="standout"></atom:link>
+      <description>A six-week program developed by the English National Opera and a London hospital offers customized vocal lessons to aid coronavirus recovery.</description>
+      <dc:creator>Andrew Dickson</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 15:26:17 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English National Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Health Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chronic Condition (Health)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voice and Speech</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/arts/16corona-singing1/16corona-singing1-moth.jpg" width="151"></media:content>
+      <media:credit>ENO Breathe, via English National Opera and Imperial College Healthcare NHS Trust</media:credit>
+      <media:description>The singing coach Suzi Zumpe, top left, leading a rehabilitation program for Covid-19 patients that she runs with the English National Opera. </media:description>
     </item>
     <item>
-      <title>In Beverly Jenkins’s Romance Novels, Black History Is Front and Center</title>
-      <link>https://www.nytimes.com/2021/02/09/books/review/beverly-jenkins-wild-rain.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/09/books/review/beverly-jenkins-wild-rain.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/09/books/review/beverly-jenkins-wild-rain.html" rel="standout"></atom:link>
-      <description>Her latest, “Wild Rain,” stars a young woman who defies family and societal expectations by running her own horse ranch in Wyoming Territory.</description>
-      <dc:creator>Carole V. Bell</dc:creator>
-      <pubDate>Tue, 09 Feb 2021 16:21:24 +0000</pubDate>
+      <title>Henry Louis Gates Jr. on African-American Religion</title>
+      <link>https://www.nytimes.com/2021/02/16/books/review/henry-louis-gates-jr-the-black-church.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/books/review/henry-louis-gates-jr-the-black-church.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/books/review/henry-louis-gates-jr-the-black-church.html" rel="standout"></atom:link>
+      <description>Gates’s “The Black Church” recounts the foundational role of religion in the history of Black America.</description>
+      <dc:creator>Jon Meacham</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 13:25:35 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Wild Rain (Book)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jenkins, Beverly (Author)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civil Rights Movement (1954-68)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Christians and Christianity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Douglass, Frederick</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Du Bois, W E B</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gates, Henry Louis Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">King, Martin Luther Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Malcolm X</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Black Church: This Is Our Story, This Is Our Song (Book)</category>
     </item>
     <item>
-      <title>‘It’s a Sin’: Sex, Adventure and Loss in 1980s London</title>
-      <link>https://www.nytimes.com/2021/02/07/arts/television/its-a-sin-russell-t-davies.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/07/arts/television/its-a-sin-russell-t-davies.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/07/arts/television/its-a-sin-russell-t-davies.html" rel="standout"></atom:link>
-      <description>The acclaimed screenwriter Russell T. Davies came of age during London’s AIDS crisis, but this HBO Max mini-series is his first attempt to dramatize it.</description>
-      <dc:creator>Charles Kaiser</dc:creator>
-      <pubDate>Wed, 10 Feb 2021 01:03:32 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Davies, Russell T</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alexander, Olly</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harris, Neil Patrick</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">It&#39;s a Sin (TV Program)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Acquired Immune Deficiency Syndrome</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Queer as Folk (TV Program)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/14/arts/14sin1/14sin1-moth-v2.jpg" width="151"></media:content>
-      <media:credit>Francesca Jones for The New York Times</media:credit>
-      <media:description>With “It’s a Sin,” Russell T. Davies “wanted to create characters that you love so that when they’re gone, you miss them exactly the same way we missed the people that we lost,” he said.</media:description>
+      <title>Daniil Medvedev Finds Another Way of Playing Professional Tennis</title>
+      <link>https://www.nytimes.com/2021/02/16/sports/tennis/daniil-medvedev.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/sports/tennis/daniil-medvedev.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/sports/tennis/daniil-medvedev.html" rel="standout"></atom:link>
+      <description>How is this elite tennis player different from all other tennis players? Let us count the ways. But can he win a Grand Slam title?</description>
+      <dc:creator>Matthew Futterman</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tennis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Australian Open (Tennis)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Medvedev, Daniil (1996- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/sports/16aus-medvedev/16aus-medvedev-moth.jpg" width="151"></media:content>
+      <media:credit>David Gray/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Daniil Medvedev has carved out a quirky game in a sport driven by powerful strokes.</media:description>
     </item>
     <item>
-      <title>E.V.s Force Carmakers to Reinvent the Wheel, and Brakes, and Mirrors …</title>
-      <link>https://www.nytimes.com/2021/02/04/business/electric-vehicles-gm-tesla.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/04/business/electric-vehicles-gm-tesla.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/04/business/electric-vehicles-gm-tesla.html" rel="standout"></atom:link>
-      <description>Building electric cars, and repairing them, will require a huge change for the industry and usher in a new automotive era.</description>
-      <dc:creator>Stephen Williams</dc:creator>
-      <pubDate>Thu, 04 Feb 2021 11:00:08 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobile Service and Charging Stations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Batteries</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Audi Division of Volkswagen AG</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">General Motors</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ford Motor Co</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/05/business/04wheels2/04wheels2-moth.jpg" width="151"></media:content>
-      <media:credit>James Lipman/Ford Motor, via Associated Press</media:credit>
-      <media:description>Ford&amp;rsquo;s Mustang Mach-E is one of the most anticipated potential challengers to Tesla.</media:description>
+      <title>Amy Cooper, Who Falsely Accused Bird-Watcher in Central Park, Has Charges Dismissed</title>
+      <link>https://www.nytimes.com/2021/02/16/nyregion/amy-cooper-charges-dismissed.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/nyregion/amy-cooper-charges-dismissed.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/nyregion/amy-cooper-charges-dismissed.html" rel="standout"></atom:link>
+      <description>Ms. Cooper, a white woman, called 911 on the bird-watcher in Central Park. Prosecutors asked a judge to drop the charges after she finished an education program about racial bias.</description>
+      <dc:creator>Jonah E. Bromwich</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 15:43:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cooper, Amy (May 25, 2020 Central Park Incident)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cooper, Christian (Birder)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Birdwatching</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Central Park (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+    </item>
+    <item>
+      <title>Trial in Myanmar for Aung San Suu Kyi Begins in Secret</title>
+      <link>https://www.nytimes.com/2021/02/16/world/asia/myanmar-trial-aung-san-suu-kyi.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/world/asia/myanmar-trial-aung-san-suu-kyi.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/world/asia/myanmar-trial-aung-san-suu-kyi.html" rel="standout"></atom:link>
+      <description>Myanmar’s ousted civilian leader appeared in court via video conference without her lawyer’s knowledge. She faces an additional charge that had not been previously made public.</description>
+      <dc:creator>Hannah Beech</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 13:40:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Courts and the Judiciary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Aung San Suu Kyi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Win Myint</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coups D&#39;Etat and Attempted Coups D&#39;Etat</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zaw Min Tun</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/world/16myanmar/16myanmar-moth.jpg" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+      <media:description>Protesters in Yangon, Myanmar, on Tuesday called for the release of Daw Aung San Suu Kyi, the ousted civilian leader. In Naypidaw, the capital, her trial began in secret.</media:description>
+    </item>
+    <item>
+      <title>N.A.A.C.P. Sues Trump and Giuliani Over Election Fight and Jan. 6 Riot</title>
+      <link>https://www.nytimes.com/2021/02/16/us/politics/naacp-sues-trump-giuliani-proud-boys-capitol.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/us/politics/naacp-sues-trump-giuliani-proud-boys-capitol.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/us/politics/naacp-sues-trump-giuliani-proud-boys-capitol.html" rel="standout"></atom:link>
+      <description>The civil rights group brought the suit on behalf of Representative Bennie Thompson of Mississippi, with other Democrats in Congress expected to join as plaintiffs.</description>
+      <dc:creator>Annie Karni</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 16:33:37 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Storming of the US Capitol (Jan, 2021)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Assn for the Advancement of Colored People</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ku Klux Klan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Giuliani, Rudolph W</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Oath Keepers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Proud Boys</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voter Fraud (Election Fraud)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Compensation for Damages (Law)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/us/politics/16-NAACP/16-NAACP-moth.jpg" width="151"></media:content>
+      <media:credit>Anna Moneymaker/The New York Times</media:credit>
+      <media:description>Representative Bennie Thompson, Democrat of Mississippi, filed a lawsuit on Tuesday against former President Donald J. Trump and others over the Jan. 6 riot at the Capitol.</media:description>
+    </item>
+    <item>
+      <title>Serena Williams Wins and Will Face Naomi Osaka in Australian Open Semifinals</title>
+      <link>https://www.nytimes.com/2021/02/16/sports/tennis/serena-williams-naomi-osaka.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/sports/tennis/serena-williams-naomi-osaka.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/sports/tennis/serena-williams-naomi-osaka.html" rel="standout"></atom:link>
+      <description>Williams dispatched Simona Halep to inch closer to another shot at tying the record for Grand Slam singles titles. Next up? Naomi Osaka in a star-studded semifinal.</description>
+      <dc:creator>Karen Crouse</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 17:03:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tennis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Williams, Serena</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Australian Open (Tennis)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Osaka, Naomi (1997- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Halep, Simona</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/sports/16serena2/16serena2-moth.jpg" width="151"></media:content>
+      <media:credit>Loren Elliott/Reuters</media:credit>
+      <media:description>Williams was brimming with confidence after returning to the semifinals. She will face Osaka on Thursday for a place in the final.</media:description>
+    </item>
+    <item>
+      <title>Vox Finds Its Next Top Editor at The Atlantic</title>
+      <link>https://www.nytimes.com/2021/02/16/business/media/vox-editor-swati-sharma.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/business/media/vox-editor-swati-sharma.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/business/media/vox-editor-swati-sharma.html" rel="standout"></atom:link>
+      <description>Swati Sharma, 34, prepares to take over the 90-person newsroom of a digital outlet known for its clearsighted articles on knotty issues in the news.</description>
+      <dc:creator>Marc Tracy</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 16:24:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Vox Media Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sharma, Swati (1986- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Atlantic, The (Magazine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Williams, Lauren (Editor)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bell, Melissa (1979- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Klein, Ezra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yglesias, Matthew</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/business/15VOX-01/15VOX-01-moth.jpg" width="151"></media:content>
+      <media:credit>Vox Media</media:credit>
+      <media:description>“Vox provides clarity,” said Swati Sharma. “That’s the most important thing we need in our industry and that we can provide readers.”</media:description>
+    </item>
+    <item>
+      <title>Piecing Together the Next Pandemic</title>
+      <link>https://www.nytimes.com/2021/02/16/health/coronavirus-pandemic-cambodia-manning.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/health/coronavirus-pandemic-cambodia-manning.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/health/coronavirus-pandemic-cambodia-manning.html" rel="standout"></atom:link>
+      <description>From a small lab in Cambodia, Dr. Jessica Manning is on the lookout for emerging diseases.</description>
+      <dc:creator>Amos Zeeberg</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 08:29:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tests (Medical)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Malaria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">DNA (Deoxyribonucleic Acid)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mosquitoes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Third World and Developing Countries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Gates, Bill and Melinda, Foundation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Pasteur Institute</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cambodia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-health</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/science/15SCI-MANNING5/15SCI-MANNING5-moth.jpg" width="151"></media:content>
+      <media:credit>Thomas Cristofoletti for The New York Times</media:credit>
+      <media:description>“Doing work like this assaults all your senses,” Dr. Manning said. “It’s overwhelming. But that’s where we should be working.”</media:description>
+    </item>
+    <item>
+      <title>Trump Tower’s Neighbors Are Relieved as Barricades Come Down</title>
+      <link>https://www.nytimes.com/2021/02/16/nyregion/trump-tower-traffic.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/nyregion/trump-tower-traffic.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/nyregion/trump-tower-traffic.html" rel="standout"></atom:link>
+      <description>Donald J. Trump’s presidency meant snarled traffic, blocked sidewalks and frequent protests outside his Manhattan home.</description>
+      <dc:creator>Sarah Maslin Nir</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Trump Tower (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Police Department (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Secret Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Trump Organization</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/15/nyregion/00nytrump-tower1/00nytrump-tower1-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Anna Watts for The New York Times</media:credit>
+      <media:description>After President Biden was inaugurated, the police began to ease security measures around Trump Tower in Midtown Manhattan.</media:description>
+    </item>
+    <item>
+      <title>Big Tech’s Next Big Problem Could Come From People Like ‘Mr. Sweepy’</title>
+      <link>https://www.nytimes.com/2021/02/16/technology/google-facebook-private-antitrust.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/technology/google-facebook-private-antitrust.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/technology/google-facebook-private-antitrust.html" rel="standout"></atom:link>
+      <description>Government antitrust lawsuits have created openings for numerous private cases against Big Tech, with more expected to come. If successful, the cases could cost them dearly.</description>
+      <dc:creator>David McCabe</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 08:00:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Advertising and Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antitrust Laws and Competition Issues</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/02/business/00techlawsuits/00techlawsuits-moth-v3.jpg" width="151"></media:content>
+      <media:credit>September Dawn Bottoms for The New York Times</media:credit>
+      <media:description>Craig McDaniel, known as Mr. Sweepy, near his home in Tulsa, Okla. He filed a lawsuit seeking damages from Google after advertising revenue on his website fell.</media:description>
+    </item>
+    <item>
+      <title>Duterte’s Forces Have a New Target: University Students</title>
+      <link>https://www.nytimes.com/2021/02/14/world/asia/philippines-university-protests.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/14/world/asia/philippines-university-protests.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/14/world/asia/philippines-university-protests.html" rel="standout"></atom:link>
+      <description>The government in the Philippines has announced a decision to end a 32-year agreement barring security forces from a prestigious campus. Students say they won’t be intimidated.</description>
+      <dc:creator>Jason Gutierrez</dc:creator>
+      <pubDate>Sun, 14 Feb 2021 08:00:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Philippines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">School Discipline (Students)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Security and Warning Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Academic Freedom</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duterte, Rodrigo</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/03/09/world/09philippines-university-1sub/09philippines-university-1sub-moth-v4.jpg" width="151"></media:content>
+      <media:credit>Jes Aznar for The New York Times</media:credit>
+      <media:description>Students and activists held a protest at the University of the Philippines in Quezon City last month.</media:description>
     </item>
     <item>
       <title>‘Judas and the Black Messiah’ Review: I Was a Panther for the F.B.I.</title>
@@ -872,175 +761,272 @@
       <atom:link href="https://www.nytimes.com/2021/02/11/movies/judas-and-the-black-messiah-review.html" rel="standout"></atom:link>
       <description>In Shaka King’s historical drama, Daniel Kaluuya plays the radical leader Fred Hampton, with Lakeith Stanfield as the informer who betrayed him.</description>
       <dc:creator>A.O. Scott</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 16:05:06 +0000</pubDate>
+      <pubDate>Fri, 12 Feb 2021 17:20:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Judas and the Black Messiah (Movie)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">King, Shaka</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Black Panther Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stanfield, Lakeith</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kaluuya, Daniel</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Plemons, Jesse (1988- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stanfield, Lakeith</category>
     </item>
     <item>
-      <title>Jimmy Kimmel Knows How the Impeachment Sequel Will End</title>
-      <link>https://www.nytimes.com/2021/02/12/arts/television/jimmy-kimmel-impeachment-trump.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/arts/television/jimmy-kimmel-impeachment-trump.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/arts/television/jimmy-kimmel-impeachment-trump.html" rel="standout"></atom:link>
-      <description>“It’s kind of like ‘The Empire Strikes Back,’” Kimmel said. “We already know how it ends, but we’re watching it anyway.”</description>
-      <dc:creator>Trish Bendix</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 07:01:31 +0000</pubDate>
+      <title>Numbers, Speed, Mystery: The World of the Delivery Worker</title>
+      <link>https://www.nytimes.com/2021/02/09/books/review/peter-mendelsund-delivery.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/09/books/review/peter-mendelsund-delivery.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/09/books/review/peter-mendelsund-delivery.html" rel="standout"></atom:link>
+      <description>Peter Mendelsund’s novel “The Delivery” follows an unnamed courier as he learns a cityscape, language and culture.</description>
+      <dc:creator>Andy Newman</dc:creator>
+      <pubDate>Tue, 09 Feb 2021 10:00:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Delivery (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mendelsund, Peter</category>
+    </item>
+    <item>
+      <title>The Most Popular Pet Name of the Century (Maybe)</title>
+      <link>https://www.nytimes.com/2021/02/12/style/pet-names-most-popular.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/style/pet-names-most-popular.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/12/style/pet-names-most-popular.html" rel="standout"></atom:link>
+      <description>A survey of tombstones from the oldest continually operating pet cemetery in the U.S. reveals a passion for “Princess.”</description>
+      <dc:creator>Ezra Marcus</dc:creator>
+      <pubDate>Fri, 12 Feb 2021 10:00:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cemeteries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dogs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Names, Personal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hartsdale (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-selfcare</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/14/fashion/PET-CEMETERIES/PET-CEMETERIES-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Tony Cenicola/The New York Times</media:credit>
+      <media:description>A statue of a good boy at Hartsdale Pet Cemetery in New York, where pets have been laid to rest since 1896.</media:description>
+    </item>
+    <item>
+      <title>Dwayne Johnson Finds Room to Grow in ‘Young Rock’</title>
+      <link>https://www.nytimes.com/2021/02/15/arts/television/dwayne-johnson-young-rock.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/arts/television/dwayne-johnson-young-rock.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/arts/television/dwayne-johnson-young-rock.html" rel="standout"></atom:link>
+      <description>The new NBC comedy, based on Johnson’s real life, chronicles him at three different ages on his journey to adulthood and stardom.</description>
+      <dc:creator>Dave Itzkoff</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 13:00:07 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fallon, Jimmy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Noah, Trevor (1984- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kimmel, Jimmy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Tonight Show (TV Program)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Daily Show with Trevor Noah (TV Program)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Jimmy Kimmel Live (TV Program)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Meyers, Seth</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Late Night with Seth Meyers (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Broadcasting Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Dwayne (1972- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Young Rock (TV Program)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/21/arts/21rock-triptych/21rock-triptych-moth.jpg" width="151"></media:content>
+      <media:credit>via Dwayne Johnson (left, center); Jon Kopaloff/Getty Images (right) </media:credit>
+      <media:description>From left, Dwayne Johnson at age 10, age 20 and in 2019. “Young Rock,” a new NBC sitcom, tracks three different periods in the actor’s life.</media:description>
     </item>
     <item>
-      <title>Presidents’ Day: 5 Ways to Make It Meaningful This Year</title>
-      <link>https://www.nytimes.com/2021/02/11/arts/design/presidents-day-museums-tours.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/arts/design/presidents-day-museums-tours.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/arts/design/presidents-day-museums-tours.html" rel="standout"></atom:link>
-      <description>With kids off from school, here are suggestions for delving into our nation’s complex history with virtual museum visits, D.I.Y. tours and fun movies (Lincoln as a vampire slayer?).</description>
-      <dc:creator>Alexis Soloski</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 14:40:01 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidents and Presidency (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidents&#39; Day</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Statue of Liberty</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ford&#39;s Theater</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Fraunces Tavern</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Morris-Jumel Mansion (Manhattan, NY)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/arts/11prez-day-streaming-2/11prez-day-streaming-2-moth.jpg" width="151"></media:content>
-      <media:credit>Glenn Castellano/New-York Historical Society</media:credit>
-      <media:description>A replica of the Oval Office at the New-York Historical Society, which is open to the public with Covid-19 safety protocols in place.</media:description>
+      <title>The 19th-Century Church One Artist Calls Home</title>
+      <link>https://www.nytimes.com/2021/02/11/t-magazine/church-studio-angel-otero.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/t-magazine/church-studio-angel-otero.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/11/t-magazine/church-studio-angel-otero.html" rel="standout"></atom:link>
+      <description>For the painter Angel Otero, a former place of worship in upstate New York is a sanctuary in which to live and work.</description>
+      <dc:creator>Alice Newell-Hanson</dc:creator>
+      <pubDate>Thu, 11 Feb 2021 16:49:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Churches (Buildings)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Otero, Angel (1981- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lehmann Maupin Gallery</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Puerto Rico</category>
     </item>
     <item>
-      <title>Earth to Voyager 2: After a Year in the Darkness, We Can Talk to You Again</title>
-      <link>https://www.nytimes.com/2021/02/12/science/nasa-voyager-deep-space-network.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/science/nasa-voyager-deep-space-network.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/science/nasa-voyager-deep-space-network.html" rel="standout"></atom:link>
-      <description>NASA’s sole means of sending commands to the distant space probe, launched 44 years ago, is being restored on Friday.</description>
-      <dc:creator>Shannon Stirone</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:20 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voyager Project</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Solar System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Aeronautics and Space Administration</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Jet Propulsion Laboratory</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canberra (Australia)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Satellites</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/science/12VOYAGER1b/12VOYAGER1b-moth.jpg" width="151"></media:content>
-      <media:credit>NASA</media:credit>
-      <media:description>Repairs to the Deep Space Station 43 in Canberra, Australia, the only means of communication with the Voyager 2 spacecraft.</media:description>
-    </item>
-    <item>
-      <title>Cannibalism May Be Key for These Cockroach Couples</title>
-      <link>https://www.nytimes.com/2021/02/12/science/cockroaches-cannibalism-mates.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/science/cockroaches-cannibalism-mates.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/12/science/cockroaches-cannibalism-mates.html" rel="standout"></atom:link>
-      <description>Males and females of a species that mates monogamously complete their bond by gnawing off each other’s wings, a new study found.</description>
-      <dc:creator>Elizabeth Preston</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:00:16 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reproduction (Biological)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cockroaches</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cannibalism</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ethology</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-animals</category>
-    </item>
-    <item>
-      <title>Tiny Blobs of Brain Cells Could Reveal How Your Mind Differs From a Neanderthal’s</title>
-      <link>https://www.nytimes.com/2021/02/11/science/neanderthal-brain-organoids.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/science/neanderthal-brain-organoids.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/science/neanderthal-brain-organoids.html" rel="standout"></atom:link>
-      <description>Researchers grew clusters of brain cells in the lab with a gene carried by our ancient ancestors.</description>
-      <dc:creator>Carl Zimmer</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 10:55:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetic Engineering</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Neanderthal Man</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Evolution (Biology)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Monkeys and Apes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/science/11BRAIN-ORGANIODS1/11BRAIN-ORGANIODS1-moth.jpg" width="151"></media:content>
-      <media:credit>Muotri Lab/UC San Diego</media:credit>
-      <media:description>A cross section of a human brain organoid showing the formation of the cortical plate, the embryonic precursor of the cerebral cortex.</media:description>
-    </item>
-    <item>
-      <title>Emptying the Dishwasher Can Enrich Kids’ Mental Health</title>
-      <link>https://www.nytimes.com/2021/02/11/well/family/children-chores-skills.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/well/family/children-chores-skills.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/well/family/children-chores-skills.html" rel="standout"></atom:link>
-      <description>Guiding children toward mastery of new skills can help them thrive — and get some household chores done at the same time.</description>
-      <dc:creator>Sharon Holbrook</dc:creator>
-      <pubDate>Fri, 12 Feb 2021 01:15:43 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Service</category>
+      <title>Meet the Women Who Become Surrogates in NY</title>
+      <link>https://www.nytimes.com/2021/02/15/parenting/fertility/surrogates-new-york.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/parenting/fertility/surrogates-new-york.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/parenting/fertility/surrogates-new-york.html" rel="standout"></atom:link>
+      <description>New York State will now allow gestational surrogates to carry babies for other parents. Here’s why they do it.</description>
+      <dc:creator>David Dodge</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 10:00:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surrogate Motherhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Infertility</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Babies and Infants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Parenting</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/21/well/21Parenting-Surrogate/21Parenting-Surrogate-moth.jpg" width="151"></media:content>
+      <media:credit>Ike Abakah for The New York Times</media:credit>
+      <media:description>Aretha Cagno, 33, of Bristol, Conn., promised her sister she’d carry a child for her but never got the chance. She later acted as a surrogate twice for a single father.</media:description>
+    </item>
+    <item>
+      <title>Meet the Proseccos You’ll Be Drinking This Summer</title>
+      <link>https://www.nytimes.com/2021/02/08/dining/drinks/prosecco-rose.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/08/dining/drinks/prosecco-rose.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/08/dining/drinks/prosecco-rose.html" rel="standout"></atom:link>
+      <description>Italy has given Prosecco rosé the stamp of approval, and producers are starting to send these pink bubblies to America.</description>
+      <dc:creator>Florence Fabricant</dc:creator>
+      <pubDate>Tue, 09 Feb 2021 02:52:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prosecco (Wine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labeling and Labels (Product)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/10/dining/08Prosecco2/merlin_183205068_f5e41b3b-caf8-4fb3-82d9-ded558d72ae0-moth.jpg" width="151"></media:content>
+      <media:credit>Tony Cenicola/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Any Advice on What to Wear for Your First Job?</title>
+      <link>https://www.nytimes.com/2021/02/12/style/any-advice-on-what-to-wear-for-your-first-job.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/style/any-advice-on-what-to-wear-for-your-first-job.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/12/style/any-advice-on-what-to-wear-for-your-first-job.html" rel="standout"></atom:link>
+      <description>Vanessa Friedman, fashion director of The New York Times, takes reader questions.</description>
+      <dc:creator>Vanessa Friedman</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 18:45:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teachers and School Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-selfcare</category>
+    </item>
+    <item>
+      <title>‘Right Now Feels So Long and Without Any End in Sight’</title>
+      <link>https://www.nytimes.com/2021/02/15/science/science-covid-mental-health.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/science/science-covid-mental-health.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/science/science-covid-mental-health.html" rel="standout"></atom:link>
+      <description>More than 700 people have been keeping digital diaries as part of Pandemic Journaling Project. It may be the most complete record of our shifting moods in this isolating year.</description>
+      <dc:creator>Benedict Carey</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 21:40:03 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/01/29/well/00well-kids-chores/00well-kids-chores-moth.jpg" width="151"></media:content>
-      <media:credit>Jack Taylor</media:credit>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grief (Emotion)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diaries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black Lives Matter Movement</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">University of Connecticut</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/science/16DIARY/16DIARY-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Andrea D&#39;Aquino</media:credit>
     </item>
     <item>
-      <title>3 People Stranded on Uninhabited Island Are Rescued After 33 Days</title>
-      <link>https://www.nytimes.com/2021/02/10/us/bahamas-coast-guard-rescue.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/10/us/bahamas-coast-guard-rescue.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/10/us/bahamas-coast-guard-rescue.html" rel="standout"></atom:link>
-      <description>During a routine flyover, a surveillance crew spotted the people waving a makeshift flag on an island in the Bahamas. They had survived on coconuts, conchs and rats, the Coast Guard said.</description>
-      <dc:creator>Marie Fazio</dc:creator>
-      <pubDate>Wed, 10 Feb 2021 19:55:16 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rescues</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Coast Guard</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Anguilla</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cuba</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Key West (Fla)</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/10/multimedia/10xp-rescue/10xp-rescue-moth.jpg" width="151"></media:content>
-      <media:credit>Lt. Riley Beecher/U.S. Coast Guard</media:credit>
-      <media:description>The rescued people, identified as Cuban nationals, had no reported injuries.</media:description>
+      <title>The Influence of a Perfect Teacher</title>
+      <link>https://www.nytimes.com/2021/02/15/well/family/teacher-reading-influence.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/15/well/family/teacher-reading-influence.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/15/well/family/teacher-reading-influence.html" rel="standout"></atom:link>
+      <description>Perhaps because I had a teacher who made reading aloud into ceremony, ritual and compelling drama, I grew up to find my cause in pediatricians’ promoting reading aloud at checkups.</description>
+      <dc:creator>Perri Klass, M.D.</dc:creator>
+      <pubDate>Mon, 15 Feb 2021 10:00:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reading and Writing Skills (Education)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teachers and School Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Libraries and Librarians</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/05/well/00well-klass-reading/00well-klass-reading-moth.jpg" width="151"></media:content>
+      <media:credit>Isabel Seliger</media:credit>
     </item>
     <item>
-      <title>‘French Exit’ Review: A Not-So-Merry Widow</title>
-      <link>https://www.nytimes.com/2021/02/11/movies/french-exit-review.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/movies/french-exit-review.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/movies/french-exit-review.html" rel="standout"></atom:link>
-      <description>Michelle Pfeiffer is sensational as a newly insolvent socialite in this strange, sad comedy.</description>
-      <dc:creator>Jeannette Catsoulis</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 18:24:51 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pfeiffer, Michelle</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jacobs, Azazel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hedges, Lucas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">French Exit (Movie)</category>
+      <title>We Asked 175 Pediatric Disease Experts if It Was Safe Enough to Open School</title>
+      <link>https://www.nytimes.com/2021/02/11/upshot/schools-reopening-coronavirus-experts.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/upshot/schools-reopening-coronavirus-experts.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/11/upshot/schools-reopening-coronavirus-experts.html" rel="standout"></atom:link>
+      <description>In many places, the debates over reopening are fraught. But in a survey, experts broadly agreed that elementary schools didn’t need vaccines to open safely.</description>
+      <dc:creator>Claire Cain Miller, Margot Sanger-Katz and Kevin Quealy</dc:creator>
+      <pubDate>Fri, 12 Feb 2021 10:45:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus Reopenings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus Risks and Safety Concerns</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Masks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/11/upshot/11up-virus-schools/11up-virus-schools-moth.jpg" width="151"></media:content>
+      <media:credit>Taylor Glascock for The New York Times</media:credit>
+      <media:description>A return to in-person school this week in Chicago, where disagreement between elected officials and the teachers’ union over reopening has been particularly intense.</media:description>
     </item>
     <item>
-      <title>‘There Is No “I” in Threesome’ Review: Monogamy Alternatives</title>
-      <link>https://www.nytimes.com/2021/02/11/movies/there-is-no-i-in-threesome-review.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2021/02/11/movies/there-is-no-i-in-threesome-review.html</guid>
-      <atom:link href="https://www.nytimes.com/2021/02/11/movies/there-is-no-i-in-threesome-review.html" rel="standout"></atom:link>
-      <description>A director and his fiancée chronicle their yearlong open relationship in this documentary that offers a clever examination of perspective.</description>
-      <dc:creator>Natalia Winkelman</dc:creator>
-      <pubDate>Thu, 11 Feb 2021 12:00:06 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Documentary Films and Programs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polyamory and Non-Monogamous Relationships</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">There Is No &#39;I&#39; in Threesome (Movie)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lucks, Jan Oliver</category>
-      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/10/arts/thereisnoi/thereisnoi-moth.jpg" width="151"></media:content>
-      <media:credit>HBO Max</media:credit>
-      <media:description>Jan Oliver Lucks, right, with Zoe in the documentary “There Is No ‘I’ In Threesome.”</media:description>
+      <title>On W.H.O. Trip, China Refused to Hand Over Important Data</title>
+      <link>https://www.nytimes.com/2021/02/12/world/asia/china-world-health-organization-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/12/world/asia/china-world-health-organization-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/12/world/asia/china-world-health-organization-coronavirus.html" rel="standout"></atom:link>
+      <description>The information could be key to determining how and when the outbreak started, and to learning how to prevent future pandemics.</description>
+      <dc:creator>Javier C. Hernández and James Gorman</dc:creator>
+      <pubDate>Sat, 13 Feb 2021 14:52:55 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Health Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Disease Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wuhan (China)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/12/world/12virus-who-china-top/12virus-who-china-top-moth.jpg" width="151"></media:content>
+      <media:credit>Aly Song/Reuters</media:credit>
+      <media:description>A medical worker at the hotel where members of the World Health Organization team stayed in Wuhan, China.</media:description>
+    </item>
+    <item>
+      <title>Pink Sweats Harnesses the Power of Niceness</title>
+      <link>https://www.nytimes.com/2021/02/16/arts/music/pink-sweats-pink-planet-review.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/arts/music/pink-sweats-pink-planet-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/arts/music/pink-sweats-pink-planet-review.html" rel="standout"></atom:link>
+      <description>With his debut album, “Pink Planet,” the singer and songwriter from Philadelphia builds a musical refuge.</description>
+      <dc:creator>Jon Pareles</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 16:35:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rhythm and Blues (Music)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pink Sweat$ (Singer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Pink Planet (Album)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/arts/16pinksweats-review/16pinksweats-review-moth.jpg" width="151"></media:content>
+      <media:credit>Gabe Ginsberg/Getty Images</media:credit>
+      <media:description>Pink Sweats has been releasing singles and EPs since 2018; now his official debut album, &amp;ldquo;Pink Planet,&amp;rdquo; has arrived.</media:description>
+    </item>
+    <item>
+      <title>Brayden Smith, Five-Time ‘Jeopardy!’ Champion, Dies at 24</title>
+      <link>https://www.nytimes.com/2021/02/13/arts/television/brayden-smith-dead.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/13/arts/television/brayden-smith-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/13/arts/television/brayden-smith-dead.html" rel="standout"></atom:link>
+      <description>Mr. Smith had appeared on some of the last shows hosted by Alex Trebek, earning $115,798 and the moniker “Alex’s Last Great Champion.”</description>
+      <dc:creator>Michael Levenson</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 05:24:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Smith, Brayden (1996-2021)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Contests and Prizes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Jeopardy! (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trebek, Alex</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/multimedia/13xp-smith-jeopardy-obit/13xp-smith-jeopardy-obit-moth.jpg" width="151"></media:content>
+      <media:credit>Jeopardy!</media:credit>
+      <media:description>The five-time &amp;ldquo;Jeopardy!&amp;rdquo; champion Brayden Smith died unexpectedly at 24, his mother said on Twitter on Friday.</media:description>
+    </item>
+    <item>
+      <title>Potential for New Coronaviruses May Be Greater Than Known</title>
+      <link>https://www.nytimes.com/2021/02/16/science/Covid-reemerging-viruses.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/science/Covid-reemerging-viruses.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/science/Covid-reemerging-viruses.html" rel="standout"></atom:link>
+      <description>Researchers calculated the likelihood of different viruses recombining in the same animal to make new disease-causing pathogens.</description>
+      <dc:creator>James Gorman</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 16:00:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">SARS (Severe Acute Respiratory Syndrome)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">University of Liverpool</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Nature (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">University of Massachusetts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/science/16VIRUS-ANIMALS1/16VIRUS-ANIMALS1-moth.jpg" width="151"></media:content>
+      <media:credit>Linh Pham/Getty Images</media:credit>
+      <media:description>Palm civets, the animal from which SARS seemed to have spilled over to humans, were identified in the study as a potential hot spot for coronavirus evolution.</media:description>
+    </item>
+    <item>
+      <title>For a ‘Cobra Kai’ Star, There’s Nothing a Good Basket Won’t Fix</title>
+      <link>https://www.nytimes.com/2021/02/16/realestate/cobra-kai-courtney-henggeler-what-i-love.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2021/02/16/realestate/cobra-kai-courtney-henggeler-what-i-love.html</guid>
+      <atom:link href="https://www.nytimes.com/2021/02/16/realestate/cobra-kai-courtney-henggeler-what-i-love.html" rel="standout"></atom:link>
+      <description>‘I have a hard time saying no to a basket,’ said the actor Courtney Henggeler, explaining her approach to decorating her family’s Long Island rental.</description>
+      <dc:creator>Joanne Kaufman</dc:creator>
+      <pubDate>Tue, 16 Feb 2021 10:00:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Cobra Kai (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Renting and Leasing (Real Estate)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interior Design and Furnishings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Netflix Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Huntington (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Big Bang Theory (TV Program)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/02/16/realestate/16WHATILOVE-HENGGELER-slide-TVGS/16WHATILOVE-HENGGELER-slide-TVGS-moth.jpg" width="151"></media:content>
+      <media:credit>Adam Macchia for The New York Times</media:credit>
     </item>
     <item>
       <title>Spelling Bee</title>

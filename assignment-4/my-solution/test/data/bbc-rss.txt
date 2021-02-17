@@ -11,352 +11,289 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Feb 2021 16:23:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Feb 2021 17:14:30 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Trump impeachment: Defence team set to present speedy case]]></title>
-            <description><![CDATA[His team, expecting an acquittal in the Senate vote, will not draw out the impeachment trial.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56038765</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56038765</guid>
-            <pubDate>Fri, 12 Feb 2021 11:03:22 GMT</pubDate>
+            <title><![CDATA[Princess Latifa: 'Hostage' ordeal of Dubai ruler's daughter revealed]]></title>
+            <description><![CDATA["I just want to be free," Princess Latifa, daughter of Dubai's ruler, says in video messages secretly recorded from a villa where she was being held following her failed escape in 2018.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-56075528</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-56075528</guid>
+            <pubDate>Tue, 16 Feb 2021 12:58:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Russia warns EU it could cut ties over sanctions]]></title>
-            <description><![CDATA[The EU is considering more sanctions on Russia over the case of Putin critic Alexei Navalny.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-56039075</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56039075</guid>
-            <pubDate>Fri, 12 Feb 2021 11:25:05 GMT</pubDate>
+            <title><![CDATA[Myanmar coup: Aung San Suu Kyi faces new charge amid protests]]></title>
+            <description><![CDATA[Opposition leader handed second charge as she appears in court via video link for the first time.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-56074429</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-56074429</guid>
+            <pubDate>Tue, 16 Feb 2021 16:47:50 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Shell in Nigeria: Polluted communities 'can sue in English courts']]></title>
-            <description><![CDATA[The UK Supreme Court's ruling is a victory for communities severely hit by pollution in the Niger Delta.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-56041189</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-56041189</guid>
-            <pubDate>Fri, 12 Feb 2021 15:33:23 GMT</pubDate>
+            <title><![CDATA[Texas weather: Deadly winter storm sweeps Texas and US southern states]]></title>
+            <description><![CDATA[Freezing winds, ice and snow are battering states like Texas that rarely see such frigid conditions.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56076686</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56076686</guid>
+            <pubDate>Tue, 16 Feb 2021 16:56:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Myanmar coup: MPs urge UN to investigate 'gross human rights violations']]></title>
-            <description><![CDATA[Some 300 MPs urge the UN to investigate after the reported use of live bullets against protesters.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-56037305</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-56037305</guid>
-            <pubDate>Fri, 12 Feb 2021 13:53:10 GMT</pubDate>
+            <title><![CDATA[Yemen: The boy who saved his sister from a sniper]]></title>
+            <description><![CDATA[Ten-year-old Amri risked his life to save his sibling, but in Yemen others are not so lucky.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-56072279</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-56072279</guid>
+            <pubDate>Tue, 16 Feb 2021 00:25:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Britney Spears: Judge rules singer's father must share conservatorship]]></title>
-            <description><![CDATA[A judge denies a request from the singer's father to exert greater control over her finances.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-56038523</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-56038523</guid>
-            <pubDate>Fri, 12 Feb 2021 10:59:33 GMT</pubDate>
+            <title><![CDATA[Amsterdam: Bystanders rescue skaters after ice breaks]]></title>
+            <description><![CDATA[Bystanders used golf clubs, hockey sticks and ropes to help drag the freezing skaters to safety.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-56087935</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56087935</guid>
+            <pubDate>Tue, 16 Feb 2021 14:19:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['At least you're not a cat!' Congress video goes wrong]]></title>
-            <description><![CDATA[A US congressman made an unusual appearance when struggling with his video conferencing technology.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56039699</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56039699</guid>
-            <pubDate>Fri, 12 Feb 2021 10:50:20 GMT</pubDate>
+            <title><![CDATA[Central Park: Amy Cooper has criminal case against her dismissed]]></title>
+            <description><![CDATA[Amy Cooper prompted outrage over a viral video showing her calling the police on black birdwatcher.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56089809</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56089809</guid>
+            <pubDate>Tue, 16 Feb 2021 16:54:24 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Anna Sorokin: Fake heiress released from US prison]]></title>
-            <description><![CDATA[Anna Sorokin was jailed in 2019 after spending years living as a wealthy socialite in New York.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56035796</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56035796</guid>
-            <pubDate>Fri, 12 Feb 2021 02:12:53 GMT</pubDate>
+            <title><![CDATA[Bangladesh Avijit Roy murder: Five sentenced to die for machete attack on blogger]]></title>
+            <description><![CDATA[A court in Dhaka convicts a group of Islamist militants of the 2015 attack on a secular blogger.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-56082108</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-56082108</guid>
+            <pubDate>Tue, 16 Feb 2021 16:27:18 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Victoria to enter lockdown with fans barred from Australian Open]]></title>
-            <description><![CDATA[Australia's state of Victoria shuts down over a dozen Covid cases but the Grand Slam will continue.]]></description>
-            <link>https://www.bbc.co.uk/news/world-australia-56035668</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-56035668</guid>
-            <pubDate>Fri, 12 Feb 2021 05:42:13 GMT</pubDate>
+            <title><![CDATA[Another new coronavirus variant seen in the UK]]></title>
+            <description><![CDATA[It has similar mutations to the South Africa variant, so how worrying is it?]]></description>
+            <link>https://www.bbc.co.uk/news/health-56082573</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-56082573</guid>
+            <pubDate>Tue, 16 Feb 2021 15:52:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Yoshiro Mori: Tokyo Olympics chief steps down over sexism row]]></title>
-            <description><![CDATA[Yoshiro Mori calls his comments about female board members talking too much "inappropriate".]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-56020674</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-56020674</guid>
-            <pubDate>Fri, 12 Feb 2021 06:45:33 GMT</pubDate>
+            <title><![CDATA[Congo River: At least 60 drowned after boat capsizes]]></title>
+            <description><![CDATA[Residents say they have seen bodies floating in the water after the overcrowded boat crashed.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-56082260</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-56082260</guid>
+            <pubDate>Tue, 16 Feb 2021 10:35:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[China bans BBC World News from broadcasting]]></title>
-            <description><![CDATA[China has criticised the BBC for its reports on coronavirus and persecution of the Uighurs.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-china-56030340</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-56030340</guid>
-            <pubDate>Fri, 12 Feb 2021 15:57:03 GMT</pubDate>
+            <title><![CDATA[Italian ex-football star Sartor 'grew marijuana plants']]></title>
+            <description><![CDATA[Ex-defender Luigi Sartor is accused of growing marijuana at an isolated cottage.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-56085602</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56085602</guid>
+            <pubDate>Tue, 16 Feb 2021 16:35:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Actor Kevin Hart's personal shopper charged with stealing $1m]]></title>
-            <description><![CDATA[Dylan Jason Syer is accused of making unauthorised purchases using the Jumanji actor's credit cards.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-56038527</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-56038527</guid>
-            <pubDate>Fri, 12 Feb 2021 13:19:53 GMT</pubDate>
+            <title><![CDATA[North Korea accused of hacking Pfizer for Covid-19 vaccine data]]></title>
+            <description><![CDATA[It is unclear as to what, if any, data was stolen, according to South Korea's intelligence agency.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-56084575</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-56084575</guid>
+            <pubDate>Tue, 16 Feb 2021 11:25:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Martin Gugino: Charges dropped against US officers who pushed protester]]></title>
-            <description><![CDATA[Charges are dropped against two officers who were filmed knocking down a 75-year-old man last June.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56040320</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56040320</guid>
-            <pubDate>Fri, 12 Feb 2021 12:27:35 GMT</pubDate>
+            <title><![CDATA[Covid: Dutch crisis as court orders end to Covid curfew]]></title>
+            <description><![CDATA[Judges rule the measure should be lifted immediately, saying it breaches the right to free movement.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-56084466</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56084466</guid>
+            <pubDate>Tue, 16 Feb 2021 13:47:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Biden warns China will 'eat our lunch' on infrastructure spending]]></title>
-            <description><![CDATA[The US president's warning came after he had his first phone call with China’s President Xi Jinping.]]></description>
-            <link>https://www.bbc.co.uk/news/business-56036245</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-56036245</guid>
-            <pubDate>Fri, 12 Feb 2021 03:37:52 GMT</pubDate>
+            <title><![CDATA[Spain: Rapper Pablo Hasel who fled to university sent to jail]]></title>
+            <description><![CDATA[Pablo Hasel had defied a prison sentence for "glorifying terrorism" in lyrics and tweets.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-56082117</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56082117</guid>
+            <pubDate>Tue, 16 Feb 2021 10:48:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coca-Cola company trials first paper bottle]]></title>
-            <description><![CDATA[The test is first step towards all-paper bottle that can withstand pressure from fizzy drinks.]]></description>
-            <link>https://www.bbc.co.uk/news/technology-56023723</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-56023723</guid>
-            <pubDate>Fri, 12 Feb 2021 13:46:53 GMT</pubDate>
+            <title><![CDATA[Harry and Meghan to be interviewed by Oprah Winfrey]]></title>
+            <description><![CDATA[The "wide-ranging" interview will be part of an "intimate conversation" with the royal couple.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-56081774</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-56081774</guid>
+            <pubDate>Tue, 16 Feb 2021 14:25:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Science Photographer of the Year winners revealed]]></title>
-            <description><![CDATA[From microscopic observations to images showing climate change in action.]]></description>
-            <link>https://www.bbc.co.uk/news/in-pictures-56016031</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-56016031</guid>
-            <pubDate>Fri, 12 Feb 2021 10:13:52 GMT</pubDate>
+            <title><![CDATA[In pictures: Snow blankets Texas]]></title>
+            <description><![CDATA[Images from the US state of Texas as a winter storm brings freezing weather and a rare snowfall.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-56083385</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-56083385</guid>
+            <pubDate>Tue, 16 Feb 2021 12:42:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Taylor Swift's two versions of Love Story compared]]></title>
-            <description><![CDATA[The star's re-recording is almost indistinguishable from the original - but that's exactly the point.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-56038367</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-56038367</guid>
-            <pubDate>Fri, 12 Feb 2021 10:38:27 GMT</pubDate>
+            <title><![CDATA[The Rio carnival that wasn't]]></title>
+            <description><![CDATA[Rio would normally be a riot of colour at this time of year, but carnival had to be postponed.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-56083525</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56083525</guid>
+            <pubDate>Tue, 16 Feb 2021 12:20:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Rare Nasa photos reveal Amazon 'gold rivers']]></title>
-            <description><![CDATA[The satellite images reveal miles of unregistered gold mining in Peru's Amazon rainforest, Nasa says.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-56030334</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56030334</guid>
-            <pubDate>Thu, 11 Feb 2021 17:05:56 GMT</pubDate>
+            <title><![CDATA[How Congo-Brazzaville's shark population came under threat]]></title>
+            <description><![CDATA[The shark population off Congo-Brazzaville is threatened as desperate fishermen search deeper waters.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-56040716</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-56040716</guid>
+            <pubDate>Tue, 16 Feb 2021 00:12:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Quiz of the week: Desert islands, Brexit and more Zoom drama]]></title>
-            <description><![CDATA[How closely have you been paying attention to what's been going on during the past seven days?]]></description>
-            <link>https://www.bbc.co.uk/news/world-56026910</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-56026910</guid>
-            <pubDate>Thu, 11 Feb 2021 15:43:04 GMT</pubDate>
+            <title><![CDATA[Without music, will New Orleans survive?]]></title>
+            <description><![CDATA[Known as the birthplace of Jazz, New Orleans has thousands of musicians that rely on gigs to survive.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56048807</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56048807</guid>
+            <pubDate>Tue, 16 Feb 2021 00:16:09 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Forests the size of tennis courts]]></title>
-            <description><![CDATA[Micro-forests are being planted in towns and cities around the world.]]></description>
-            <link>https://www.bbc.co.uk/news/stories-56003562</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-56003562</guid>
-            <pubDate>Fri, 12 Feb 2021 00:05:51 GMT</pubDate>
+            <title><![CDATA[Sea foam showers Irish village after high winds]]></title>
+            <description><![CDATA[The village of Bonmahon has been showered in sea foam following high winds.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-56077309</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56077309</guid>
+            <pubDate>Mon, 15 Feb 2021 18:22:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Africa's week in pictures: 5 - 11 February 2021]]></title>
-            <description><![CDATA[A selection of the week's best photos from across the continent and beyond.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-56025910</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-56025910</guid>
-            <pubDate>Fri, 12 Feb 2021 00:03:38 GMT</pubDate>
+            <title><![CDATA[Meteor lights up Melbourne skies]]></title>
+            <description><![CDATA[The celestial spectacle occurred on Valentine's Day, during the city's five-day lockdown.]]></description>
+            <link>https://www.bbc.co.uk/news/world-56068503</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-56068503</guid>
+            <pubDate>Mon, 15 Feb 2021 13:51:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Finland snow art: Locals create giant pattern on golf course]]></title>
-            <description><![CDATA[An amateur artist and volunteers create possibly the largest snow-drawing the country has ever seen.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-56024213</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56024213</guid>
-            <pubDate>Thu, 11 Feb 2021 11:37:16 GMT</pubDate>
+            <title><![CDATA[Double masks: Should we use them?]]></title>
+            <description><![CDATA[There’s a lot of choice about which type of face covering to wear – and in some countries the advice is changing.]]></description>
+            <link>https://www.bbc.co.uk/news/health-55877540</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-55877540</guid>
+            <pubDate>Mon, 15 Feb 2021 00:00:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[GameStop investors on a wild ride: 'It was a rollercoaster of emotion']]></title>
-            <description><![CDATA[Now that the dust has settled, who are the winners and losers in the GameStop saga?]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56017224</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56017224</guid>
-            <pubDate>Thu, 11 Feb 2021 02:22:30 GMT</pubDate>
+            <title><![CDATA[Why this Australian girl has cleaned graves for eight years]]></title>
+            <description><![CDATA[Australian Tj Kleeman began scrubbing graves to overcome a fear, but now does it to "feel amazing".]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-55991058</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-55991058</guid>
+            <pubDate>Mon, 15 Feb 2021 00:00:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Numbats: Saving a marsupial 'unique even to Australia']]></title>
-            <description><![CDATA[The numbat is one of the world’s most endangered animals, with about 1,000 left in the wild.]]></description>
-            <link>https://www.bbc.co.uk/news/world-australia-55991054</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-55991054</guid>
-            <pubDate>Thu, 11 Feb 2021 00:02:13 GMT</pubDate>
+            <title><![CDATA[Abydos beer factory: Ancient large-scale brewery discovered in Egypt]]></title>
+            <description><![CDATA[The archaeological find in the Abydos burial ground is thought to date back about 5,000 years.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-56067717</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-56067717</guid>
+            <pubDate>Mon, 15 Feb 2021 08:51:52 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Documenting the 2011 revolution in Egypt]]></title>
-            <description><![CDATA[Photographer Laura El-Tantawy looks back at her work documenting the 2011 revolution in Egypt.]]></description>
-            <link>https://www.bbc.co.uk/news/in-pictures-55797388</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-55797388</guid>
-            <pubDate>Thu, 11 Feb 2021 00:15:21 GMT</pubDate>
+            <title><![CDATA[Amazon vs Reliance: Why are two of the world's richest men in court?]]></title>
+            <description><![CDATA[A tussle over an Indian grocery store pits Amazon and Reliance against each other in court.]]></description>
+            <link>https://www.bbc.co.uk/news/business-56037104</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-56037104</guid>
+            <pubDate>Tue, 16 Feb 2021 03:30:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Covid and gun violence: Tijuana, the city with a double pandemic]]></title>
-            <description><![CDATA[Aida and Daniel are married - and both paramedics in Tijuana, one of the most violent cities in the world.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-56030534</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56030534</guid>
-            <pubDate>Fri, 12 Feb 2021 00:07:44 GMT</pubDate>
+            <title><![CDATA[North to South: The new life of a Korean defector]]></title>
+            <description><![CDATA[Fleeing from North Korea can be a traumatic ordeal. Here's how defectors start new lives in the South.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-49346262</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-49346262</guid>
+            <pubDate>Tue, 16 Feb 2021 11:49:01 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Britney Spears: What is the court battle fuelling #FreeBritney calls?]]></title>
-            <description><![CDATA[The pop superstar's conservatorship and the social media movement - explained.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-53494405</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53494405</guid>
-            <pubDate>Fri, 12 Feb 2021 11:58:16 GMT</pubDate>
+            <title><![CDATA[Full-face hot-wax TikTok videos prompt warnings]]></title>
+            <description><![CDATA[Skin experts raise health-and-safety concerns about the videos, which do not carry a warning.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-56071436</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-56071436</guid>
+            <pubDate>Tue, 16 Feb 2021 00:20:17 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The footballer raped and murdered for being gay]]></title>
-            <description><![CDATA[BBC Sport looks at the life and legacy of Eudy Simelane - an openly gay South Africa international footballer who was raped and murdered in 2008.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/55950480</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/55950480</guid>
-            <pubDate>Fri, 12 Feb 2021 06:06:46 GMT</pubDate>
+            <title><![CDATA[Optimism as Cuba set to test its own Covid vaccine]]></title>
+            <description><![CDATA[The first trials of the Cuban-produced Soberana 2 are "encouraging", Cuban scientists say.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-56069577</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56069577</guid>
+            <pubDate>Tue, 16 Feb 2021 00:02:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Covid-19: Chinatowns fighting racism and pandemic to survive]]></title>
-            <description><![CDATA[People have been avoiding Chinatowns since the start of the pandemic - and now they're struggling.]]></description>
-            <link>https://www.bbc.co.uk/news/world-55986359</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-55986359</guid>
-            <pubDate>Fri, 12 Feb 2021 00:07:56 GMT</pubDate>
+            <title><![CDATA[New WTO boss warns against vaccine nationalism]]></title>
+            <description><![CDATA[Ngozi Okonjo-Iweala says rich countries should not be allowed to vaccinate their people as poorer countries wait.]]></description>
+            <link>https://www.bbc.co.uk/news/business-56079088</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-56079088</guid>
+            <pubDate>Tue, 16 Feb 2021 03:28:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Arab Spring: How the uprisings still echo, 10 years on]]></title>
-            <description><![CDATA[Revolutions brought dramatic to change to the region - but the causes have not gone away.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-56000950</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-56000950</guid>
-            <pubDate>Fri, 12 Feb 2021 00:06:52 GMT</pubDate>
+            <title><![CDATA[Disha Ravi: The jailed Indian activist linked to Greta Thunberg]]></title>
+            <description><![CDATA[Disha Ravi, the 22-year-old co-founder of India's Fridays For Future chapter, is in prison for sedition.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-56068522</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-56068522</guid>
+            <pubDate>Mon, 15 Feb 2021 10:39:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['Putin's palace': Builders' story of luxury, mould and fake walls]]></title>
-            <description><![CDATA[The Black Sea mansion highlighted by Alexei Navalny is beset with construction issues, say builders.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-56007943</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-56007943</guid>
-            <pubDate>Fri, 12 Feb 2021 00:11:31 GMT</pubDate>
+            <title><![CDATA['My mum was an alcoholic and it was a massive secret']]></title>
+            <description><![CDATA[Becky Ellis Hamilton's mum had an alcohol problem but no-one talked about it - and this had tragic consequences.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-56001534</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-56001534</guid>
+            <pubDate>Tue, 16 Feb 2021 00:01:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus vaccines: How’s my country and the rest of the world doing?]]></title>
-            <description><![CDATA[When it comes to vaccine distribution there is one question most people are asking - when will I be offered it?]]></description>
-            <link>https://www.bbc.co.uk/news/world-56025355</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-56025355</guid>
-            <pubDate>Fri, 12 Feb 2021 00:05:57 GMT</pubDate>
+            <title><![CDATA[The hypercar maker who was told to give up his dream]]></title>
+            <description><![CDATA[Mate Rimac struggled to get anyone to believe that cutting edge sportscars could be made in Croatia.]]></description>
+            <link>https://www.bbc.co.uk/news/business-55938754</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55938754</guid>
+            <pubDate>Tue, 16 Feb 2021 00:04:39 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The global race to produce hydrogen offshore]]></title>
-            <description><![CDATA[There is much excitement about the prospect of making hydrogen on offshore windfarms. Could it work?]]></description>
-            <link>https://www.bbc.co.uk/news/business-55763356</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-55763356</guid>
-            <pubDate>Fri, 12 Feb 2021 00:13:03 GMT</pubDate>
+            <title><![CDATA[Covid-19: How did a volunteer panel react when we showed them an anti-vax video?]]></title>
+            <description><![CDATA[We showed eight people a viral video filled with falsehoods. Did it change their minds?]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-trending-56047409</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-trending-56047409</guid>
+            <pubDate>Sun, 14 Feb 2021 22:18:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Will Framing Britney Spears be a moment of reckoning for the celebrity media?]]></title>
-            <description><![CDATA[A new documentary has sparked a wave of support for the star. Can it change celebrity culture?]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-56003714</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-56003714</guid>
-            <pubDate>Thu, 11 Feb 2021 12:50:31 GMT</pubDate>
+            <title><![CDATA[Spinners take all 10 England wickets as India thrash tourists to level series]]></title>
+            <description><![CDATA[England succumb to an inevitable 317-run defeat by India on the fourth day of the second Test in Chennai.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/56080661</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/56080661</guid>
+            <pubDate>Tue, 16 Feb 2021 08:05:01 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[There's more to JC Stewart than his viral Friends parody]]></title>
-            <description><![CDATA[The singer, who has written with Lewis Capaldi and Niall Horan, is poised for success in 2021.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-56022942</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-56022942</guid>
-            <pubDate>Fri, 12 Feb 2021 00:10:14 GMT</pubDate>
+            <title><![CDATA[Djokovic digs deep to beat Zverev and reach semi-finals]]></title>
+            <description><![CDATA[Top seed Novak Djokovic shows yet more mental and physical resilience to beat sixth seed Alexander Zverev and reach the Australian Open semi-finals.]]></description>
+            <link>https://www.bbc.co.uk/sport/tennis/56080345</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/56080345</guid>
+            <pubDate>Tue, 16 Feb 2021 14:29:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Obesity: Appetite drug could mark 'new era' in tackling condition]]></title>
-            <description><![CDATA[Some of the people on the 15-month trial lost more than a fifth of their body weight.]]></description>
-            <link>https://www.bbc.co.uk/news/health-56011979</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-56011979</guid>
-            <pubDate>Thu, 11 Feb 2021 00:45:29 GMT</pubDate>
+            <title><![CDATA[Former Man Utd prodigy Morrison 'stole Rooney's boots' to feed family]]></title>
+            <description><![CDATA[Journeyman midfielder and ex-Manchester United prodigy Ravel Morrison says he "would change 90%" of his life if he could go back in time.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/56085319</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/56085319</guid>
+            <pubDate>Tue, 16 Feb 2021 15:33:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Injured Djokovic through at Australian Open but unsure if he will be fit for next match]]></title>
-            <description><![CDATA[Novak Djokovic is unsure if he can play in the last 16 of the Australian Open after he sustained an injury in his win over Taylor Fritz.]]></description>
-            <link>https://www.bbc.co.uk/sport/tennis/56042096</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/56042096</guid>
-            <pubDate>Fri, 12 Feb 2021 14:48:55 GMT</pubDate>
+            <title><![CDATA['He wants to get out of the bubble' - Moeen chooses to miss final two India Tests]]></title>
+            <description><![CDATA[All-rounder Moeen Ali will return home despite taking eight wickets in the second-Test defeat by India, his first Test since 2019.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/56082356</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/56082356</guid>
+            <pubDate>Tue, 16 Feb 2021 09:57:24 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Thiem comes from two sets down to beat Kyrgios at Australian Open]]></title>
-            <description><![CDATA[Dominic Thiem fights off Nick Kyrgios and a rowdy crowd to overturn a two-set deficit and reach the Australian Open fourth round.]]></description>
-            <link>https://www.bbc.co.uk/sport/tennis/56036946</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/56036946</guid>
-            <pubDate>Fri, 12 Feb 2021 13:56:00 GMT</pubDate>
+            <title><![CDATA[England back row Willis to see specialist about knee injury]]></title>
+            <description><![CDATA[England and Wasps flanker Jack Willis could be sidelined for the rest of the season but is yet to learn the full extent of the knee injury sustained in Saturday's win against Italy.]]></description>
+            <link>https://www.bbc.co.uk/sport/rugby-union/56086724</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/56086724</guid>
+            <pubDate>Tue, 16 Feb 2021 15:08:06 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ireland captain Sexton ruled out of France game with Burns drafted in]]></title>
-            <description><![CDATA[Johnny Sexton will miss Ireland's Six Nations game against France because of a head knock as Ulster's Billy Burns is drafted in at fly-half.]]></description>
-            <link>https://www.bbc.co.uk/sport/rugby-union/56040919</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/56040919</guid>
-            <pubDate>Fri, 12 Feb 2021 11:44:28 GMT</pubDate>
+            <title><![CDATA[France's Six Nations squad isolating after staff member tests positive for Covid]]></title>
+            <description><![CDATA[France's Six Nations squad is in isolation after a staff member tested positive for coronavirus, the French Rugby Federation says.]]></description>
+            <link>https://www.bbc.co.uk/sport/rugby-union/56084565</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/56084565</guid>
+            <pubDate>Tue, 16 Feb 2021 10:48:41 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Williams through to Australian Open fourth round after slow start]]></title>
-            <description><![CDATA[Serena Williams overcomes a sluggish start to beat Anastasia Potapova and reach the Australian Open fourth round.]]></description>
-            <link>https://www.bbc.co.uk/sport/tennis/56036560</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/56036560</guid>
-            <pubDate>Fri, 12 Feb 2021 06:07:59 GMT</pubDate>
+            <title><![CDATA[Austria defender Alaba to leave Bayern at end of season]]></title>
+            <description><![CDATA[David Alaba confirms he will leave Bayern Munich at the end of the season after failing to agree a new contract.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/56086360</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/56086360</guid>
+            <pubDate>Tue, 16 Feb 2021 14:17:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Australian Open crowds sent home as lockdown begins]]></title>
-            <description><![CDATA[Australian Open crowds are sent home during Novak Djokovic's match as Melbourne begins a five-day lockdown.]]></description>
-            <link>https://www.bbc.co.uk/sport/tennis/56036953</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/56036953</guid>
-            <pubDate>Fri, 12 Feb 2021 13:21:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Alonso fractures upper jaw in cycling accident]]></title>
-            <description><![CDATA[Fernando Alonso sustains a fracture of his upper jaw in his cycling accident on Thursday, says his Alpine team.]]></description>
-            <link>https://www.bbc.co.uk/sport/formula1/56040612</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/56040612</guid>
-            <pubDate>Fri, 12 Feb 2021 11:30:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Archer injured, Anderson rested, Bess dropped - England make changes for second Test]]></title>
-            <description><![CDATA[James Anderson, Jofra Archer and Dom Bess will miss the second Test for England against India in Chennai.]]></description>
-            <link>https://www.bbc.co.uk/sport/cricket/56031521</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/56031521</guid>
-            <pubDate>Fri, 12 Feb 2021 08:18:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A minute-by-minute account of the Capitol riot]]></title>
-            <description><![CDATA[Democrats show chilling and violent footage of the riot - some new - during the impeachment trial.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56004916</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56004916</guid>
-            <pubDate>Thu, 11 Feb 2021 18:21:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Capitol mob got close to Pence, Romney and Schumer, new footage shows]]></title>
-            <description><![CDATA[Newly released security footage shows the peril the vice-president and other lawmakers were in.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56020570</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56020570</guid>
-            <pubDate>Thu, 11 Feb 2021 01:45:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Trump lawyer's 'rambling' Senate speech slated]]></title>
-            <description><![CDATA[Bruce Castor has been ridiculed for his rambling 48-minute statement at the impeachment trial.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-56007788</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56007788</guid>
-            <pubDate>Wed, 10 Feb 2021 10:12:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Trump impeachment process: Who are the key players?]]></title>
-            <description><![CDATA[These are the lawmakers with a big influence on the impeachment process against the former president.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-55646351</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55646351</guid>
-            <pubDate>Tue, 09 Feb 2021 15:37:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Trump impeachment: Fact-checking the Senate trial]]></title>
-            <description><![CDATA[Donald Trump's lawyers are disputing his impeachment on several fronts - are they right?]]></description>
-            <link>https://www.bbc.co.uk/news/55955588</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/55955588</guid>
-            <pubDate>Fri, 12 Feb 2021 14:39:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Trump impeachment: The terror of being trapped in the US Capitol]]></title>
-            <description><![CDATA[Three members of Congress describe in vivid detail what they saw as rioters stormed the building.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-55987602</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55987602</guid>
-            <pubDate>Mon, 08 Feb 2021 22:37:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Capitol riots: Five takeaways from the arrests]]></title>
-            <description><![CDATA[Those who have been charged so far come from a variety of backgrounds and at least 41 states.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-55987603</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55987603</guid>
-            <pubDate>Mon, 08 Feb 2021 22:51:29 GMT</pubDate>
+            <title><![CDATA[Surviving rape: 'I'd watch TV and start feeling sick']]></title>
+            <description><![CDATA[Martha was raped by a man she had trusted. She explains what it's been like trying to overcome this.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-52789264</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-london-52789264</guid>
+            <pubDate>Mon, 15 Feb 2021 02:02:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
