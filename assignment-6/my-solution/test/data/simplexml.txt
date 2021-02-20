@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+  <item>
+    <title><![CDATA[Covid-19: Five days that shaped the outbreak]]></title>
+    <description><![CDATA[Before Wuhan was locked down in January 2020 officials said the outbreak was under control - but the virus had spread inside and outside the city.]]></description>
+    <link>https://www.bbc.co.uk/news/world-55756452</link>
+    <guid isPermaLink="true">https://www.bbc.co.uk/news/world-55756452</guid>
+    <pubDate>Tue, 26 Jan 2021 01:16:36 GMT</pubDate>
+  </item>
+</note>
+
