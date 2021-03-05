@@ -1,6 +1,7 @@
 #include "vector.h"
 #include "hashset.h"
 #include <stdio.h>
+#include <pthread.h>
 
 
 #ifndef _DOC_FREQ_
@@ -58,6 +59,7 @@ void merge_wordindex(word_index *wi1, const word_index *wi2);
  */
 typedef struct {
 	hashset *index;
+	pthread_mutex_t *lock;
 } idx;
 
 /**

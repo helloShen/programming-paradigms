@@ -3,8 +3,8 @@
 #include <assert.h>
 #include <string.h>
 
-static void test_dump_url_with_redirect() {
-	tstart("curlconn::dump_url_with_redirect()");
+static void test_dump_url() {
+	tstart("curlconn::dump_url()");
 
 	char *rss[] = { "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", 
 					"http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml", 
@@ -12,7 +12,7 @@ static void test_dump_url_with_redirect() {
 
 	data *buffer;
 	for (int i = 0; i < 3; i++) {
-		buffer = dump_url_with_redirect(rss[i]);
+		buffer = dump_url(rss[i]);
 		assert(strncmp(buffer->stream, "<?xml ", 5) == 0);
 		dispose_data(buffer);
 		free(buffer);
@@ -22,5 +22,5 @@ static void test_dump_url_with_redirect() {
 }
 
 int main(void) {
-	test_dump_url_with_redirect();
+	test_dump_url();
 }

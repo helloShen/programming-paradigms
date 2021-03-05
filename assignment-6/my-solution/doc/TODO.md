@@ -239,5 +239,8 @@ further optimization:
   2. data permanence
 
 
-
+##############
+# 02/03/2021 #
+##############
+[done] 1. finish assignment 6 - multithreads rss search engine
 

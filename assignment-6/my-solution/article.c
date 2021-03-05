@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <pthread.h>
 
 /**
  * Nanosecond since unix epoch, used as article id.
@@ -156,15 +157,19 @@ void print_article(void *elemAddr, void *auxData) {
  */
 static const size_t kArticlesBucketNumber = 1024;
 void new_articles(articles *a) {
-	a->table = (hashset *)malloc(sizeof(hashset));
+	a->table = (hashset *)malloc(sizeof(*a->table));
 	HashSetNew(a->table, sizeof(article), kArticlesBucketNumber, hash_article, comp_article, dispose_article);
+	a->lock = (pthread_mutex_t *)malloc(sizeof(*a->lock));
 }
 
 /**
  * Insert new element
  */
 void add_article(articles *as, article *a) {
+	/* critical area */
+	pthread_mutex_lock(as->lock);
 	HashSetEnter(as->table, a);
+	pthread_mutex_unlock(as->lock);
 }
 
 /**
@@ -188,6 +193,9 @@ void dispose_articles(articles *a) {
 	HashSetDispose(a->table);
 	free(a->table);
 	a->table = NULL;
+	pthread_mutex_destroy(a->lock);
+	free(a->lock);
+	a->lock = NULL;
 }
 
 
