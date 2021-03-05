@@ -54,7 +54,7 @@ DEP_FILE= $(DEP_DIR)/Makefile.dependencies
 # ===================== END OF FLAGS SETTINGS =======================
 
 
-UTIL_O 	= stack.o vector.o hashset.o strhash.o article.o data.o
+UTIL_O 	= stack.o vector.o hashset.o strhash.o article.o data.o threads_pool.o
 CORE_O	= curlconn.o rssparser.o htmlparser.o tokenizer.o index.o \
 		  engine.o
 LIB_O	= $(UTIL_O) $(CORE_O)
@@ -78,7 +78,7 @@ genstopwords: $(DATA_DIR)/stop-words.in $(PY_DIR)/genstopwords.py
 	@python $(PY_DIR)/genstopwords.py $< $(DATA_DIR)/stopwords.data
 
 depend:
-	mkdir -p $(DEP_DIR)
+	@mkdir -p $(DEP_DIR)
 	@$(CC) $(CFLAGS) -MM *.c > $(DEP_FILE)
 -include $(DEP_FILE)
 

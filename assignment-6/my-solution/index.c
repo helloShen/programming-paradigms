@@ -6,6 +6,7 @@
 #include <string.h>
 #include <assert.h>
 #include <stdio.h>
+#include <pthread.h>
 
 static void new_docfreq(doc_freq *df, const long docid, const int freq) {
 	df->docid = docid;
@@ -226,8 +227,9 @@ static void dispose_wordindex(void *elemAddr) {
  */
 static const size_t kIndexHashSetBuckets = 1024;
 void new_index(idx *i) {
-	i->index = (hashset *)malloc(sizeof(hashset));
+	i->index = (hashset *)malloc(sizeof(*i->index));
 	HashSetNew(i->index, sizeof(word_index), kIndexHashSetBuckets, hash_wordindex, comp_wordindex, dispose_wordindex);
+	i->lock = (pthread_mutex_t *)malloc(sizeof(*i->lock));
 }
 
 /**
@@ -238,6 +240,8 @@ void new_index(idx *i) {
 void enter_index(idx *i, const long docid, const char *word, const int freq) {
 	word_index phantom; // hashset will copy phantom word_index, no need to malloc new space.
 	new_wordindex(&phantom, word); // new_wordindex() will copy the word, no need to malloc new space for word.
+	/* critical area */
+	pthread_mutex_lock(i->lock);
 	word_index *history = (word_index *)HashSetLookup(i->index, &phantom);
 	if (history != NULL) {
 		enter_wordindex(history, docid, freq);
@@ -246,6 +250,7 @@ void enter_index(idx *i, const long docid, const char *word, const int freq) {
 		enter_wordindex(&phantom, docid, freq);	
 		HashSetEnter(i->index, &phantom);
 	}
+	pthread_mutex_unlock(i->lock);
 }
 
 /**
@@ -283,5 +288,8 @@ void dispose_index(void *i) {
 	HashSetDispose(index->index);
 	free(index->index);
 	index->index = NULL;
+	pthread_mutex_destroy(index->lock);
+	free(index->lock);
+	index->lock = NULL;
 }
 

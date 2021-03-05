@@ -32,6 +32,7 @@
 #include "rsstag.h"
 #include "hashset.h"
 #include <stdio.h>
+#include <pthread.h>
 
 typedef struct {
 	long id;			// nanosecond scince unix epoch
@@ -73,6 +74,7 @@ void dispose_article(void *elemAddr);
  */
 typedef struct {
 	hashset *table;
+	pthread_mutex_t *lock;
 } articles; 
 
 /**

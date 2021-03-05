@@ -204,6 +204,7 @@ todo:
 1. search() in engine
 2. curlconn.c treat 301 redirction
 
+
 ##############
 # 15/02/2021 #
 ##############
@@ -221,3 +222,22 @@ todo:
 [done] 1. curlconn.c treat 301 redirection
 [done] 2. rss_search user interface
 [done] 3. test the whole application
+[done] 4. entire application run successfully.
+
+
+##############
+# 17/02/2021 #
+##############
+[done] 1. take a break
+
+
+##############
+# 18/02/2021 #
+##############
+further optimization:
+  1. concurrent curlconn
+  2. data permanence
+
+
+
+

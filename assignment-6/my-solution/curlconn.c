@@ -51,7 +51,7 @@ static size_t silent_callback(char *ptr, size_t size, size_t nmemb, void *userda
  * The maximum amount of body data that will be passed to the write callback is 
  * defined in the curl.h header file: CURL_MAX_WRITE_SIZE (the usual default is 16K).
  */
-static data *dump_url(const char *url) {
+static data *real_dump_url(const char *url) {
 	data *buffer = (data *)malloc(sizeof(data));
 	new_data(buffer);
 	fprintf(stdout, "Request for url: <%s> ...", url);
@@ -104,7 +104,7 @@ static data *dump_url(const char *url) {
  * <p>The document has moved <a href="http://feeds.bbci.co.uk/news/rss.xml?edition=int">here</a>.</p>
  * </body></html>
  */
-data *dump_url_with_redirect(const char *url) {
+data *dump_url(const char *url) {
 	CURL *curl;
 	CURLcode res;
 	char *location;
@@ -130,12 +130,12 @@ data *dump_url_with_redirect(const char *url) {
 			if ((res == CURLE_OK) && (response_code / 100) != 3) {
 				fprintf(stdout, "Not a redirect.\n");
 				curl_easy_cleanup(curl);
-				return dump_url(url);
+				return real_dump_url(url);
 			} else { // a redirect
 				res = curl_easy_getinfo(curl, CURLINFO_REDIRECT_URL, &location);
 				if ((res == CURLE_OK) && location) {
 					fprintf(stdout, "Redirect to \"%s\"\n", location);
-					return dump_url_with_redirect(location);	// maybe 2nd, 3rd redirect
+					return dump_url(location);	// maybe 2nd, 3rd redirect
 				} else if (res == CURLE_OK && !location) {
 					fprintf(stdout, "A redirect has no new url location.\n");
 					curl_easy_cleanup(curl);
@@ -147,3 +147,4 @@ data *dump_url_with_redirect(const char *url) {
 	}
 	return NULL;
 }
+

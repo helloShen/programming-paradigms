@@ -5,6 +5,7 @@
 #include "htmlparser.h"
 #include "tokenizer.h"
 #include "index.h"
+#include "threads_pool.h"
 #include <stdlib.h>
 #include <assert.h>
 
@@ -30,54 +31,84 @@ static void bag_into_index(idx *i, const bag_of_words *bag) {
 	local_docid = 0L;
 }
 
+typedef struct {
+	article *a;
+	articles *as;
+	idx *i;
+	hashset *stopwords;
+} thd_args;
+
+static void new_thd_args(thd_args *args, article *a, articles *as, idx * i, hashset *stopwords) {
+	args->a = a;
+	args->as = as;
+	args->i = i;
+	args->stopwords = stopwords;
+}
+
+/**
+ * Article treatement in a new thread
+ * Implement void *(*start_routine) (void *)
+ */
+static void *index_article_thread(void *arg) {
+	/* intermediate data */
+	thd_args *args;
+	data *article_buffer;
+	data clean_buffer;
+	bag_of_words *bag;
+	/* cast parameters */
+	args = (thd_args *)arg;
+	/* update article table */
+	add_article(args->as, args->a);
+	/* download article raw text by url */
+	article_buffer = dump_url(args->a->link);
+	if (article_buffer != NULL) {
+		/* htmlparser extract clean text from .html web page. */
+		new_data(&clean_buffer);
+		clean_text(article_buffer, &clean_buffer);
+		/* tokenizer cut clean text into vector of words */
+		bag = to_bagofwords(args->a->id, clean_buffer.stream, args->stopwords);
+		/* update index by bag_of_words */
+		bag_into_index(args->i, bag);
+		/* free resources */
+		dispose_bagofwords(bag); // I have copy everything in bag_of_words into index. So I can dispose it.
+		dispose_data(article_buffer);
+		free(article_buffer);
+		dispose_data(&clean_buffer);
+	}
+	return NULL;
+}
+
 /**
  * Build index and article table by using given remote rss xml file link.
  */
 static const size_t kEngineArticleVectorSize = 256;
 void build_index(idx *i, articles *as, const char *link) {
+	data *buffer;						// buffer for rss xml file
+	vector vas;							// vector of article parsed from rss
+	size_t asize;						// length of article vector
+	hashset *stopwords;					// stopwords
+	article *a;							// pointer to each article in vector vas
 	/* download rss.xml by url */
-	data *buffer = dump_url_with_redirect(link);
-
+	buffer = dump_url(link);
 	/* rssparser parse articles from rss.xml */
-	vector vas;
 	VectorNew(&vas, sizeof(article), dispose_article, kEngineArticleVectorSize);
 	parserss(&vas, buffer);
 	dispose_data(buffer);
 	free(buffer);
-
 	/* load stopwords */
-	hashset *stopwords = load_stopwords();
-
-	article *a;
-	data *article_buffer;
-	data clean_buffer;
+	stopwords = load_stopwords();
+	/* threads pool */
+	threads_pool_init(10);
 	/* for each article */
-	for (int j = 0; j < VectorLength(&vas); j++) {
-		/* update article table */
+	asize = VectorLength(&vas);
+	thd_args args[asize];				// parameters pass to each index_article_thread()
+	for (int j = 0; j < asize; j++) {
 		a = VectorNth(&vas, j);
-		add_article(as, a);
-
-		/* download article raw text by url */
-		article_buffer = dump_url_with_redirect(a->link);
-
-		if (article_buffer != NULL) {
-			/* htmlparser extract clean text from .html web page. */
-			new_data(&clean_buffer);
-			clean_text(article_buffer, &clean_buffer);
-
-			/* tokenizer cut clean text into vector of words */
-			bag_of_words *bag = to_bagofwords(a->id, clean_buffer.stream, stopwords);
-
-			/* update index by bag_of_words */
-			bag_into_index(i, bag);
-
-			dispose_bagofwords(bag); // I have copy everything in bag_of_words into index. So I can dispose it.
-			dispose_data(article_buffer);
-			free(article_buffer);
-			dispose_data(&clean_buffer);
-		}
+		new_thd_args(&args[j], a, as, i, stopwords);
+		create_thread(index_article_thread, &args[j]);
 	}
-
+	/* free resources */
+	threads_pool_close();
 	dispose_stopwords(stopwords);
 }
 
