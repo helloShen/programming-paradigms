@@ -34,8 +34,8 @@ int main(void) {
 
 	for (;;) {
 		printf("Index is built! Give me a query...[enter \"quit\" to close engine]\n");
-		scanf("%s", query);
-		if (strlen(query) == 4 && strcmp(query, "quit") == 0) {
+		fgets(query, 512, stdin);
+		if (strncmp(query, "quit", 4) == 0) {
 			break;
 		}
 		search(&i, &as, query);
